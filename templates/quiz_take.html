@@ -1,0 +1,329 @@
+{% extends 'base.html' %}
+
+{% block title %}Take Quiz - {{ quiz.title }}{% endblock %}
+
+{% block extra_head %}
+<style>
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+</style>
+<script>
+    tailwind.config.theme.extend.colors = {
+        ...tailwind.config.theme.extend.colors,
+        "accent-amber": "#F5A623",
+        "accent-red": "#D0021B",
+    };
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="relative flex h-screen w-full flex-col overflow-hidden">
+    <!-- Fixed Header -->
+    <header class="sticky top-0 z-10 w-full border-b border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between gap-8">
+                <!-- Progress Bar -->
+                <div class="flex-1">
+                    <div class="flex gap-6 justify-between mb-1.5">
+                        <p class="text-sm font-medium leading-normal text-slate-900 dark:text-white">
+                            Question <span id="current-question">1</span> of {{ quiz_questions|length }}
+                        </p>
+                    </div>
+                    <div class="w-full rounded-full bg-slate-200 dark:bg-slate-700">
+                        <div id="progress-bar" class="h-2 rounded-full bg-primary transition-all duration-300" style="width: 0%;"></div>
+                    </div>
+                    <p class="text-xs font-normal leading-normal text-slate-500 dark:text-slate-400 mt-1.5">{{ quiz.title }}</p>
+                </div>
+                
+                <!-- Timer Component -->
+                {% if quiz.time_limit %}
+                <div class="flex items-center gap-2">
+                    <div class="flex flex-col items-stretch text-center">
+                        <div class="flex h-12 w-16 items-center justify-center rounded-lg bg-slate-200 dark:bg-slate-800">
+                            <p id="hours" class="text-xl font-bold leading-tight tracking-[-0.015em] text-slate-900 dark:text-white">00</p>
+                        </div>
+                        <p class="mt-1 text-xs font-normal leading-normal text-slate-600 dark:text-slate-400">Hours</p>
+                    </div>
+                    <span class="text-2xl font-bold text-slate-400 dark:text-slate-600 pb-5">:</span>
+                    <div class="flex flex-col items-stretch text-center">
+                        <div class="flex h-12 w-16 items-center justify-center rounded-lg bg-slate-200 dark:bg-slate-800">
+                            <p id="minutes" class="text-xl font-bold leading-tight tracking-[-0.015em] text-slate-900 dark:text-white">{{ quiz.time_limit }}</p>
+                        </div>
+                        <p class="mt-1 text-xs font-normal leading-normal text-slate-600 dark:text-slate-400">Minutes</p>
+                    </div>
+                    <span class="text-2xl font-bold text-slate-400 dark:text-slate-600 pb-5">:</span>
+                    <div class="flex flex-col items-stretch text-center">
+                        <div class="flex h-12 w-16 items-center justify-center rounded-lg bg-slate-200 dark:bg-slate-800">
+                            <p id="seconds" class="text-xl font-bold leading-tight tracking-[-0.015em] text-slate-900 dark:text-white">00</p>
+                        </div>
+                        <p class="mt-1 text-xs font-normal leading-normal text-slate-600 dark:text-slate-400">Seconds</p>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 overflow-y-auto">
+        <div class="container mx-auto flex h-full justify-center px-6 py-8">
+            <div class="w-full max-w-3xl">
+                <form id="quiz-form" method="POST" action="{% url 'quiz_submit' quiz.id %}">
+                    {% csrf_token %}
+                    
+                    {% for quiz_question in quiz_questions %}
+                    <div class="question-container bg-white dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-800 p-8 shadow-sm mb-8 {% if not forloop.first %}hidden{% endif %}" data-question-index="{{ forloop.counter0 }}">
+                        <h1 class="text-slate-900 dark:text-white tracking-tight text-2xl font-bold leading-tight">
+                            Question {{ forloop.counter }} ({{ quiz_question.points }} Point{{ quiz_question.points|pluralize }})
+                        </h1>
+                        
+                        <p class="text-slate-600 dark:text-slate-300 text-base font-normal leading-relaxed mt-4">
+                            {{ quiz_question.question.question_text }}
+                        </p>
+                        
+                        {% if quiz_question.question.image %}
+                        <div class="mt-4">
+                            <img src="/media/{{ quiz_question.question.image }}" alt="Question image" class="max-w-full rounded-lg border border-slate-200 dark:border-slate-800">
+                        </div>
+                        {% endif %}
+                        
+                        <!-- Answer Options -->
+                        <div class="mt-8">
+                            {% if quiz_question.question.question_type == 'single_choice' %}
+                            <!-- Single Choice (Radio) -->
+                            <div class="flex flex-col gap-3" style="--radio-dot-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(19,127,236)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3ccircle cx=%278%27 cy=%278%27 r=%273%27/%3e%3c/svg%3e');">
+                                {% for choice in quiz_question.question.choices %}
+                                <label class="flex cursor-pointer items-center gap-4 rounded-lg border border-solid border-slate-200 dark:border-slate-700 p-4 transition-colors hover:bg-slate-50 dark:hover:bg-slate-800/50 has-[:checked]:border-primary has-[:checked]:bg-primary/10 dark:has-[:checked]:bg-primary/20">
+                                    <input class="h-5 w-5 appearance-none rounded-full border-2 border-slate-300 dark:border-slate-600 bg-transparent text-transparent checked:border-primary checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-slate-900" 
+                                           name="question_{{ quiz_question.question.id }}" 
+                                           type="radio" 
+                                           value="{{ choice.id }}"/>
+                                    <div class="flex grow flex-col">
+                                        <p class="text-slate-800 dark:text-slate-200 text-sm font-medium leading-normal">{{ choice.option_text }}</p>
+                                    </div>
+                                </label>
+                                {% endfor %}
+                            </div>
+                            
+                            {% elif quiz_question.question.question_type == 'multiple_choice' %}
+                            <!-- Multiple Choice (Checkbox) -->
+                            <div class="flex flex-col gap-3" style="--checkbox-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27white%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e');">
+                                {% for choice in quiz_question.question.choices %}
+                                <label class="flex cursor-pointer items-center gap-4 rounded-lg border border-solid border-slate-200 dark:border-slate-700 p-4 transition-colors hover:bg-slate-50 dark:hover:bg-slate-800/50 has-[:checked]:border-primary has-[:checked]:bg-primary/10 dark:has-[:checked]:bg-primary/20">
+                                    <input class="h-5 w-5 appearance-none rounded border-2 border-slate-300 dark:border-slate-600 bg-transparent text-transparent checked:border-primary checked:bg-primary checked:bg-[image:--checkbox-svg] focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-slate-900" 
+                                           name="question_{{ quiz_question.question.id }}[]" 
+                                           type="checkbox" 
+                                           value="{{ choice.id }}"/>
+                                    <div class="flex grow flex-col">
+                                        <p class="text-slate-800 dark:text-slate-200 text-sm font-medium leading-normal">{{ choice.option_text }}</p>
+                                    </div>
+                                </label>
+                                {% endfor %}
+                            </div>
+                            
+                            {% elif quiz_question.question.question_type == 'matching' %}
+                            <!-- Matching (Dropdowns) - Many-to-One Relationship -->
+                            <div class="space-y-4">
+                                <p class="text-sm text-slate-500 dark:text-slate-400 mb-3">Match each term with its definition. Multiple terms may share the same definition.</p>
+                                <div class="grid grid-cols-2 gap-x-6 gap-y-4">
+                                    <div class="text-sm font-semibold text-slate-500 dark:text-slate-400">Term</div>
+                                    <div class="text-sm font-semibold text-slate-500 dark:text-slate-400">Definition</div>
+                                    
+                                    {% for pair in quiz_question.question.matching_pairs %}
+                                    <div class="flex items-center">
+                                        <p class="text-slate-800 dark:text-slate-200 font-medium">{{ pair.left_item }}</p>
+                                    </div>
+                                    <div class="relative">
+                                        <select name="question_{{ quiz_question.question.id }}_term_{{ forloop.counter0 }}" 
+                                                class="w-full appearance-none rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 py-3 px-4 pr-10 focus:border-primary focus:ring-primary focus:outline-none">
+                                            <option value="">Choose a definition...</option>
+                                            {% if quiz_question.question.matching_definitions %}
+                                                {% for definition in quiz_question.question.matching_definitions %}
+                                                <option value="{{ forloop.counter0 }}">{{ definition.right_item }}</option>
+                                                {% endfor %}
+                                            {% else %}
+                                                {% for choice_pair in quiz_question.question.matching_pairs %}
+                                                <option value="{{ forloop.counter0 }}">{{ choice_pair.right_item }}</option>
+                                                {% endfor %}
+                                            {% endif %}
+                                        </select>
+                                        <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none">expand_more</span>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Fixed Footer -->
+    <footer class="sticky bottom-0 z-10 w-full border-t border-slate-200 dark:border-slate-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+        <div class="container mx-auto flex items-center justify-between gap-4 px-6 py-4">
+            <button id="flag-btn" type="button" class="flex items-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold text-slate-600 dark:text-slate-300 transition-colors hover:bg-slate-200 dark:hover:bg-slate-800">
+                <span class="material-symbols-outlined">flag</span>
+                Flag for Review
+            </button>
+            
+            <div class="flex items-center gap-3">
+                <button id="prev-btn" type="button" class="rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-6 py-2.5 text-sm font-semibold text-slate-800 dark:text-slate-200 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800">
+                    Previous
+                </button>
+                <button id="next-btn" type="button" class="rounded-lg bg-primary px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary/90">
+                    Next
+                </button>
+                <button id="submit-btn" type="button" class="hidden rounded-lg bg-emerald-600 px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-700">
+                    Submit Exam
+                </button>
+            </div>
+        </div>
+    </footer>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    let currentQuestionIndex = 0;
+    const totalQuestions = {{ quiz_questions|length }};
+    const questions = document.querySelectorAll('.question-container');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const submitBtn = document.getElementById('submit-btn');
+    const progressBar = document.getElementById('progress-bar');
+    const currentQuestionSpan = document.getElementById('current-question');
+    
+    function showQuestion(index) {
+        questions.forEach((q, i) => {
+            q.classList.toggle('hidden', i !== index);
+        });
+        
+        currentQuestionIndex = index;
+        currentQuestionSpan.textContent = index + 1;
+        
+        // Update progress bar
+        const progress = ((index + 1) / totalQuestions) * 100;
+        progressBar.style.width = progress + '%';
+        
+        // Update buttons
+        prevBtn.disabled = index === 0;
+        prevBtn.classList.toggle('opacity-50', index === 0);
+        prevBtn.classList.toggle('cursor-not-allowed', index === 0);
+        
+        if (index === totalQuestions - 1) {
+            nextBtn.classList.add('hidden');
+            submitBtn.classList.remove('hidden');
+        } else {
+            nextBtn.classList.remove('hidden');
+            submitBtn.classList.add('hidden');
+        }
+    }
+    
+    prevBtn.addEventListener('click', () => {
+        if (currentQuestionIndex > 0) {
+            showQuestion(currentQuestionIndex - 1);
+        }
+    });
+    
+    nextBtn.addEventListener('click', () => {
+        if (currentQuestionIndex < totalQuestions - 1) {
+            showQuestion(currentQuestionIndex + 1);
+        }
+    });
+    
+    submitBtn.addEventListener('click', () => {
+        if (confirm('Are you sure you want to submit your exam? You cannot change your answers after submission.')) {
+            submitQuiz();
+        }
+    });
+    
+    function submitQuiz() {
+        const formData = new FormData(document.getElementById('quiz-form'));
+        const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+        
+        // Collect all answers
+        const answers = {};
+        
+        // Collect single choice and multiple choice answers
+        document.querySelectorAll('input[type="radio"]:checked, input[type="checkbox"]:checked').forEach(input => {
+            const questionId = input.name.replace('question_', '').replace('[]', '');
+            if (!answers[questionId]) {
+                answers[questionId] = { selected_choices: [] };
+            }
+            answers[questionId].selected_choices.push(input.value);
+        });
+        
+        // Collect matching answers
+        document.querySelectorAll('select[name^="question_"]').forEach(select => {
+            const match = select.name.match(/question_(.+)_term_(\d+)/);
+            if (match) {
+                const questionId = match[1];
+                const termIndex = match[2];
+                if (!answers[questionId]) {
+                    answers[questionId] = { matching_answer: {} };
+                }
+                if (select.value) {
+                    answers[questionId].matching_answer[termIndex] = select.value;
+                }
+            }
+        });
+        
+        // Submit via fetch
+        fetch('{% url "quiz_submit" quiz.id %}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'X-CSRFToken': csrfToken
+            },
+            body: new URLSearchParams({
+                'answers': JSON.stringify(answers),
+                'student_name': 'Student'
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                window.location.href = `/results/${data.attempt_id}/`;
+            } else {
+                alert('Error submitting quiz: ' + (data.error || 'Unknown error'));
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Error submitting quiz. Please try again.');
+        });
+    }
+    
+    // Timer functionality
+    {% if quiz.time_limit %}
+    let timeRemaining = {{ quiz.time_limit }} * 60; // Convert minutes to seconds
+    
+    function updateTimer() {
+        const hours = Math.floor(timeRemaining / 3600);
+        const minutes = Math.floor((timeRemaining % 3600) / 60);
+        const seconds = timeRemaining % 60;
+        
+        document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+        document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+        document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+        
+        if (timeRemaining <= 0) {
+            alert('Time is up! Your exam will be submitted automatically.');
+            submitQuiz();
+        }
+        
+        timeRemaining--;
+    }
+    
+    setInterval(updateTimer, 1000);
+    updateTimer();
+    {% endif %}
+    
+    // Initialize
+    showQuestion(0);
+</script>
+{% endblock %}

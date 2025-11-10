@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - Quiz System{% endblock %}
+
+{% block content %}
+<div class="flex h-screen w-full flex-col">
+    <!-- TopNavBar -->
+    <header class="flex shrink-0 items-center justify-between whitespace-nowrap border-b border-solid border-[#e7edf3] dark:border-slate-700 bg-white dark:bg-background-dark px-6 py-3">
+        <div class="flex items-center gap-4 text-[#0d141b] dark:text-white">
+            <div class="text-primary size-6">
+                <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+                </svg>
+            </div>
+            <h2 class="text-[#0d141b] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Quiz System</h2>
+        </div>
+        <div class="flex flex-1 justify-center gap-8">
+            <div class="flex items-center gap-9">
+                <a class="text-primary dark:text-primary text-sm font-bold leading-normal" href="{% url 'dashboard' %}">Dashboard</a>
+                <a class="text-[#0d141b] dark:text-slate-300 text-sm font-medium leading-normal" href="{% url 'quiz_list' %}">Exams</a>
+                <a class="text-[#0d141b] dark:text-slate-300 text-sm font-medium leading-normal" href="{% url 'question_bank' %}">Question Bank</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-y-auto p-8">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-3xl font-black mb-8">Dashboard</h1>
+            
+            <!-- Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white dark:bg-slate-800 rounded-xl border border-[#e7edf3] dark:border-slate-700 p-6">
+                    <p class="text-slate-600 dark:text-slate-400 text-sm font-medium mb-2">Total Questions</p>
+                    <p class="text-4xl font-bold text-primary">{{ total_questions }}</p>
+                </div>
+                <div class="bg-white dark:bg-slate-800 rounded-xl border border-[#e7edf3] dark:border-slate-700 p-6">
+                    <p class="text-slate-600 dark:text-slate-400 text-sm font-medium mb-2">Total Quizzes</p>
+                    <p class="text-4xl font-bold text-primary">{{ total_quizzes }}</p>
+                </div>
+                <div class="bg-white dark:bg-slate-800 rounded-xl border border-[#e7edf3] dark:border-slate-700 p-6">
+                    <p class="text-slate-600 dark:text-slate-400 text-sm font-medium mb-2">Categories</p>
+                    <p class="text-4xl font-bold text-primary">{{ total_categories }}</p>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="bg-white dark:bg-slate-800 rounded-xl border border-[#e7edf3] dark:border-slate-700 p-6">
+                <h2 class="text-xl font-bold mb-4">Quick Actions</h2>
+                <div class="flex flex-wrap gap-4">
+                    <a href="{% url 'question_create' %}" class="flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg font-bold hover:bg-primary/90">
+                        <span class="material-symbols-outlined">add</span>
+                        <span>Create New Question</span>
+                    </a>
+                    <a href="{% url 'quiz_create' %}" class="flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg font-bold hover:bg-primary/90">
+                        <span class="material-symbols-outlined">add</span>
+                        <span>Create New Quiz</span>
+                    </a>
+                    <a href="{% url 'question_bank' %}" class="flex items-center gap-2 px-6 py-3 bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-white rounded-lg font-bold hover:bg-slate-300 dark:hover:bg-slate-600">
+                        <span class="material-symbols-outlined">list</span>
+                        <span>View Question Bank</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+{% endblock %}

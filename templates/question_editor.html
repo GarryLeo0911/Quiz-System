@@ -1,0 +1,526 @@
+{% extends 'base.html' %}
+
+{% block title %}{% if is_edit %}Edit{% else %}Create{% endif %} Question - Quiz System{% endblock %}
+
+{% block extra_head %}
+<style>
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+</style>
+<script>
+    tailwind.config.theme.extend.colors = {
+        ...tailwind.config.theme.extend.colors,
+        "text-light": "#0d141b",
+        "text-dark": "#e7edf3",
+        "subtext-light": "#4c739a",
+        "subtext-dark": "#9ab0c9",
+        "border-light": "#cfdbe7",
+        "border-dark": "#36485e",
+        "card-light": "#ffffff",
+        "card-dark": "#182431",
+        "success": "#50E3C2",
+    };
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="flex h-screen">
+    <aside class="flex flex-col w-64 bg-card-light dark:bg-card-dark border-r border-border-light dark:border-border-dark p-4">
+        <div class="flex flex-col gap-4">
+            <div class="flex gap-3 items-center">
+                <div class="bg-primary rounded-full size-10 flex items-center justify-center text-white font-bold">U</div>
+                <div class="flex flex-col">
+                    <h1 class="text-text-light dark:text-text-dark text-base font-medium leading-normal">User</h1>
+                    <p class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal">Student</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2 mt-4">
+                <a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-primary/10 transition-colors" href="{% url 'dashboard' %}">
+                    <span class="material-symbols-outlined text-text-light dark:text-text-dark">dashboard</span>
+                    <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">Dashboard</p>
+                </a>
+                <a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-primary/10 transition-colors" href="{% url 'quiz_list' %}">
+                    <span class="material-symbols-outlined text-text-light dark:text-text-dark">quiz</span>
+                    <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">Quizzes</p>
+                </a>
+                <a class="flex items-center gap-3 px-3 py-2 rounded-lg bg-primary/20" href="{% url 'question_bank' %}">
+                    <span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">help_center</span>
+                    <p class="text-primary text-sm font-bold leading-normal">Questions</p>
+                </a>
+            </div>
+        </div>
+        <a href="{% url 'quiz_list' %}" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] mt-auto">
+            <span class="truncate">View All Quizzes</span>
+        </a>
+    </aside>
+
+    <main class="flex-1 p-8 overflow-y-auto">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex flex-wrap justify-between gap-3 mb-6">
+                <p class="text-text-light dark:text-text-dark text-4xl font-black leading-tight tracking-[-0.033em]">{% if is_edit %}Edit Question{% else %}Create Question{% endif %}</p>
+            </div>
+
+            <form method="POST" enctype="multipart/form-data" class="bg-card-light dark:bg-card-dark rounded-xl border border-border-light dark:border-border-dark p-8 space-y-8">
+                {% csrf_token %}
+                
+                <div>
+                    <h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em] mb-4">Question Details</h3>
+                    <div class="flex flex-col gap-4">
+                        <label class="flex flex-col w-full">
+                            <p class="text-text-light dark:text-text-dark text-base font-medium leading-normal pb-2">Question</p>
+                            <textarea name="question_text" required class="form-input flex w-full min-w-0 flex-1 resize-y overflow-hidden rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary min-h-36 placeholder:text-subtext-light dark:placeholder:text-subtext-dark p-[15px] text-base font-normal leading-normal" placeholder="Enter the full question text here...">{% if question %}{{ question.question_text }}{% endif %}</textarea>
+                        </label>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <label class="flex flex-col">
+                                <p class="text-text-light dark:text-text-dark text-base font-medium leading-normal pb-2">Question Type</p>
+                                <select name="question_type" id="question_type" required class="form-select flex w-full rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 text-base font-normal leading-normal">
+                                    <option value="single_choice" {% if question and question.question_type == 'single_choice' %}selected{% endif %}>Single Choice</option>
+                                    <option value="multiple_choice" {% if question and question.question_type == 'multiple_choice' %}selected{% endif %}>Multiple Choice</option>
+                                    <option value="matching" {% if question and question.question_type == 'matching' %}selected{% endif %}>Matching</option>
+                                </select>
+                            </label>
+
+                            <div class="flex flex-col">
+                                <div class="flex items-center justify-between pb-2">
+                                    <p class="text-text-light dark:text-text-dark text-base font-medium leading-normal">Category</p>
+                                    <button type="button" onclick="createNewCategory()" class="flex items-center gap-1 text-primary text-sm font-medium hover:underline">
+                                        <span class="material-symbols-outlined text-base">add</span>
+                                        <span>New</span>
+                                    </button>
+                                </div>
+                                <select id="category-select" name="category_id" class="form-select flex w-full rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 text-base font-normal leading-normal">
+                                    <option value="">No Category</option>
+                                    {% for category in categories %}
+                                    <option value="{{ category.id }}" {% if question and question.category_id == category.id %}selected{% endif %}>{{ category.name }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-start">
+                            <label class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/20 text-text-light dark:text-text-dark gap-2 text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/30 transition-colors">
+                                <span class="material-symbols-outlined text-text-light dark:text-text-dark text-[20px]">upload</span>
+                                <span class="truncate">Upload Image</span>
+                                <input type="file" name="image" accept="image/*" class="hidden">
+                            </label>
+                            {% if question and question.image %}
+                            <p class="text-sm text-subtext-light dark:text-subtext-dark ml-4 flex items-center">Current image attached</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div id="answer-section">
+                    <!-- This will be populated by JavaScript based on question type -->
+                </div>
+
+                <div>
+                    <h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em] mb-4">Solution</h3>
+                    <label class="flex flex-col w-full">
+                        <p class="text-text-light dark:text-text-dark text-base font-medium leading-normal pb-2">Solution Explanation</p>
+                        <div class="rounded-lg border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark">
+                            <div class="flex items-center gap-2 p-2 border-b border-border-light dark:border-border-dark">
+                                <button type="button" class="p-2 rounded hover:bg-primary/20"><span class="material-symbols-outlined text-[20px]">format_bold</span></button>
+                                <button type="button" class="p-2 rounded hover:bg-primary/20"><span class="material-symbols-outlined text-[20px]">format_italic</span></button>
+                                <button type="button" class="p-2 rounded hover:bg-primary/20"><span class="material-symbols-outlined text-[20px]">format_underlined</span></button>
+                                <button type="button" class="p-2 rounded hover:bg-primary/20"><span class="material-symbols-outlined text-[20px]">format_list_bulleted</span></button>
+                                <button type="button" class="p-2 rounded hover:bg-primary/20"><span class="material-symbols-outlined text-[20px]">format_list_numbered</span></button>
+                            </div>
+                            <textarea name="explanation" class="form-input flex w-full min-w-0 flex-1 resize-y overflow-hidden rounded-b-lg text-text-light dark:text-text-dark focus:outline-0 border-0 bg-transparent min-h-36 placeholder:text-subtext-light dark:placeholder:text-subtext-dark p-[15px] text-base font-normal leading-normal" placeholder="Provide a detailed explanation for the correct answer...">{% if question %}{{ question.explanation }}{% endif %}</textarea>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="flex justify-end gap-4 pt-4 border-t border-border-light dark:border-border-dark">
+                    <a href="{% url 'question_bank' %}" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-transparent text-text-light dark:text-text-dark text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/10 transition-colors">
+                        <span class="truncate">Cancel</span>
+                    </a>
+                    <button type="submit" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                        <span class="truncate">Save Question</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    const questionTypeSelect = document.getElementById('question_type');
+    const answerSection = document.getElementById('answer-section');
+    
+    questionTypeSelect.addEventListener('change', updateAnswerSection);
+    updateAnswerSection();
+    
+    function updateAnswerSection() {
+        const questionType = questionTypeSelect.value;
+        
+        if (questionType === 'single_choice' || questionType === 'multiple_choice') {
+            const inputType = questionType === 'single_choice' ? 'radio' : 'checkbox';
+            answerSection.innerHTML = `
+                <div>
+                    <h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em] mb-4">Answer Configuration</h3>
+                    <p class="text-text-light dark:text-text-dark text-base font-medium leading-normal mb-4">Options</p>
+                    <div id="options-container" class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <input type="${inputType}" name="correct_option[]" value="0" class="form-${inputType} h-5 w-5 text-primary focus:ring-primary/50 border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark">
+                            <input type="text" name="option_text[]" placeholder="Option 1" required class="form-input flex-1 rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark">
+                            <button type="button" onclick="removeOption(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                                <span class="material-symbols-outlined">delete</span>
+                            </button>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <input type="${inputType}" name="correct_option[]" value="1" class="form-${inputType} h-5 w-5 text-primary focus:ring-primary/50 border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark">
+                            <input type="text" name="option_text[]" placeholder="Option 2" required class="form-input flex-1 rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark">
+                            <button type="button" onclick="removeOption(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                                <span class="material-symbols-outlined">delete</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex justify-start pt-2 mt-4">
+                        <button type="button" onclick="addOption()" class="flex items-center justify-center gap-2 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:underline">
+                            <span class="material-symbols-outlined text-[20px]">add_circle</span>
+                            <span>Add Option</span>
+                        </button>
+                    </div>
+                </div>
+            `;
+        } else if (questionType === 'matching') {
+            answerSection.innerHTML = `
+                <div>
+                    <h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em] mb-4">Answer Configuration</h3>
+                    <p class="text-text-light dark:text-text-dark text-sm text-slate-500 dark:text-slate-400 mb-4">First add definitions, then add terms and specify which definition each term matches. Multiple terms can share the same definition.</p>
+                    
+                    <!-- Definitions Section -->
+                    <div class="mb-6">
+                        <p class="text-text-light dark:text-text-dark text-base font-semibold leading-normal mb-3">Definitions</p>
+                        <div id="definitions-container" class="space-y-3">
+                            <div class="flex gap-2" data-def-index="0">
+                                <div class="flex items-center justify-center w-8 h-10 bg-primary/20 text-primary rounded-lg font-bold text-sm">1</div>
+                                <input type="text" name="right_item[]" placeholder="Definition 1" required class="flex-1 form-input rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark" onchange="updateMatchingDropdowns()">
+                                <button type="button" onclick="removeDefinition(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                                    <span class="material-symbols-outlined">delete</span>
+                                </button>
+                            </div>
+                            <div class="flex gap-2" data-def-index="1">
+                                <div class="flex items-center justify-center w-8 h-10 bg-primary/20 text-primary rounded-lg font-bold text-sm">2</div>
+                                <input type="text" name="right_item[]" placeholder="Definition 2" required class="flex-1 form-input rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark" onchange="updateMatchingDropdowns()">
+                                <button type="button" onclick="removeDefinition(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                                    <span class="material-symbols-outlined">delete</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex justify-start pt-2 mt-3">
+                            <button type="button" onclick="addDefinition()" class="flex items-center justify-center gap-2 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:underline">
+                                <span class="material-symbols-outlined text-[20px]">add_circle</span>
+                                <span>Add Definition</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Terms Section -->
+                    <div class="border-t border-border-light dark:border-border-dark pt-6">
+                        <p class="text-text-light dark:text-text-dark text-base font-semibold leading-normal mb-3">Terms (with correct answers)</p>
+                        <div id="terms-container" class="space-y-3">
+                            <div class="flex gap-2">
+                                <input type="text" name="left_item[]" placeholder="Term 1" required class="flex-1 form-input rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark">
+                                <select name="correct_match[]" required class="matching-answer-select form-select w-48 rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3">
+                                    <option value="">Correct answer...</option>
+                                    <option value="0">Definition 1</option>
+                                    <option value="1">Definition 2</option>
+                                </select>
+                                <button type="button" onclick="removeTerm(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                                    <span class="material-symbols-outlined">delete</span>
+                                </button>
+                            </div>
+                            <div class="flex gap-2">
+                                <input type="text" name="left_item[]" placeholder="Term 2" required class="flex-1 form-input rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark">
+                                <select name="correct_match[]" required class="matching-answer-select form-select w-48 rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3">
+                                    <option value="">Correct answer...</option>
+                                    <option value="0">Definition 1</option>
+                                    <option value="1">Definition 2</option>
+                                </select>
+                                <button type="button" onclick="removeTerm(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                                    <span class="material-symbols-outlined">delete</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex justify-start pt-2 mt-3">
+                            <button type="button" onclick="addTerm()" class="flex items-center justify-center gap-2 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:underline">
+                                <span class="material-symbols-outlined text-[20px]">add_circle</span>
+                                <span>Add Term</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    }
+    
+    function addOption() {
+        const container = document.getElementById('options-container');
+        const questionType = questionTypeSelect.value;
+        const inputType = questionType === 'single_choice' ? 'radio' : 'checkbox';
+        const index = container.children.length;
+        
+        const optionDiv = document.createElement('div');
+        optionDiv.className = 'flex items-center gap-4';
+        optionDiv.innerHTML = `
+            <input type="${inputType}" name="correct_option[]" value="${index}" class="form-${inputType} h-5 w-5 text-primary focus:ring-primary/50 border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark">
+            <input type="text" name="option_text[]" placeholder="Option ${index + 1}" required class="form-input flex-1 rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark">
+            <button type="button" onclick="removeOption(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                <span class="material-symbols-outlined">delete</span>
+            </button>
+        `;
+        container.appendChild(optionDiv);
+    }
+    
+    function removeOption(button) {
+        if (document.getElementById('options-container').children.length > 2) {
+            button.parentElement.remove();
+        } else {
+            alert('You must have at least 2 options.');
+        }
+    }
+    
+    function addTerm() {
+        const container = document.getElementById('terms-container');
+        const index = container.children.length + 1;
+        
+        // Get current definitions for dropdown
+        const definitionsContainer = document.getElementById('definitions-container');
+        const definitions = definitionsContainer.querySelectorAll('input[name="right_item[]"]');
+        let optionsHTML = '<option value="">Correct answer...</option>';
+        definitions.forEach((def, idx) => {
+            const defText = def.value || `Definition ${idx + 1}`;
+            optionsHTML += `<option value="${idx}">${defText}</option>`;
+        });
+        
+        const termDiv = document.createElement('div');
+        termDiv.className = 'flex gap-2';
+        termDiv.innerHTML = `
+            <input type="text" name="left_item[]" placeholder="Term ${index}" required class="flex-1 form-input rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark">
+            <select name="correct_match[]" required class="matching-answer-select form-select w-48 rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3">
+                ${optionsHTML}
+            </select>
+            <button type="button" onclick="removeTerm(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                <span class="material-symbols-outlined">delete</span>
+            </button>
+        `;
+        container.appendChild(termDiv);
+    }
+    
+    function removeTerm(button) {
+        if (document.getElementById('terms-container').children.length > 1) {
+            button.parentElement.remove();
+        } else {
+            alert('You must have at least 1 term.');
+        }
+    }
+    
+    function addDefinition() {
+        const container = document.getElementById('definitions-container');
+        const index = container.children.length;
+        
+        const defDiv = document.createElement('div');
+        defDiv.className = 'flex gap-2';
+        defDiv.setAttribute('data-def-index', index);
+        defDiv.innerHTML = `
+            <div class="flex items-center justify-center w-8 h-10 bg-primary/20 text-primary rounded-lg font-bold text-sm">${index + 1}</div>
+            <input type="text" name="right_item[]" placeholder="Definition ${index + 1}" required class="flex-1 form-input rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark" onchange="updateMatchingDropdowns()">
+            <button type="button" onclick="removeDefinition(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                <span class="material-symbols-outlined">delete</span>
+            </button>
+        `;
+        container.appendChild(defDiv);
+        updateMatchingDropdowns();
+    }
+    
+    function removeDefinition(button) {
+        if (document.getElementById('definitions-container').children.length > 1) {
+            button.parentElement.remove();
+            reindexDefinitions();
+            updateMatchingDropdowns();
+        } else {
+            alert('You must have at least 1 definition.');
+        }
+    }
+    
+    function reindexDefinitions() {
+        const container = document.getElementById('definitions-container');
+        const defDivs = container.querySelectorAll('[data-def-index]');
+        defDivs.forEach((div, idx) => {
+            div.setAttribute('data-def-index', idx);
+            const numberBadge = div.querySelector('div');
+            numberBadge.textContent = idx + 1;
+        });
+    }
+    
+    function updateMatchingDropdowns() {
+        const definitionsContainer = document.getElementById('definitions-container');
+        const definitions = definitionsContainer.querySelectorAll('input[name="right_item[]"]');
+        const selects = document.querySelectorAll('.matching-answer-select');
+        
+        selects.forEach(select => {
+            const currentValue = select.value;
+            let optionsHTML = '<option value="">Correct answer...</option>';
+            definitions.forEach((def, idx) => {
+                const defText = def.value || `Definition ${idx + 1}`;
+                optionsHTML += `<option value="${idx}">${defText}</option>`;
+            });
+            select.innerHTML = optionsHTML;
+            // Restore selection if still valid
+            if (currentValue && parseInt(currentValue) < definitions.length) {
+                select.value = currentValue;
+            }
+        });
+    }
+    
+    // Create new category
+    function createNewCategory() {
+        const categoryName = prompt('Enter new category name:');
+        if (categoryName && categoryName.trim()) {
+            // Send request to create category
+            fetch('/api/categories/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': '{{ csrf_token }}'
+                },
+                body: JSON.stringify({ name: categoryName.trim() })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Add new option to select
+                    const select = document.getElementById('category-select');
+                    const option = document.createElement('option');
+                    option.value = data.category.id;
+                    option.textContent = data.category.name;
+                    option.selected = true;
+                    select.appendChild(option);
+                    
+                    // Show success message
+                    alert('Category created successfully!');
+                } else {
+                    alert('Error creating category: ' + (data.error || 'Unknown error'));
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error creating category. Please try again.');
+            });
+        }
+    }
+    
+    // Load existing question data if editing
+    {% if question %}
+    document.addEventListener('DOMContentLoaded', function() {
+        // Parse question data
+        const questionData = {{ question_json|safe }};
+        
+        // Update answer section based on question type
+        updateAnswerSection();
+        
+        // Load existing data based on question type
+        const questionType = questionData.question_type;
+        
+        if (questionType === 'single_choice' || questionType === 'multiple_choice') {
+            // Load choices
+            const choices = questionData.choices || [];
+            const container = document.getElementById('options-container');
+            container.innerHTML = ''; // Clear default options
+            
+            const inputType = questionType === 'single_choice' ? 'radio' : 'checkbox';
+            
+            choices.forEach((choice, index) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'flex items-center gap-4';
+                
+                const optionText = (choice.text || choice.option_text || '').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                
+                optionDiv.innerHTML = `
+                    <input type="${inputType}" name="correct_option[]" value="${index}" ${choice.is_correct ? 'checked' : ''} class="form-${inputType} h-5 w-5 text-primary focus:ring-primary/50 border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark">
+                    <input type="text" name="option_text[]" placeholder="Option ${index + 1}" value="${optionText}" required class="form-input flex-1 rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark">
+                    <button type="button" onclick="removeOption(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                        <span class="material-symbols-outlined">delete</span>
+                    </button>
+                `;
+                container.appendChild(optionDiv);
+            });
+        } else if (questionType === 'matching') {
+            // Load definitions and terms separately
+            const pairs = questionData.matching_pairs || [];
+            let definitions = questionData.matching_definitions || [];
+            
+            // For backward compatibility: if no matching_definitions, extract unique definitions from pairs
+            if (definitions.length === 0 && pairs.length > 0) {
+                const uniqueDefs = new Map();
+                pairs.forEach(pair => {
+                    const defText = pair.right_text || pair.right_item || '';
+                    if (defText && !uniqueDefs.has(defText)) {
+                        uniqueDefs.set(defText, { right_item: defText });
+                    }
+                });
+                definitions = Array.from(uniqueDefs.values());
+            }
+            
+            // Clear and load definitions
+            const defsContainer = document.getElementById('definitions-container');
+            defsContainer.innerHTML = '';
+            
+            definitions.forEach((def, index) => {
+                const defDiv = document.createElement('div');
+                defDiv.className = 'flex gap-2';
+                defDiv.setAttribute('data-def-index', index);
+                
+                const defText = (def.right_item || '').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                
+                defDiv.innerHTML = `
+                    <div class="flex items-center justify-center w-8 h-10 bg-primary/20 text-primary rounded-lg font-bold text-sm">${index + 1}</div>
+                    <input type="text" name="right_item[]" placeholder="Definition ${index + 1}" value="${defText}" required class="flex-1 form-input rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark" onchange="updateMatchingDropdowns()">
+                    <button type="button" onclick="removeDefinition(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                        <span class="material-symbols-outlined">delete</span>
+                    </button>
+                `;
+                defsContainer.appendChild(defDiv);
+            });
+            
+            // Clear and load terms
+            const termsContainer = document.getElementById('terms-container');
+            termsContainer.innerHTML = '';
+            
+            pairs.forEach((pair, index) => {
+                const termDiv = document.createElement('div');
+                termDiv.className = 'flex gap-2';
+                
+                const termText = (pair.left_text || pair.left_item || '').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                
+                // Build options for dropdown using definitions
+                let optionsHTML = '<option value="">Correct answer...</option>';
+                definitions.forEach((def, idx) => {
+                    const defText = (def.right_item || `Definition ${idx + 1}`).replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                    const isSelected = (pair.correct_match !== undefined && pair.correct_match === idx) || 
+                                     (pair.right_item === def.right_item && pair.correct_match === undefined);
+                    optionsHTML += `<option value="${idx}" ${isSelected ? 'selected' : ''}>${defText}</option>`;
+                });
+                
+                termDiv.innerHTML = `
+                    <input type="text" name="left_item[]" placeholder="Term ${index + 1}" value="${termText}" required class="flex-1 form-input rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3 placeholder:text-subtext-light dark:placeholder:text-subtext-dark">
+                    <select name="correct_match[]" required class="matching-answer-select form-select w-48 rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:border-primary dark:focus:border-primary p-3">
+                        ${optionsHTML}
+                    </select>
+                    <button type="button" onclick="removeTerm(this)" class="text-subtext-light dark:text-subtext-dark hover:text-red-500 transition-colors">
+                        <span class="material-symbols-outlined">delete</span>
+                    </button>
+                `;
+                termsContainer.appendChild(termDiv);
+            });
+        }
+    });
+    {% endif %}
+</script>
+{% endblock %}

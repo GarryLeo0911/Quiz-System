@@ -1,0 +1,4292 @@
+[
+  {
+    "id": "46c44c64-571d-4ecd-af02-3f40b1d4f329",
+    "question_text": "Human computer interaction is...",
+    "question_type": "single_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "62739877-ab82-4b12-95c9-2dbe4a322a7b",
+        "option_text": "A discipline concerned with the design and audit of personal computers for human use and with the study of major phenomena surrounding them.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "797c2d46-3a01-4032-8e39-420b76e9fce4",
+        "option_text": "A discipline concerned with the testing and audit of interactive computing systems for human use and with the study of events surrounding them.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "05375efc-759c-4aff-8e18-8c8ca3ff14b0",
+        "option_text": "A discipline concerned with the design, evaluation and implementation of interactive systems for human use and with the study of major phenomena surrounding them.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "d2a7e356-769d-4732-bd7f-0a9a10052cf7",
+        "option_text": "A discipline concerned with the design and implementation of machines for human use and with the study of phenomena surrounding them.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:32:34.209794",
+    "updated_at": "2025-11-10T15:32:41.319726"
+  },
+  {
+    "id": "df879517-c465-4885-a93b-511a496d15bc",
+    "question_text": "Which of the following is NOT an interactive system?\r\n\r\n1. Spork\r\n2. Social media websites\r\n3. Mobile applications\r\n4. Game controllers",
+    "question_type": "single_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "25599b1c-82cc-493b-9c5d-39e279fb31c5",
+        "option_text": "1 and 4 only.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "837c1eb9-a6d6-4c75-a6e1-7325530d1115",
+        "option_text": "2, 3 and 4 only.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "808679d3-5066-4a3c-802f-0f67c0ad7184",
+        "option_text": "4 only.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "8efd3cb8-b4d2-49db-bac9-8814ac810ed9",
+        "option_text": "1 only.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:34:19.292583",
+    "updated_at": "2025-11-10T15:39:11.574043"
+  },
+  {
+    "id": "bf7c65c5-c671-4f99-b212-e6e3cd886c5f",
+    "question_text": "Poorly designed interfaces can...",
+    "question_type": "multiple_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "b4578c9c-258d-4326-9f67-5de3d4de9ca9",
+        "option_text": "incur additional costs",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "5a369821-c081-4481-8577-52f2fc74917a",
+        "option_text": "improve health",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "f5ef0b26-55d8-49c9-955f-e9181fd23c22",
+        "option_text": "improve morale",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "f0034868-9c96-4222-bb67-6169143d85b9",
+        "option_text": "decrease productivity",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:35:35.984077",
+    "updated_at": "2025-11-10T15:39:15.278838"
+  },
+  {
+    "id": "e60d140e-2748-4c32-ba56-78fdfad53d8a",
+    "question_text": "User experience is:",
+    "question_type": "single_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0dc03df0-395d-4914-a6e8-2370e8c7ac2d",
+        "option_text": "a person's perceptions and responses that result from the use of a product, system or service.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "998e1820-d75e-4974-ba0d-ec3269a9d4a4",
+        "option_text": "the extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "731ad450-a582-4cee-9261-3996e2894fc7",
+        "option_text": "the measurement of many people's feelings towards a product.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "6e392eb5-d9ba-4ed5-a76b-22b9dfb9ff40",
+        "option_text": "the perceivable action possibilities that an a person understands from an object..",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:36:12.194182",
+    "updated_at": "2025-11-10T15:39:19.361610"
+  },
+  {
+    "id": "fea021f4-1196-43fd-82d6-0cea31eead8e",
+    "question_text": "Which of the following is a usability goal?",
+    "question_type": "multiple_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "01380816-9fe4-4c45-a380-814f6c155581",
+        "option_text": "Fun",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "49727128-42c8-499d-95ea-480365641f14",
+        "option_text": "Effectiveness",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "299e83fa-a9be-4964-bee2-29a6da7eca31",
+        "option_text": "Boring",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "373d2686-137b-48ad-b215-afa5690c04ec",
+        "option_text": "Utility",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:36:51.590373",
+    "updated_at": "2025-11-10T15:39:23.456892"
+  },
+  {
+    "id": "703b69d6-97fa-464d-bb1b-6f39c4afe410",
+    "question_text": "Which of the following design principles support learnability?",
+    "question_type": "multiple_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "e1b9ef01-1eb2-4d30-9d67-c85faa878852",
+        "option_text": "Consistency",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "5e9a6403-64c8-4430-8d0f-3835cb348844",
+        "option_text": "Conviviality",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "038929c1-36be-4c1b-9bdd-822c53e8d009",
+        "option_text": "Affordances",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "3059d819-4f45-4bce-b7b1-96baa8a73062",
+        "option_text": "Visibility",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:37:29.867169",
+    "updated_at": "2025-11-10T15:39:27.881636"
+  },
+  {
+    "id": "e4e6dc31-b9d7-41fe-a777-c39222617884",
+    "question_text": "All design rules must be followed in practice. ",
+    "question_type": "single_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "Ideally, yes, but some rules will contradict the other. \r\n\r\nThis must be considered before you adopt a specific rule.",
+    "points": 1,
+    "choices": [
+      {
+        "id": "aa6451e1-6edb-4a02-b68f-e456c3fba11d",
+        "option_text": "True",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "293201b2-4752-4e36-9151-a03a1985bd18",
+        "option_text": "False",
+        "is_correct": true,
+        "order": 1
+      }
+    ],
+    "created_at": "2025-11-10T15:38:16.528331",
+    "updated_at": "2025-11-10T15:39:32.297664"
+  },
+  {
+    "id": "949c1f77-4373-4b7a-8abe-cffa4d18e6a6",
+    "question_text": "Which of the following is an example of a design standard?",
+    "question_type": "multiple_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "851ec12f-0b52-460a-ae0b-1cfd05dd85ec",
+        "option_text": "Web Content Accessibility Guidelines (WCAG)",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "519384d8-f420-4d32-9158-30120f348567",
+        "option_text": "ISO9241-11",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "8bdb3cad-6746-425c-b19c-7e38643a41fb",
+        "option_text": "Visibility",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "770b9b3d-5d44-4cd0-a7a6-1b522e8ff7ec",
+        "option_text": "Schneiderman Eight Golden Rules",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:39:07.153999",
+    "updated_at": "2025-11-10T15:39:07.154023"
+  },
+  {
+    "id": "ebf7f6d7-c54b-4e73-ba1c-c68e56975224",
+    "question_text": "Match Schneiderman's Eight Golden Rules that are similar to Nielsen 10 Usability Heuristics.",
+    "question_type": "matching",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "Other Incorrect Match Options:\r\n    - Design dialogue to yield closure.",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "91fe916d-22f8-457a-b80d-b732e0ba7587",
+        "left_item": "Strive for consistency  ",
+        "right_item": "Consistency and standards",
+        "correct_match": 0,
+        "order": 0
+      },
+      {
+        "id": "7183c063-d694-46d3-940b-d3e9e2519c69",
+        "left_item": "Enable frequent users to use shortcuts.  ",
+        "right_item": "Flexibility and efficiency of use",
+        "correct_match": 4,
+        "order": 1
+      },
+      {
+        "id": "2a19db45-e94c-4dfc-8592-ce824a7b9675",
+        "left_item": "Reduce short-term memory load.  ",
+        "right_item": "Recognition rather than recall",
+        "correct_match": 2,
+        "order": 2
+      },
+      {
+        "id": "ed9db8c0-d477-48d4-9762-8003402cfcbf",
+        "left_item": "Offer simple error handling.  ",
+        "right_item": "Error prevention",
+        "correct_match": 3,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:42:23.812174",
+    "updated_at": "2025-11-10T16:12:21.390653",
+    "matching_definitions": [
+      {
+        "id": "23108bbd-333d-4994-a4bc-e4968eec0376",
+        "right_item": "Consistency and standards",
+        "order": 0
+      },
+      {
+        "id": "b8d0ce37-d24e-48cf-9a36-1fea9c554ef1",
+        "right_item": "Flexibility and efficiency of use",
+        "order": 1
+      },
+      {
+        "id": "c5af0b28-f858-4ebb-92e2-7f59ecfddb44",
+        "right_item": "Recognition rather than recall",
+        "order": 2
+      },
+      {
+        "id": "357fec2f-07d5-49ba-940a-9053b330acbf",
+        "right_item": "Error prevention",
+        "order": 3
+      },
+      {
+        "id": "6d89eff5-1372-4a87-8268-94ab02f2e3a9",
+        "right_item": "Flexibility and efficiency of use",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "64d2a108-470b-4add-83c1-67596b363097",
+    "question_text": "Counters and progress bars used to indicate how much of an operation is complete is an example of  ____________. ",
+    "question_type": "single_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "a5c5f065-f9ac-4072-ac88-20783a7aca12",
+        "option_text": "Visibility",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "aca807b9-b395-4a05-822e-385e618965c8",
+        "option_text": "Affordances",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "2ae1c32e-8ce1-4bc1-b1c5-391f30df5b03",
+        "option_text": "Feedback",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "be25d840-75ba-4a4a-997d-596953802eb6",
+        "option_text": "Consistency",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:43:14.049367",
+    "updated_at": "2025-11-10T15:43:14.049383"
+  },
+  {
+    "id": "dbf15394-bc36-4fda-b19e-6cd679967966",
+    "question_text": "_________ is an interaction pattern aim at duping users to getting them to do things that they did not intend to do. ",
+    "question_type": "single_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0cf18642-04db-414a-9842-280d92988930",
+        "option_text": "Dark Pattern",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "c553050c-7698-4d76-a238-f1fc6a755b13",
+        "option_text": "Design Pattern",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "cc78b66d-c150-4fa8-accb-c32f6774d7ab",
+        "option_text": "Anti-pattern",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "a3e118f2-270e-4128-a5ab-6b4981cadeea",
+        "option_text": "Software Pattern",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:44:09.517703",
+    "updated_at": "2025-11-10T15:44:15.999344"
+  },
+  {
+    "id": "cc476d8f-a036-4c1e-9761-cc2e78be74db",
+    "question_text": "Which of the following statements is TRUE?",
+    "question_type": "single_choice",
+    "category_id": "aacbfc99-1e19-49aa-a79f-c96733687904",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "2580c2e0-4ecf-4364-9045-390b405c81b2",
+        "option_text": "It is possible to make ALL interfaces consistent through the use of design standards.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "ed74e481-9432-4c3e-b4ee-7d4fc2de7518",
+        "option_text": "There is a secret formula that you can use to design good interfaces.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "6d50d0b5-c480-4bea-ab50-88dc695bc7f1",
+        "option_text": "The graying out of buttons to prevent users from proceeding is an example of constraints.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "e2a16150-4073-49cc-9493-6e3a62b34f84",
+        "option_text": "All design principles must be demonstrated by a single product.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:45:33.428741",
+    "updated_at": "2025-11-10T15:45:33.428746"
+  },
+  {
+    "id": "c8ba8e83-2441-4895-9e81-11eb4444a7fa",
+    "question_text": "Which of the following is an example of a cognitive process?",
+    "question_type": "multiple_choice",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "9fc602a4-3084-413c-8690-7c657e92f248",
+        "option_text": "Perception",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "511a5706-f496-432a-87a4-5fbb533a57d0",
+        "option_text": "Problem-solving",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "cbaaf44b-f3c2-429f-855f-c2ddb26f4773",
+        "option_text": "Listening",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "119931c6-5647-4125-858f-4175695c3e58",
+        "option_text": "Attention",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:46:36.472938",
+    "updated_at": "2025-11-10T15:46:41.561457"
+  },
+  {
+    "id": "d9784002-fa69-4c1b-aa5e-30c2e854c778",
+    "question_text": "Which Gestalt Laws of perception help to resolve ambiguity and fill in missing data?",
+    "question_type": "single_choice",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0d324748-771e-491d-952d-a0782599caaa",
+        "option_text": "Proximity",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "80515d80-b132-4bcd-a2a1-28cc3465424d",
+        "option_text": "Figure/Ground",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "35463ee2-c6d6-49f8-9b1b-122607f54bc4",
+        "option_text": "Continuity",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "de58c9a6-ca74-45ab-b6ff-c5b7e315b097",
+        "option_text": "Similarity",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:47:16.628343",
+    "updated_at": "2025-11-10T15:47:22.112142"
+  },
+  {
+    "id": "f54aa1d3-4812-4a19-ad53-c81fd7575c69",
+    "question_text": "What is Norman's Gulf of execution?",
+    "question_type": "single_choice",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6f320624-2b4c-4337-b7a5-15e0a9304c11",
+        "option_text": "One of the first HCI models to be derived from the information processing theory",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c5e385e5-6982-4036-957b-bb118bb079c8",
+        "option_text": "The amount of effort required to determine the system state",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "f3607d2d-8250-4a51-a3cd-79b7f23f0a57",
+        "option_text": "Distance between the user's goals and the means of achieving them through the system",
+        "is_correct": true,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T15:48:00.391764",
+    "updated_at": "2025-11-10T15:48:00.391788"
+  },
+  {
+    "id": "ceb6babe-8d4e-43af-82d0-dcf7aa7cad18",
+    "question_text": "Which of the following statements are TRUE?",
+    "question_type": "multiple_choice",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "590851c6-5596-409b-8182-2070da79dd01",
+        "option_text": "Our short term memory is limited.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "3a27d02e-8f84-4b35-b269-79216312872d",
+        "option_text": "Our memory is perfect.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "03064007-b785-4939-b434-e36ebb2b2bbc",
+        "option_text": "Humans are good at multi-tasking.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "41177436-a0e5-49a0-993a-1846e73cfe40",
+        "option_text": "Our attention is limited.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:48:41.822291",
+    "updated_at": "2025-11-10T15:48:41.822306"
+  },
+  {
+    "id": "89aadb95-31b3-414a-8675-0a95dc61d2d2",
+    "question_text": "Which of the following Gestalt Laws of Perception can be used to direct attention?",
+    "question_type": "multiple_choice",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "fa7596a0-3c81-48fa-9c47-0f9ab623e317",
+        "option_text": "Similarity",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "346ab3d5-a953-4915-923e-332cb08690c3",
+        "option_text": "Figure and Ground",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "de46da7f-c059-42d4-9a56-798b44a3e05d",
+        "option_text": "Proximity",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "56e061d3-4a63-413c-a9cf-99a0796a3307",
+        "option_text": "Common Fate",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:49:29.258777",
+    "updated_at": "2025-11-10T15:49:29.258794"
+  },
+  {
+    "id": "f80d0efc-ee2f-4ea0-ac36-518ac0229d7d",
+    "question_text": "Creating a gap between two distinct groups of objects is...",
+    "question_type": "multiple_choice",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "35d3432e-a761-4c6a-a47d-e01320384dea",
+        "option_text": "an example of continuity.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "a059933b-d384-475e-b149-723320d03efe",
+        "option_text": "an example of similarity.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "f7c8fc89-77e6-4f48-bbab-50fe3df8b5b1",
+        "option_text": "an example of common fate.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "1d7258f8-073d-4625-aee7-96f801e20d13",
+        "option_text": "an example of proximity.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:50:17.803883",
+    "updated_at": "2025-11-10T15:50:17.803893"
+  },
+  {
+    "id": "621fb142-4fce-4a26-ae3b-9f8cc523c7d0",
+    "question_text": "Match the following explanation to each term.",
+    "question_type": "matching",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "Other Incorrect Match Options:\r\n- Memories that last forever\r\n- Memories related to sound in caves.\r\n- A person or building that we perceive positively.",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "6785b555-3c5b-4a30-94d1-a8de650a0397",
+        "left_item": "Iconic memory  ",
+        "right_item": "Sensory buffer for our vision",
+        "correct_match": 4,
+        "order": 0
+      },
+      {
+        "id": "e4bbdbff-77b5-4ff8-92a4-71de2f5ed0cf",
+        "left_item": "Echoic memory  ",
+        "right_item": "Sensory buffer for our auditory perception",
+        "correct_match": 6,
+        "order": 1
+      },
+      {
+        "id": "e1c18957-367e-4ebf-a171-d3d94245fe3a",
+        "left_item": "Autobiographical memory  ",
+        "right_item": "Memories related to personal events",
+        "correct_match": 7,
+        "order": 2
+      },
+      {
+        "id": "e30129d4-e990-465e-a4ab-36dc671c4211",
+        "left_item": "Semantic memory  ",
+        "right_item": "Hold information related to meaning",
+        "correct_match": 5,
+        "order": 3
+      },
+      {
+        "id": "ddf11577-693a-4bee-9c71-5bb81a993b38",
+        "left_item": "Procedural memory  ",
+        "right_item": "Stores knowledge on how to do things",
+        "correct_match": 3,
+        "order": 4
+      }
+    ],
+    "created_at": "2025-11-10T15:54:10.442411",
+    "updated_at": "2025-11-10T16:14:14.782338",
+    "matching_definitions": [
+      {
+        "id": "2292caba-7cec-45c1-a27a-465fefd599b8",
+        "right_item": "Memories that last forever",
+        "order": 0
+      },
+      {
+        "id": "0e0eb934-5ca6-4e7d-82a5-cd0e0c61a281",
+        "right_item": "Memories related to sound in caves.",
+        "order": 1
+      },
+      {
+        "id": "8230765a-cc71-498e-b5d7-333a326edf79",
+        "right_item": "A person or building that we perceive positively.",
+        "order": 2
+      },
+      {
+        "id": "a8fb20ee-dee3-4a92-9a26-2d2d96fef65e",
+        "right_item": "Stores knowledge on how to do things",
+        "order": 3
+      },
+      {
+        "id": "1828115b-4821-413a-8604-4babfca4ee66",
+        "right_item": "Sensory buffer for our vision",
+        "order": 4
+      },
+      {
+        "id": "3fd6ff38-be5a-4eb7-92e3-7fa31e467929",
+        "right_item": "Hold information related to meaning",
+        "order": 5
+      },
+      {
+        "id": "76f72171-65f3-4243-b571-2e64264cb34e",
+        "right_item": "Sensory buffer for our auditory perception",
+        "order": 6
+      },
+      {
+        "id": "25e990a6-5786-41cb-947f-49e8436184f4",
+        "right_item": "Memories related to personal events",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "79dc1f58-d6ce-4378-8311-f930b69e4079",
+    "question_text": "Match examples of needs and motivation to the correct term. ",
+    "question_type": "matching",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "01aa7c01-6c8d-40f6-b6ed-c591c7573656",
+        "left_item": "Extrinsic motivation  ",
+        "right_item": "Public recognition",
+        "correct_match": 2,
+        "order": 0
+      },
+      {
+        "id": "0882d8f2-fe52-4aec-bf01-e39c5c613a85",
+        "left_item": "Intrinsic motivation  ",
+        "right_item": "Curiosity",
+        "correct_match": 0,
+        "order": 1
+      },
+      {
+        "id": "4a34a2b0-ac23-4b8d-929a-ad7012fb56fd",
+        "left_item": "Physiological Needs  ",
+        "right_item": "Food",
+        "correct_match": 1,
+        "order": 2
+      },
+      {
+        "id": "4cea5863-312a-4b5e-8fe0-6fd5209256d7",
+        "left_item": "Psychological Needs  ",
+        "right_item": "Public recognition",
+        "correct_match": 2,
+        "order": 3
+      },
+      {
+        "id": "8f369dd3-836e-4868-9f1c-2747b55eb85d",
+        "left_item": "Self-fulfillment Needs  ",
+        "right_item": "Curiosity",
+        "correct_match": 0,
+        "order": 4
+      }
+    ],
+    "created_at": "2025-11-10T15:55:54.789711",
+    "updated_at": "2025-11-10T16:17:54.660377",
+    "matching_definitions": [
+      {
+        "id": "8b884480-b667-4b1a-804e-b5208d3db432",
+        "right_item": "Curiosity",
+        "order": 0
+      },
+      {
+        "id": "9405a5e9-75e4-48d8-8f90-745a98730071",
+        "right_item": "Food",
+        "order": 1
+      },
+      {
+        "id": "303ab883-d9f7-49e1-915f-8a4e93f5e05a",
+        "right_item": "Public recognition",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "70a3dcdd-1b9d-4dd7-945e-87e87ea8b72d",
+    "question_text": "Which of the following are examples of affective computing?",
+    "question_type": "multiple_choice",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "50da3125-44b6-4303-a022-9371587a6f5a",
+        "option_text": "Technology that replaces manual labour in the construction site.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "cd2ef910-9f10-44ec-8ba9-1a7bf7b10b83",
+        "option_text": "Systems that recognizes human emotions through speech and visual images.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "6b506a12-485a-424c-91f4-a1023354badf",
+        "option_text": "An android with facial expression.",
+        "is_correct": true,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T15:56:39.049320",
+    "updated_at": "2025-11-10T15:56:52.960750"
+  },
+  {
+    "id": "aa3116b6-b335-4e39-8804-63c587079b3b",
+    "question_text": "Which of the following statements are FALSE about human capabilities and limitations?",
+    "question_type": "multiple_choice",
+    "category_id": "fb81c9ca-bac2-4f01-b316-c33af2ed07df",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "fa18c53d-cfc4-4a0a-a360-ddd167d5bd09",
+        "option_text": "Recognition is easy; recall is even easier.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "4463707a-cf50-482f-981c-544a013c4d70",
+        "option_text": "You are reading this text using your peripheral vision.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "69b8c5b3-d5c0-4863-bdae-c17f53f8ead6",
+        "option_text": "Our vision is optimized to see structure.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "26fdd79f-0704-4fd7-b011-b9d7ac686845",
+        "option_text": "Our hand-eye coordination follows laws. An example is Hicks Law which dictates reaction time is dependent on the number of options available.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T15:58:15.416447",
+    "updated_at": "2025-11-10T15:58:15.416456"
+  },
+  {
+    "id": "3f51bc08-2649-4c7f-8d11-b939fba66c26",
+    "question_text": "All users are stakeholders. ",
+    "question_type": "single_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "019b5774-dcb9-4f24-b536-641c65974bf8",
+        "option_text": "True",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "696f915d-431f-4f37-8575-c917a077be12",
+        "option_text": "False",
+        "is_correct": false,
+        "order": 1
+      }
+    ],
+    "created_at": "2025-11-10T15:59:40.075449",
+    "updated_at": "2025-11-10T15:59:40.075462"
+  },
+  {
+    "id": "ce1a6037-fe3f-46e3-be07-f55bc126cdf9",
+    "question_text": "Which of the following are principles of user-centered design? (select all that apply)",
+    "question_type": "multiple_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "92ea4a23-6bd9-4863-a681-2bfdd56723ae",
+        "option_text": "Understanding who the users will be by studying their cognitive, behavioral and attitudinal characteristics.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "be005a24-fb07-41df-a3d4-39dab85f3c8c",
+        "option_text": "Observing, measuring and analyzing the reactions and performance of intended users to prototypes.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "e1df112f-a0f6-42a4-894c-7c4bee961789",
+        "option_text": "When problems are found; don't fix these until official complaints are filed when the product is released.",
+        "is_correct": false,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T16:00:13.965818",
+    "updated_at": "2025-11-10T16:00:13.965836"
+  },
+  {
+    "id": "eea23541-3704-4b02-98d6-09e3939ac8ba",
+    "question_text": "Why must the problem space be explored and articulated at the start of the project? (select all that apply)",
+    "question_type": "multiple_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "27bdfa4c-e25e-4421-9aa2-8cfca522de53",
+        "option_text": "To understand the context for which it will be used.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "7180267d-cf74-474c-b044-3196455d9529",
+        "option_text": "To reduce misunderstanding between team members.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "0978669d-0923-4a77-99db-1347aeff79df",
+        "option_text": "Marks are awarded for it during the project.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "2cab4300-60df-4524-b66d-2653a91f260b",
+        "option_text": "To determine the purpose of design.",
+        "is_correct": true,
+        "order": 3
+      },
+      {
+        "id": "08299e5d-c674-49e9-a28a-60d61dac18fb",
+        "option_text": "To determine possible current user expectations.",
+        "is_correct": true,
+        "order": 4
+      }
+    ],
+    "created_at": "2025-11-10T16:01:05.137865",
+    "updated_at": "2025-11-10T16:01:05.137884"
+  },
+  {
+    "id": "a641aa13-6c29-41b7-aa7f-cf61ddbf3f81",
+    "question_text": "It is important to involve users throughout the design and development process because: (select all that apply)",
+    "question_type": "multiple_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "1af5bcf0-eaee-4e02-badb-fbb22843fd6a",
+        "option_text": "we can get feedback from the users perspective.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "aada6a53-501e-40e8-abc4-bd2a69742db9",
+        "option_text": "we can demand and receive more resources from management for development.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "f07e722d-772d-41d1-a16f-c4396fb403ce",
+        "option_text": "they can see the product's capabilities from an early stage.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "196ed125-b2f2-426b-bdeb-48d3fcab7df4",
+        "option_text": "users who are involved will feel a sense of ownership towards it and support its use.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:20:02.859033",
+    "updated_at": "2025-11-10T16:20:02.859050"
+  },
+  {
+    "id": "993d2bd4-71d3-4059-844b-ee04d6910abf",
+    "question_text": "Which of the following are basic activities of interaction design? (select all that apply)",
+    "question_type": "multiple_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "202328f7-3638-4c3e-a903-b2d6449536ab",
+        "option_text": "Prototyping the alternative designs so that they can be communicated and assessed.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "b8e48103-2533-42b7-901a-9c9baa0f2d72",
+        "option_text": "Evaluating the product and the user experience that it offers throughout the process.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "2dd4a27d-58b5-4163-9e9b-c86d0c27ea7f",
+        "option_text": "Designing alternatives that meet the requirements.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "9242ce96-02a6-4623-a345-2b6d0b4aa3a3",
+        "option_text": "Discovering requirements for the interactive product.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:21:14.448528",
+    "updated_at": "2025-11-10T16:21:14.448541"
+  },
+  {
+    "id": "7a9e8681-58ee-474e-8858-a871ac918c43",
+    "question_text": "The lifecycle model (or process model) is used to... (select all that apply)",
+    "question_type": "multiple_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6c9802c4-2169-4859-978d-d19a9a55de2c",
+        "option_text": "represent a model that captures a set of activities and how they are related.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "1e48325e-9c56-4bc7-9934-e7c0ceb7a105",
+        "option_text": "showcase your artistic skill in using digital tools.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "8f76bb29-ca3c-4a36-adcf-5995e7220728",
+        "option_text": "tell each team what they must do and the sequence that it must be done.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "6b984e01-98d5-40c3-b2d7-80cb6360a163",
+        "option_text": "force everyone to follow the same activities during the project.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:22:20.509918",
+    "updated_at": "2025-11-10T16:22:20.509952"
+  },
+  {
+    "id": "e7ee7a5f-f114-49bd-812e-77f81c7b85db",
+    "question_text": "We must follow AgileUX process during the project.",
+    "question_type": "single_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5166042c-fc8b-4c69-8001-ad419e062e43",
+        "option_text": "True",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "2e851a89-436b-4a58-a518-ab0f528731f5",
+        "option_text": "False",
+        "is_correct": true,
+        "order": 1
+      }
+    ],
+    "created_at": "2025-11-10T16:22:45.558650",
+    "updated_at": "2025-11-10T16:22:45.558669"
+  },
+  {
+    "id": "4ae4d97a-6438-4870-88b0-18101ae23529",
+    "question_text": "Select ALL the statements that are TRUE.",
+    "question_type": "multiple_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "20f89c35-f814-4d23-acea-c0fa03fc1bee",
+        "option_text": "User-centered design helps designer move away from their preferences and focus on the users' needs and goals.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "b996c846-a92c-4c7a-97bd-441cbdd701b2",
+        "option_text": "Users sometimes don't know what they want.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "fc125e00-f1c3-4fa1-9c08-339c925a0d39",
+        "option_text": "User-centered design can result in the development of a wrong product if the wrong set or type of users are chosen.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "78c1c184-5006-4640-8963-afe33563bc0f",
+        "option_text": "You need to be a genius in order to use the Genius Design approach.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:23:27.195525",
+    "updated_at": "2025-11-10T16:23:27.195537"
+  },
+  {
+    "id": "4a2f45c8-c8e7-4e87-bac6-b5067577e70f",
+    "question_text": "PACT analysis must always be done to scope out a design problem. ",
+    "question_type": "single_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "012002da-5931-4529-838e-91f46df11ef1",
+        "option_text": "True",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e0c8a130-4c8f-44d5-9222-d79244a80ad7",
+        "option_text": "False",
+        "is_correct": true,
+        "order": 1
+      }
+    ],
+    "created_at": "2025-11-10T16:24:00.629231",
+    "updated_at": "2025-11-10T16:24:00.629246"
+  },
+  {
+    "id": "3b632101-21ae-440c-ab65-b563dc857908",
+    "question_text": "The PACT framework helps designers: (select all that apply)",
+    "question_type": "multiple_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "d161ed54-6970-48ac-bc56-272fcf802528",
+        "option_text": "to determine the requirements of the system, services or product without direct users involvement.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "06507b3a-af56-4268-aee1-d50e9f99bedb",
+        "option_text": "to understand the activities that people want to undertake and the contexts in which those activities take place.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "59d57e5a-f7b8-4e74-95a3-126d21d1761e",
+        "option_text": "to know about the features of interactive technologies and how to approach designing interactive systems and services that deliver a good UX.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "1f8722b3-4d88-4ca7-addf-322b6ecd84c4",
+        "option_text": "understand the people who will use their systems, services and products.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:25:18.348474",
+    "updated_at": "2025-11-10T16:25:24.479476"
+  },
+  {
+    "id": "a85b61a1-17ba-47b6-b54f-e1409dec686b",
+    "question_text": "The lifecycle model is created at the start of the project and followed strictly during the project.",
+    "question_type": "single_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "90f676e3-ba16-4b50-9172-e173d5dc2ff4",
+        "option_text": "True",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e72df475-6c5c-4bb9-9900-556cf801bde1",
+        "option_text": "False",
+        "is_correct": true,
+        "order": 1
+      }
+    ],
+    "created_at": "2025-11-10T16:25:45.536241",
+    "updated_at": "2025-11-10T16:25:45.536259"
+  },
+  {
+    "id": "7053505e-5f37-4c1f-8eab-6d4a6c163163",
+    "question_text": "Select all the statements that are TRUE about PACT framework. (select all that apply)",
+    "question_type": "multiple_choice",
+    "category_id": "40d1236e-6809-4e95-8f50-0e320464f8a3",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "7064dd7e-5766-4f99-a134-a934eb2de592",
+        "option_text": "P in PACT refers to all the contents covered in human information processing model.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "3a2cb9d2-0369-4f09-8ccb-806f4c463073",
+        "option_text": "The type of input technology required by the system is dependent on the type of data and instructions to be provided by the user.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "0a5756d4-c22d-4036-83f9-f64954a1d275",
+        "option_text": "Printers are a form of output technology as it allows users to produce physical copies of the contents.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "ac3cf069-e363-401e-ae25-498d013fc286",
+        "option_text": "Designers must also factor in the cost of the user's internet package for T in PACT when considering bandwidth and speed.",
+        "is_correct": false,
+        "order": 3
+      },
+      {
+        "id": "8f52cb62-1149-4fcd-bd6a-dc8b1aca53d8",
+        "option_text": "Context can be analyzed independent of activity.",
+        "is_correct": false,
+        "order": 4
+      }
+    ],
+    "created_at": "2025-11-10T16:26:42.239271",
+    "updated_at": "2025-11-10T16:26:42.239283"
+  },
+  {
+    "id": "dcd5de6f-2d97-4756-aa39-e52ea4f8f880",
+    "question_text": "Which of the following statements are TRUE?\r\n",
+    "question_type": "single_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5392cbcc-7d13-4979-99c3-e4b5a2bc9141",
+        "option_text": "Users cannot articulate what they want so it is pointless to ask them for their opinion.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "000614fb-0ace-48ca-a5d5-554cf731afef",
+        "option_text": "Sales and marketing is responsible for setting the requirements.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "029340f9-7b26-4dde-8c97-47ca65da0d2c",
+        "option_text": "We can forgo doing user research because our team has no time to perform such studies.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "818b44db-1837-4e4a-bb2c-9d0d8c3473a0",
+        "option_text": "We may not be the end users of the product we design.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:30:02.433547",
+    "updated_at": "2025-11-10T16:30:09.076116"
+  },
+  {
+    "id": "7084fbd1-3d1d-46a4-975c-3c607ad9bcff",
+    "question_text": "Which of the following statements are FALSE?",
+    "question_type": "multiple_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0ba92aa3-39af-4414-b328-3db5ba58695d",
+        "option_text": "The 'could haves' in Moscow rule are the next important requirements after 'must haves'.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "77dcb9f0-4bdd-42f7-9969-6c531289cf8c",
+        "option_text": "The 'would have' is of the utmost priority.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "9878e6cb-5ce8-46aa-b484-ab9b91d52803",
+        "option_text": "The 'must have' is of the utmost priority.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "9f905ea1-f79c-4c06-a462-209fa5c08d01",
+        "option_text": "The 'would haves' in Moscow rule is what the team should deliver once they are complete with the other requirements.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:30:51.930269",
+    "updated_at": "2025-11-10T16:30:51.930332"
+  },
+  {
+    "id": "160f4e61-1ec4-4158-a37a-dc71431b9288",
+    "question_text": "Which of the following statements about 'Interviews' are correct?",
+    "question_type": "multiple_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "1166337d-f898-4fbe-af77-77325c999886",
+        "option_text": "During the interview, the interviewer should be polite and carefully steer the conversation.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "b32095f5-6f7f-4dfa-8b31-97382f065374",
+        "option_text": "Non-verbal communications should be avoided as it may confuse the note-taker.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "3b4646a4-636e-489f-a296-7a28a6d9c9fa",
+        "option_text": "Part of the preparation of the note-taker is to understand the interview guide and know the important terms of the domain.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "a2041d0a-9180-4f38-a617-ef621b0cb4af",
+        "option_text": "The interviewer should prepare all questions to be asked in the interview upfront.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:31:41.780561",
+    "updated_at": "2025-11-10T16:31:41.780576"
+  },
+  {
+    "id": "048cf994-94e6-4e56-9f45-e805e7f8f922",
+    "question_text": "Which of the following statements are wrong about 'Observations'?",
+    "question_type": "multiple_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "44310499-6bc6-4ab7-a95b-ae7ee40cd600",
+        "option_text": "It is important to know the distinction between open-ended and close-ended questions.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "74ad5a16-89d9-4dc5-91c2-4c14294b2b2c",
+        "option_text": "Observing two people at work is called think aloud.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "2ae0c072-308d-4a6d-9a57-757ddb53b64d",
+        "option_text": "The observer has no bias.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "0d82a87d-56f3-4bfc-95c3-1c4b73aea05f",
+        "option_text": "Beware of the note-taker's observation bias.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:32:43.328407",
+    "updated_at": "2025-11-10T16:32:43.328422"
+  },
+  {
+    "id": "5f67bc57-5674-49c6-a4e8-783a48fada6c",
+    "question_text": "Which of the following statements about 'Surveys' are correct?",
+    "question_type": "multiple_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "ee4214de-041a-4b11-a494-d04a4a399f4f",
+        "option_text": "In non-probabilistic sampling, it is important to collect demographic data about the respondents.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "0b333fdd-24b6-45e2-9972-11e25f89f665",
+        "option_text": "It provides deep and rich data about the participants.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "3fc1b7b1-1c82-482e-b15f-713ce8ede078",
+        "option_text": "It can be self-administer and done remotely.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "5e31aef5-b137-44ba-b492-02c7ab942933",
+        "option_text": "It must be deployed using a survey tool.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:33:30.059809",
+    "updated_at": "2025-11-10T16:33:30.059823"
+  },
+  {
+    "id": "76483dc7-fe25-4c20-8538-e1280718cbbe",
+    "question_text": "Which of the following is an example of close-ended ordered response?",
+    "question_type": "multiple_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "825b5440-eeda-49e6-9097-a13a1b72162e",
+        "option_text": "Binary response",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "b0466a06-e5cc-45fc-b457-feddf9376f11",
+        "option_text": "Likert scale",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "ce13c8b9-584c-44f1-8b11-bc75ac56d454",
+        "option_text": "Rank order",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "a172d32a-2d08-4f47-a67d-82f2e4cf8db8",
+        "option_text": "Multiple choice selections",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:34:13.916682",
+    "updated_at": "2025-11-10T16:34:13.916696"
+  },
+  {
+    "id": "4471d681-22fe-4819-b67f-4644acbfec32",
+    "question_text": "You have made an appointment to interview a dietitian to learn more about healthy eating and diet recommendations for diabetic patients. Which of the following are appropriate data recording approaches that can be used during the session?",
+    "question_type": "single_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "558381e9-cee9-4b09-8260-5fb7eee46771",
+        "option_text": "Audio recording",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "63a3247e-e957-4667-ab52-e536ddbed690",
+        "option_text": "Diaries",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "ca4ef947-afb4-4ec5-ab8b-aeec80248bc9",
+        "option_text": "Key-stroke logging",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "b01564ab-47f6-4794-8bc8-63f9f9420760",
+        "option_text": "Eye-tracking",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:34:54.240513",
+    "updated_at": "2025-11-10T16:34:54.240527"
+  },
+  {
+    "id": "df420354-2f83-41bf-861f-96042d2b06e7",
+    "question_text": "These are the requirements that you have noted down for the healthy eating and diet recommendations application targeted for diabetic patients. Match the requirements.",
+    "question_type": "matching",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "Other Incorrect Match Options:\r\n- Usability requirements",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "95b3fd4a-238f-4dfb-8224-cac330f67507",
+        "left_item": "The application must calculate the total amount of calories consumed by the patient at each meal.  ",
+        "right_item": "Functional requirements",
+        "correct_match": 4,
+        "order": 0
+      },
+      {
+        "id": "70bc9c54-9c38-434a-923d-3bbb821ba6ef",
+        "left_item": "Images of the user's current meal must be stored with its timestamp to track the user's last meal.  ",
+        "right_item": "Data requirements",
+        "correct_match": 3,
+        "order": 1
+      },
+      {
+        "id": "d54546b0-d63b-495f-9e30-e024942caca2",
+        "left_item": "Users will always eat their meals at venues with sufficient lighting to view their food.  ",
+        "right_item": "Environment requirements",
+        "correct_match": 5,
+        "order": 2
+      },
+      {
+        "id": "7117abd6-d93b-4eb2-8d0d-53dc145cdef0",
+        "left_item": "Permission of use must be given by the legal guardian for users below the age of 11.  ",
+        "right_item": "User requirements",
+        "correct_match": 2,
+        "order": 3
+      },
+      {
+        "id": "3af929c0-9844-413e-b39b-c896fd74a76d",
+        "left_item": "The application must make the users feel guilty when their current meal is unbalance.  ",
+        "right_item": "User experience requirements",
+        "correct_match": 1,
+        "order": 4
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "2bffe987-2025-4a9f-9c06-cb9be3b4398a",
+        "right_item": "Usability requirements",
+        "order": 0
+      },
+      {
+        "id": "ca998a42-dd6a-482d-9fd6-99b678c7a24d",
+        "right_item": "User experience requirements",
+        "order": 1
+      },
+      {
+        "id": "56c88e54-5561-44be-b7c4-06cb5e6f4865",
+        "right_item": "User requirements",
+        "order": 2
+      },
+      {
+        "id": "6626fe5b-8ea6-4b6d-b796-7496bde66f8d",
+        "right_item": "Data requirements",
+        "order": 3
+      },
+      {
+        "id": "d992f965-911a-49b8-bf0f-a8e54c115ddb",
+        "right_item": "Functional requirements",
+        "order": 4
+      },
+      {
+        "id": "77a166bc-cb40-429b-aeb1-38773459458f",
+        "right_item": "Environment requirements",
+        "order": 5
+      }
+    ],
+    "created_at": "2025-11-10T16:36:47.698597",
+    "updated_at": "2025-11-10T16:36:47.698626"
+  },
+  {
+    "id": "9865089e-67a0-4ee1-aa5b-96234a1a46f8",
+    "question_text": "Which of the following should NOT be done when you are planning a data gathering session?",
+    "question_type": "single_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "490a4dbd-80ce-44e0-a331-61b7db331aef",
+        "option_text": "Prepare documents to inform participants of their rights and how data will be collected during the session.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "14494492-4587-49f8-a58a-c099a4a6f312",
+        "option_text": "Identify the purpose of the data gathering session.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "ec3f4b6b-f8c8-4bfd-bf06-f53efd710d2b",
+        "option_text": "Perform pilot studies to validate results after the actual session.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "ccb1ac6e-7d58-495e-964f-4da1573e45c7",
+        "option_text": "Run pilot studies to test the tools and procedures before the actual session.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:37:55.481450",
+    "updated_at": "2025-11-10T16:37:55.481464"
+  },
+  {
+    "id": "c5eae758-bba8-4b81-b211-ab174984cd32",
+    "question_text": "An obstetrician have requested the development of a mobile application for expectant mothers with pregnancy complications to keep track of their's and their child's health status during pregnancy. He has a requested that the application has a report function that allows his patients to send him a consolidated report before their check-up session. He has given samples of the type of reports and information that he expects from his clients.\r\n\r\nTo elicit requirements for the mobile application, you have shadowed (with permission) the obstetrician for a day. Which of the following statements is most likely correct?",
+    "question_type": "single_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "bd2cde4d-6f8b-464f-b1f9-5c95a73e6dd3",
+        "option_text": "The approach makes sense because you can understand what the obstetrician does during a check-up.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "089e220e-b45b-4303-bed6-44bfade003ec",
+        "option_text": "The approach makes sense because the obstetrician will be using the information that is reported by the mobile application.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "9c8c53ea-1880-41c3-a491-af4d1ea84a53",
+        "option_text": "The approach makes no sense because shadowing is not a requirements elicitation technique.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "bda88001-7411-4936-bdc1-e82ef366ec53",
+        "option_text": "The approach makes no sense because the end users of the mobile application is not the obstetrician.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:38:47.271730",
+    "updated_at": "2025-11-10T16:38:47.271748"
+  },
+  {
+    "id": "e841cf60-7210-4031-95fb-198770127c49",
+    "question_text": "An obstetrician have requested the development of a mobile application for expectant mothers with pregnancy complications to keep track of their's and their child's health status during pregnancy. He has a requested that the application has a report function that allows his patients to send him a consolidated report before their check-up session. He has given samples of the type of reports and information that he expects from his clients.\r\n\r\nWhich of the following describes the functional requirement of the application?",
+    "question_type": "single_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "24973c86-c15f-4c8b-8cc0-eba5bc7b9eaa",
+        "option_text": "The application should allow users to record the number of fetal movement felt in an hour at a specified time and day.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "be947b33-09a3-44f5-b86a-e5d651551441",
+        "option_text": "The user will be female between the ages of 16 to 50 and has experience using mobile applications.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "452ee01a-6df8-4895-a2ec-d34e12daf51f",
+        "option_text": "The application will be used at the obstetrician office.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "bc32a064-5fb7-42c0-8bd4-2f3ab2d0a97f",
+        "option_text": "The application must be executable on Android 5 and above.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:39:34.104955",
+    "updated_at": "2025-11-10T16:39:34.104970"
+  },
+  {
+    "id": "64417932-360d-4730-b0a3-e33814e9f6e0",
+    "question_text": "Which two aspects are the most important to take into consideration in the choice of data gathering technique to elicit requirements for a new e-learning platform?",
+    "question_type": "multiple_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "bd9802b5-94ae-458d-8953-b01fd758803e",
+        "option_text": "Tools available",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "ce53f9a6-dc64-4c15-a844-92d25c091578",
+        "option_text": "Age of the stakeholders",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "d1da25eb-5562-4c69-825f-7c5f3630c9ea",
+        "option_text": "Project deadlines and budget",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "97b3ecbc-3b45-4585-97d3-7a0e004d5941",
+        "option_text": "Availability of stakeholders",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:40:18.286631",
+    "updated_at": "2025-11-10T16:40:18.286651"
+  },
+  {
+    "id": "bb3d6ef8-7cc5-4dcb-8401-5d607045537c",
+    "question_text": "What are the two key advantages of using questionnaires for requirements gathering?",
+    "question_type": "multiple_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "889e4052-9b4c-4924-822d-7730fefe4388",
+        "option_text": "Questionnaires allow participants to be anonymous.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "f8a0eade-bcc6-437f-9c43-2a78102547e3",
+        "option_text": "A high number of participants is possible.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "50715a51-e1ae-49ba-947e-bb214a902254",
+        "option_text": "Statistically relevant statements on requirements can be made.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "8a359c12-c777-4330-8089-04a015228f36",
+        "option_text": "Questionnaires allow the participants' understanding to be validated.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:41:43.405776",
+    "updated_at": "2025-11-10T16:41:43.405794"
+  },
+  {
+    "id": "28474665-0b8a-4750-89df-2428a11d2ee2",
+    "question_text": "Contextual inquiry is a combination of:",
+    "question_type": "multiple_choice",
+    "category_id": "8f19ace1-3922-43d0-926c-6293460408fc",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "42c16a5d-2e26-4e57-8248-3546f547484f",
+        "option_text": "Interview",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "a26fb001-b2d0-4091-af5e-66f4d70017de",
+        "option_text": "Survey",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "1b24118e-addf-47bc-a17f-a4411365fc24",
+        "option_text": "Observation",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "692bf44e-1707-43d1-9620-9d8058461ad7",
+        "option_text": "Studying documentation",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:42:22.214599",
+    "updated_at": "2025-11-10T16:42:22.214611"
+  },
+  {
+    "id": "4acd903e-32a8-49de-a715-d46ec754a336",
+    "question_text": "Which of the following is an example of qualitative data?",
+    "question_type": "single_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "22339238-c5c7-44e5-b160-f82e8782e179",
+        "option_text": "Recording of a user",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "15c712da-e827-44e8-8877-b2b155ddba46",
+        "option_text": "Age",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "8bd52978-c88b-4194-8860-076c2530b861",
+        "option_text": "Likert scale responses",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "607a3932-ba0f-4abc-921b-3ed16a1c5c51",
+        "option_text": "Binary responses",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:43:31.695005",
+    "updated_at": "2025-11-10T16:43:31.695020"
+  },
+  {
+    "id": "84c90f9a-b44e-44bf-999a-f097e2b4ddd1",
+    "question_text": "The following describes the steps to prepare data for statistical analysis. Identify example activities that are performed for each step. ",
+    "question_type": "matching",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "Other Incorrect Match Options:\r\n- Interviewing the respondents again to clarify their response\r\n- Convert open responses into numeric values",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "42e68afc-16a2-481e-a168-391a822fad00",
+        "left_item": "Cleaning the data  ",
+        "right_item": "Checking if responses are correct",
+        "correct_match": 1,
+        "order": 0
+      },
+      {
+        "id": "04d18291-1490-4d74-a692-79d2d1a9de1d",
+        "left_item": "Coding the data  ",
+        "right_item": "Convert closed responses into numeric values",
+        "correct_match": 4,
+        "order": 1
+      },
+      {
+        "id": "44ec623c-dc62-40b1-8daf-2d4239ce1941",
+        "left_item": "Compute",
+        "right_item": "Calculate mean, median and mode",
+        "correct_match": 3,
+        "order": 2
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "81b04e03-0b46-4c74-9a03-116936c63ce6",
+        "right_item": "Interviewing the respondents again to clarify their response",
+        "order": 0
+      },
+      {
+        "id": "33b135d1-e9a4-4ca0-8701-2df414690695",
+        "right_item": "Checking if responses are correct",
+        "order": 1
+      },
+      {
+        "id": "e98abd4e-0cb9-4525-b27b-a2b00873ab54",
+        "right_item": "Convert open responses into numeric values",
+        "order": 2
+      },
+      {
+        "id": "85c590fe-3c77-4995-bd76-4060f72a40e2",
+        "right_item": "Calculate mean, median and mode",
+        "order": 3
+      },
+      {
+        "id": "191fbed9-36cf-43c9-ab60-f31ea303762f",
+        "right_item": "Convert closed responses into numeric values",
+        "order": 4
+      }
+    ],
+    "created_at": "2025-11-10T16:45:53.739855",
+    "updated_at": "2025-11-10T16:45:53.739875"
+  },
+  {
+    "id": "6e20d2bb-3a9b-4ece-a3f6-dcf146c4ac17",
+    "question_text": "We must always use SPSS software to analyze quantitative data. ",
+    "question_type": "single_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "4527634b-177d-4877-b208-6934fd927539",
+        "option_text": "True",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "91e7ace8-50c3-48f4-a8a0-847b137fe6a2",
+        "option_text": "False",
+        "is_correct": true,
+        "order": 1
+      }
+    ],
+    "created_at": "2025-11-10T16:46:39.214044",
+    "updated_at": "2025-11-10T16:46:39.214080"
+  },
+  {
+    "id": "f201546e-e4f7-4f53-948e-9d02d8704ed2",
+    "question_text": "Which of the following features can be used to describe a data?",
+    "question_type": "multiple_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "a37d67bc-598c-43b5-bb6d-faaa242fef91",
+        "option_text": "Mode",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "a7adeb43-162f-4e58-9af8-943ee0128289",
+        "option_text": "Standard deviation",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "58851ce0-0b86-4601-86d0-11c5cf52893a",
+        "option_text": "Mean",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "8fbf0387-8598-454d-b092-c55295c4dae7",
+        "option_text": "One-way ANOVA",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:47:18.898112",
+    "updated_at": "2025-11-10T16:47:18.898133"
+  },
+  {
+    "id": "af73571a-c33e-4004-8870-47c61c1ae35b",
+    "question_text": "Match the syntax to the meaning.",
+    "question_type": "matching",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "f2ceed77-df2d-47e7-bba2-3c036877af66",
+        "left_item": "Actor",
+        "right_item": "stick figure",
+        "correct_match": 0,
+        "order": 0
+      },
+      {
+        "id": "2afcff34-3408-4b99-903f-a0b0c9dc944a",
+        "left_item": "System",
+        "right_item": "rectangle box",
+        "correct_match": 6,
+        "order": 1
+      },
+      {
+        "id": "af87b8cf-acc1-4a33-a34f-6519bdca8639",
+        "left_item": "Associations",
+        "right_item": "solid lines",
+        "correct_match": 5,
+        "order": 2
+      },
+      {
+        "id": "bbf175c6-aaf8-4528-acb6-b47700e33994",
+        "left_item": "Use case",
+        "right_item": "ellipse",
+        "correct_match": 2,
+        "order": 3
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "5c813536-90c1-4ca4-b9f0-273a433a9ac5",
+        "right_item": "stick figure",
+        "order": 0
+      },
+      {
+        "id": "2ef29438-8f06-4b16-a30a-4e2081242465",
+        "right_item": "circle",
+        "order": 1
+      },
+      {
+        "id": "27b86562-71ff-46c4-bd0d-af9ea0829598",
+        "right_item": "ellipse",
+        "order": 2
+      },
+      {
+        "id": "45b30b8e-3c82-427d-a654-f6a0b85076ec",
+        "right_item": "triangle",
+        "order": 3
+      },
+      {
+        "id": "79a45166-9dd2-43fe-8291-44fea5e3d70d",
+        "right_item": "dash lines",
+        "order": 4
+      },
+      {
+        "id": "921e29e1-e657-4bbe-a785-6ae8774672ad",
+        "right_item": "solid lines",
+        "order": 5
+      },
+      {
+        "id": "859aebd6-f2c2-490c-a811-c8f81b471cab",
+        "right_item": "rectangle box",
+        "order": 6
+      }
+    ],
+    "created_at": "2025-11-10T16:48:58.172260",
+    "updated_at": "2025-11-10T16:49:12.130239"
+  },
+  {
+    "id": "f12cc7f0-0bc9-4193-8241-c5381dd5d0cf",
+    "question_text": "What do actors mean in a use-case diagram?",
+    "question_type": "multiple_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "9d988131-5807-4ece-99e9-d76fa9ad2cf4",
+        "option_text": "Internal system",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "536dbc48-ae25-40c7-a463-bc4d44301f0c",
+        "option_text": "Person",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "8931fe5e-620d-48d8-a0e6-9e4b3efc1c1c",
+        "option_text": "User",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "f492bebc-e563-4a0f-8893-2a4f0901910a",
+        "option_text": "Function",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:49:51.071731",
+    "updated_at": "2025-11-10T16:49:51.071746"
+  },
+  {
+    "id": "818fe865-0b6c-4b1d-87bb-e296d4cb7ef5",
+    "question_text": "Which of the following contents should be included in a persona?",
+    "question_type": "multiple_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "064e4274-c788-4490-8131-5afcba838e19",
+        "option_text": "Skill set",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "9e9cac18-7037-4f5a-8403-86b46cfd5cd0",
+        "option_text": "Sequence of Events",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "fe9c8bd9-aa87-45a2-a25c-02c81c3e1ab6",
+        "option_text": "Identity",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "233a7c1e-56a9-4100-ad5c-de851da070db",
+        "option_text": "Setting",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:50:44.031403",
+    "updated_at": "2025-11-10T16:50:44.031413"
+  },
+  {
+    "id": "327bd7f3-bf63-4775-9ea6-39b11c95813c",
+    "question_text": "Which of the following statements are TRUE?",
+    "question_type": "single_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "4507b745-7b79-4a36-92ca-bb6f5768dfa8",
+        "option_text": "It is ok to pre-empt an answer when asking questions during the interview",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "67045862-8db7-458b-928a-6469c63f8701",
+        "option_text": "Interviews can be used almost in any stage of the project",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "466b1796-ef5d-4362-95f0-3936de4bf576",
+        "option_text": "Unstructured interviews have a set of defined questions",
+        "is_correct": false,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T16:51:21.535379",
+    "updated_at": "2025-11-10T16:51:21.535394"
+  },
+  {
+    "id": "04aaaef4-78a5-4831-bab1-c65deb37dc35",
+    "question_text": "The figure below shows a HTA for the task of 'Joining a group on Canvas'. Which of the following statements are TRUE?",
+    "question_type": "multiple_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "image": "question_images/04aaaef4-78a5-4831-bab1-c65deb37dc35_Pasted image 20251109222703.png",
+    "choices": [
+      {
+        "id": "f7989a52-51a3-462d-b358-e0012e1f7209",
+        "option_text": "\"Join a group on Canvas\" should be set as Task 0.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "0c34af27-ccbc-4d0c-8e2b-a884526b2e1c",
+        "option_text": "To perform sub-task 1, plan 1 should be do 1.1 then 1.2",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "7f3e2ef9-20c7-4d6f-b0f8-2b1311baa033",
+        "option_text": "We should remove all the horizontal lines below the boxes.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "d1502ce4-f024-4834-a050-447f5c6ae8c5",
+        "option_text": "Sub-task \"Scroll to Group of choice\" and \"Click 'Join' \"should be set to Task 3 and Task 4 respectively.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T16:52:28.520235",
+    "updated_at": "2025-11-10T16:58:57.962148"
+  },
+  {
+    "id": "aba251fe-33bf-4cf4-9859-455db354ee55",
+    "question_text": "User stories in scenario-based design approach are created from the imagination of team members.",
+    "question_type": "single_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "9c33fb45-2537-4f82-9e4d-650e836a33c2",
+        "option_text": "True",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "57a9a281-a9f0-4a0c-b3de-16468a57423a",
+        "option_text": "False",
+        "is_correct": true,
+        "order": 1
+      }
+    ],
+    "created_at": "2025-11-10T16:59:29.909445",
+    "updated_at": "2025-11-10T16:59:29.909466"
+  },
+  {
+    "id": "52e6e346-d5f7-47ca-8058-a60d1665dc49",
+    "question_text": "Which of the following is TRUE about the affinity diagram?",
+    "question_type": "single_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "7e4b8365-83f1-4c42-a13f-ff9921b62fed",
+        "option_text": "Can be used to organize language data into themes.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "bf550182-712d-47f8-8ec3-db43882825a0",
+        "option_text": "We must crowd around a whiteboard to create an affinity diagram.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "ca281337-3049-45ea-98df-10bd5de11acd",
+        "option_text": "Put all data into one post-it note to save the trees.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "f6314223-10ad-4aa8-94bf-791a9805da58",
+        "option_text": "We cannot discard any of the cards during sorting.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:00:06.058364",
+    "updated_at": "2025-11-10T17:00:06.058378"
+  },
+  {
+    "id": "eff96cb9-9e8b-4292-a5b6-a781e00c7cef",
+    "question_text": "Which of the following statements are TRUE about personas?",
+    "question_type": "multiple_choice",
+    "category_id": "156d73ad-664f-41ee-8698-366eec625060",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "e33434e6-5581-450b-8df0-590b33d95385",
+        "option_text": "Can be used to inform design decisions",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "a28acac1-75b1-4d29-a742-4951a63f56bc",
+        "option_text": "They are created from data collected from actual people.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "5f89eebd-e17f-45c7-b4f8-316250aa8c53",
+        "option_text": "Can be used to replace real users during testing.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "69dca109-6969-421f-a744-59413dda3b92",
+        "option_text": "They are real living people.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:00:44.084524",
+    "updated_at": "2025-11-10T17:00:44.084623"
+  },
+  {
+    "id": "35e90e99-505a-4755-b862-5ce84489aee6",
+    "question_text": "Which of the following statements are FALSE?",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "81269882-a5cf-4b7a-b681-e23fcfa1c5dc",
+        "option_text": "Prototyping is all about making compromises.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "7b0771a3-a397-426c-b1ae-d5080ba1acba",
+        "option_text": "We must always use a prototyping tool to create prototypes.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "b2b6431b-980a-4156-ab77-2a1fd5621454",
+        "option_text": "Sketching is quick way to communicate ideas.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "c083917c-dbd3-4210-8ed8-cf6647e6f49c",
+        "option_text": "Aesthetics should be prioritised during prototyping.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:02:24.554744",
+    "updated_at": "2025-11-10T17:02:24.554990"
+  },
+  {
+    "id": "83a5d90c-0363-44d5-9110-995995614e38",
+    "question_text": "Select ALL statements about mental models that are TRUE.",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5450b0a8-d56f-4678-8b05-390a8a098e67",
+        "option_text": "The designer's mental model is called conceptual model.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "ed0ba34b-f5db-434f-98c7-f4acc4530f90",
+        "option_text": "If the user's mental model of the system is correct, the user will know how to use the system.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "5d53df17-f53c-4c33-a4fa-d31066c4920c",
+        "option_text": "Systems cannot be built without a clear mental model upfront..",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "69f7e3d4-1410-4c65-9f2a-1ce4e5f93046",
+        "option_text": "All users will have the same mental model when they look at the system.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:02:58.716685",
+    "updated_at": "2025-11-10T17:02:58.716711"
+  },
+  {
+    "id": "bdc57037-901c-4e84-9a57-f36b3879ef95",
+    "question_text": "Which of the following is TRUE about interface metaphors?\r\n",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "85b16a25-b60f-4e4f-85d0-75308055b8ca",
+        "option_text": "We must always use interface metaphors in our design.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c9e297bf-984e-4681-a72c-cf9c14744724",
+        "option_text": "'Surfing the web' is a metaphor to conceptualize what we do on the web.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "ef1fea0e-2c92-4692-8d0a-ef05d0e510bf",
+        "option_text": "Metaphors must be carefully designed to avoid confusion.",
+        "is_correct": true,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:03:27.301457",
+    "updated_at": "2025-11-10T17:03:27.301477"
+  },
+  {
+    "id": "7b896361-dc66-44c2-874e-a437075396a3",
+    "question_text": "Interaction types are the ways a person interacts with a product. Match each interaction type with respect to the user's action with the system. ",
+    "question_type": "matching",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "20ec11c4-0f12-4be0-98fe-35d3872ccd70",
+        "left_item": "Responding",
+        "right_item": "User receives information from the system and chooses whether to respond.",
+        "correct_match": 1,
+        "order": 0
+      },
+      {
+        "id": "399b046c-17a0-48b6-a2ee-9656c5808bda",
+        "left_item": "Instructing",
+        "right_item": "User tells system what to do.",
+        "correct_match": 2,
+        "order": 1
+      },
+      {
+        "id": "015490a3-aa15-434c-92c4-ebe6348635aa",
+        "left_item": "Conversing",
+        "right_item": "Users have a dialog with a system.",
+        "correct_match": 3,
+        "order": 2
+      },
+      {
+        "id": "04450e22-753a-4ec7-b0da-aa9662869552",
+        "left_item": "Exploring",
+        "right_item": "Users move through a virtual environment or a physical space.",
+        "correct_match": 4,
+        "order": 3
+      },
+      {
+        "id": "8c55a97b-2754-4714-a701-0fe253afc436",
+        "left_item": "Manipulating  ",
+        "right_item": "Users interact with objects in a virtual or physical space.",
+        "correct_match": 0,
+        "order": 4
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "aac68bb0-9ba8-4d30-a9df-47a4473ef922",
+        "right_item": "Users interact with objects in a virtual or physical space.",
+        "order": 0
+      },
+      {
+        "id": "f458fb56-d24a-4687-ad23-c1094b7cc504",
+        "right_item": "User receives information from the system and chooses whether to respond.",
+        "order": 1
+      },
+      {
+        "id": "08d4a5e0-eda3-4ee0-8fcb-f3cd3941b413",
+        "right_item": "User tells system what to do.",
+        "order": 2
+      },
+      {
+        "id": "04f63223-30c5-47a7-9feb-dfe4ca79ffc1",
+        "right_item": "Users have a dialog with a system.",
+        "order": 3
+      },
+      {
+        "id": "830df123-3013-48b0-8bbd-e6ab6fa6a9cc",
+        "right_item": "Users move through a virtual environment or a physical space.",
+        "order": 4
+      }
+    ],
+    "created_at": "2025-11-10T17:05:18.350965",
+    "updated_at": "2025-11-10T17:05:18.351007"
+  },
+  {
+    "id": "505c0bb5-89e7-44df-9092-37d089218839",
+    "question_text": "Which of the following statements are FALSE about interface types and interaction types.",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "ee686978-91aa-48f0-bf33-fe3265294552",
+        "option_text": "New interface types will emerge and existing interface types may become obsolete.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "af72ae83-b749-45b1-9daa-0dfc46ada25c",
+        "option_text": "We must always use menus and buttons for instructing.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "0b9028a8-0ae1-48a7-9097-6e1b90405452",
+        "option_text": "They are both referring to the same thing.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "7cc935c2-d1c1-4e66-9f2a-88b57d885f8b",
+        "option_text": "Both concepts are closely related but different.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:05:52.167540",
+    "updated_at": "2025-11-10T17:05:52.167561"
+  },
+  {
+    "id": "db04ba98-423f-4290-a407-4adcf687e510",
+    "question_text": "Which of the following statements are TRUE about selecting appropriate interface types for an application?",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0376b1aa-56b1-404b-901b-c143e98dfa90",
+        "option_text": "It is affected by the application's requirements.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "1c679573-26e3-45b2-881f-cdba4d6af8c5",
+        "option_text": "You must stick with what you know will work.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "6d89de7e-2d9c-427f-b401-2239260ebe4a",
+        "option_text": "It depends on the environment of use.",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "51aa6d95-7c1b-48e9-8ae8-4b8efe309319",
+        "option_text": "It must be determined by the users.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:06:44.369872",
+    "updated_at": "2025-11-10T17:06:44.369894"
+  },
+  {
+    "id": "a473dd8b-309c-40be-acd1-50e243f8bcff",
+    "question_text": "Select the most appropriate envisionment technique that you can use in the following situations:",
+    "question_type": "matching",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "Other Incorrect Match Options:\r\n- Balsamiq\r\n- Figma\r\n- Persona",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "726d0f15-7a8c-4d17-b860-190ea13f7407",
+        "left_item": "Describe the user actions in using the envisioned product and its surrounding context.  ",
+        "right_item": "Storyboard",
+        "correct_match": 4,
+        "order": 0
+      },
+      {
+        "id": "fe787635-a3b7-4661-9951-36d6370e8b84",
+        "left_item": "User's view of the screen when he launches the application for the first time.  ",
+        "right_item": "Wireframe",
+        "correct_match": 3,
+        "order": 1
+      },
+      {
+        "id": "2ce785fe-d58b-4e49-8a68-0dd1f53bdc9b",
+        "left_item": "A tangible representation that the participant can use during a usability test session.  ",
+        "right_item": "Prototype",
+        "correct_match": 5,
+        "order": 2
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "6c607890-13ff-42ca-bfbd-6177ce7268ed",
+        "right_item": "Balsamiq",
+        "order": 0
+      },
+      {
+        "id": "f4cc3881-50ef-4333-87cc-eaa24495134d",
+        "right_item": "Figma",
+        "order": 1
+      },
+      {
+        "id": "64762e9b-2822-44ba-8054-919598c662a4",
+        "right_item": "Persona",
+        "order": 2
+      },
+      {
+        "id": "bc924281-6f10-4459-9af6-448bb328e585",
+        "right_item": "Wireframe",
+        "order": 3
+      },
+      {
+        "id": "b1a6c337-f68c-4c45-af00-e5fd41545848",
+        "right_item": "Storyboard",
+        "order": 4
+      },
+      {
+        "id": "da1facea-1670-434d-8be7-3732db38aaae",
+        "right_item": "Prototype",
+        "order": 5
+      }
+    ],
+    "created_at": "2025-11-10T17:08:20.381802",
+    "updated_at": "2025-11-10T17:08:25.588842"
+  },
+  {
+    "id": "7004f197-0f4c-4199-9521-bc395656aef0",
+    "question_text": "Which of the following statements is FALSE?",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6608fd36-40ec-46f0-a2e3-8a294fd120a4",
+        "option_text": "You must use high grade writing utensils to create sketches.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "1f8a8b5a-b1d5-4041-94b6-324f7d880e50",
+        "option_text": "You need to spend a few days sketching to increase the chances of your colleagues listening to your ideas.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "c2b052f4-7f61-4b7b-8f17-74d74e68a121",
+        "option_text": "Sketching is a good communication tool during brainstorming.",
+        "is_correct": false,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:09:02.440908",
+    "updated_at": "2025-11-10T17:09:02.440920"
+  },
+  {
+    "id": "aed4e16a-af96-4f4d-9d1b-45301bf70d31",
+    "question_text": "Which of the following statements best describes the Wizard of Oz technique?",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "2723beae-ad7b-4ae9-97c0-8c35344a757d",
+        "option_text": "It is most useful to convince investors that the system is working and ready for production.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "6a0c4a7b-e282-49dd-b7fd-cc90cf34f2b7",
+        "option_text": "The user is under the impression that he is interacting with the actual system but the outputs seen by the user is generated by another person.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "a5854ef5-59af-4f0b-88cd-6a9c17a108b6",
+        "option_text": "Wizard is the name of the prototype.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "613147c3-8020-47cf-a5f5-65b906f58945",
+        "option_text": "The person who invented the technique lived in Oz.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:11:00.929122",
+    "updated_at": "2025-11-10T17:11:00.929133"
+  },
+  {
+    "id": "6e3c9b70-15b9-44be-a5b1-eeac9de860a7",
+    "question_text": "Which of the following statements are TRUE about video prototypes?",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "964188dc-7a2d-44ac-b178-ad5fd56811a0",
+        "option_text": "You must have experience in photography and cinematography to create them.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "1a93a954-eec8-4f03-b391-ee4fab56c99c",
+        "option_text": "Demonstrates dynamically and visually what the interaction looks like.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "63e6e719-e818-4046-b36b-8ec9f1a271fd",
+        "option_text": "It is interactive.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "611f1d8e-004e-4f11-8a53-5bd226810e9b",
+        "option_text": "It can be used to bring wireframe sketches to life.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:12:10.847634",
+    "updated_at": "2025-11-10T17:12:10.847645"
+  },
+  {
+    "id": "3af84605-ba4a-4b25-afd3-6b4db9e61c5f",
+    "question_text": "Which of the following are examples of low fidelity prototypes?",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6ee51800-0ef2-4aba-809b-fa656c849cc2",
+        "option_text": "Functional prototype created in Figma",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "122cfbcc-5f04-41ba-8eea-1ee790a677b3",
+        "option_text": "Sketches",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "e78bf362-9695-41ce-9622-f6ee5b68d008",
+        "option_text": "Paper prototypes",
+        "is_correct": true,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:13:05.924861",
+    "updated_at": "2025-11-10T17:13:05.924885"
+  },
+  {
+    "id": "eb36dbe5-36e3-4323-a508-f4e9a7d129c3",
+    "question_text": "Which of the following statements are TRUE about Wireframes?",
+    "question_type": "multiple_choice",
+    "category_id": "8940a5bd-45ea-4288-93ad-5783aade22da",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "a3ab9789-4fea-4f23-b0a6-52854a693aeb",
+        "option_text": "Outlines structure and layout of the page",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "07a626b0-738c-4d25-9b92-239962e8ef8d",
+        "option_text": "View of a single screen or interaction page",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "8f8fae1a-820a-48c9-8420-9d587b3bebc1",
+        "option_text": "Must be provided by the client.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "af36d446-b94a-4997-84eb-fb75e34fedf4",
+        "option_text": "Sequence of actions or events the user and the product go through to achieve goal",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:13:55.866113",
+    "updated_at": "2025-11-10T17:13:55.866126"
+  },
+  {
+    "id": "c22a8855-cce3-475b-a6de-1ada973e3c1f",
+    "question_text": "Select all evaluation techniques that requires users involvement.",
+    "question_type": "multiple_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "94aa2347-2c02-4bbd-b4fd-27c31b62901a",
+        "option_text": "Lab studies",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "19713c93-3b30-47e8-978d-fbaa213dd52f",
+        "option_text": "Heuristic Evaluation",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "2bd5c0c8-ca7a-4663-9773-c42765551447",
+        "option_text": "Fitts Law",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "04416a7c-5b86-4383-83ad-0955e11d6194",
+        "option_text": "In-the-wild studies",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:15:28.501783",
+    "updated_at": "2025-11-10T17:15:28.501810"
+  },
+  {
+    "id": "74fdf864-9cd6-4777-80d2-69cf502701f6",
+    "question_text": "Name the method that does not need user involvement for evaluation",
+    "question_type": "single_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "efae0d7a-f901-43a0-a4ee-418a3809f221",
+        "option_text": "Cognitive Walkthrough",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "4a46c991-34eb-4347-8e96-82e48038b624",
+        "option_text": "In-the-wild studies",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "229a18b3-7760-4490-940a-4d1b0b77154b",
+        "option_text": "Lab studies",
+        "is_correct": false,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:16:17.919046",
+    "updated_at": "2025-11-10T17:16:17.919062"
+  },
+  {
+    "id": "18ca45ab-10f4-496a-beb8-0cc3a29a8cb6",
+    "question_text": "Which of the following statements are TRUE about heuristic evaluation?",
+    "question_type": "multiple_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "015641d1-650e-4877-bafd-ee1ba6a236b7",
+        "option_text": "Involves expert users",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "0bdbe3df-bfef-42b0-9619-b92b20f1e3a4",
+        "option_text": "It can be used at early stages of design.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "dd46c69f-b23f-4016-a659-b622669f7b72",
+        "option_text": "You only need to note down principles that are violated.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "697ce62c-f055-4e90-a8b3-ecf4d254cd37",
+        "option_text": "It can be conducted alone.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:16:51.823515",
+    "updated_at": "2025-11-10T17:16:51.823535"
+  },
+  {
+    "id": "940e303c-5ca9-4b11-8fba-9db127534287",
+    "question_text": "What can we evaluate in HCI?",
+    "question_type": "multiple_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "662517b7-16dc-468f-8d68-4868e2d4aa9a",
+        "option_text": "Weather conditions",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "d2f88d90-d312-482f-8062-c111d038c32d",
+        "option_text": "Early and subsequent prototypes of the system",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "a87abbeb-6610-4b99-b611-6fd3a3e11523",
+        "option_text": "Conceptual model",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "58627ed1-c707-4721-b4bb-ce8a37ab7784",
+        "option_text": "Final product",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:17:32.236814",
+    "updated_at": "2025-11-10T17:17:32.236854"
+  },
+  {
+    "id": "9b612686-154e-48cc-bad6-f5365898d28e",
+    "question_text": "What are the benefits of running studies in naturalistic settings?",
+    "question_type": "single_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "df272c31-0291-40ea-b8d5-66b33f6bed3b",
+        "option_text": "Situation and behaviour are more natural",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "4722e98d-792a-4c27-ac5d-304e7006af00",
+        "option_text": "Easy to arrange and run",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "2cf54af9-f2d5-467b-ba39-dc29ef592f87",
+        "option_text": "Less time consuming compared to lab studies",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "4055a641-0e81-4378-b31d-6f6f59f4f65d",
+        "option_text": "Easy to control",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:18:24.799828",
+    "updated_at": "2025-11-10T17:18:24.799842"
+  },
+  {
+    "id": "5305e208-7ed4-491f-ab8c-049e862eb7cd",
+    "question_text": "Which of the following factors must be considered when you are determining the total number of participants required for a usability test?",
+    "question_type": "multiple_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "b66579e6-9b1d-4924-b7ec-b577c472d731",
+        "option_text": "Budget",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "c551e1bf-3c60-4ff1-adda-11b4bedbc301",
+        "option_text": "Test until there are no new insights",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "6f192d02-4eb6-4339-b3cb-023c10ddfcd2",
+        "option_text": "Test as many people as we can",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "7bc807fd-f366-4fd5-bf44-c93242654c17",
+        "option_text": "Time",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:19:05.355730",
+    "updated_at": "2025-11-10T17:19:05.355741"
+  },
+  {
+    "id": "04bc878d-9793-4636-ba8f-f4c2c78e4a23",
+    "question_text": "Which of the following statements are TRUE about usability tests?",
+    "question_type": "multiple_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "e39781ac-bf75-4412-85cf-2bd2358fb05e",
+        "option_text": "The participant is given tasks to complete using the prototype.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "ca9397f3-a2d6-4122-9c50-a6e36e98e06d",
+        "option_text": "We must always collect eye movement data, audio and visuals during the test.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "47f277a3-2381-4c0d-8e77-b041c97e0a1f",
+        "option_text": "Usability tests represent a natural situation",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "fcaa0503-eb31-4a4e-a7c0-5548596a04d4",
+        "option_text": "The participant should be allowed to stop when he wants to.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:19:58.394514",
+    "updated_at": "2025-11-10T17:19:58.394524"
+  },
+  {
+    "id": "70770114-795b-40d5-a224-e885bf9a8c0c",
+    "question_text": "It's good to have a combination of with and without participants methods when running evaluations",
+    "question_type": "single_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "93672e57-2212-468d-94a7-18429a1dbe42",
+        "option_text": "True",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "77a39b2e-701d-4d4f-abd3-c03b312d3417",
+        "option_text": "False",
+        "is_correct": false,
+        "order": 1
+      }
+    ],
+    "created_at": "2025-11-10T17:20:22.657776",
+    "updated_at": "2025-11-10T17:20:22.657795"
+  },
+  {
+    "id": "679401e3-e42b-4fef-981f-f6ad06419370",
+    "question_text": "Which of the following documents must you provide to the participant before a usability test?",
+    "question_type": "multiple_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "443dd3ed-c1c5-4c67-a5d4-316abcc0865e",
+        "option_text": "Post-questionnaire if any",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "26dfc463-3e9b-4bf9-96ce-797739724961",
+        "option_text": "Participant Information Statement",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "877b62ac-c4de-4365-9906-aa64074035e2",
+        "option_text": "Pre-questionnaire if any",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "bd386941-e251-4dd2-ad4f-8f79c7fab7cb",
+        "option_text": "Participant Consent Form",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:21:09.474481",
+    "updated_at": "2025-11-10T17:21:09.474493"
+  },
+  {
+    "id": "38742372-c22e-48c2-9806-79e0bb7081bf",
+    "question_text": "Select all types of quantitative data that can be measured during the a usability test session.",
+    "question_type": "multiple_choice",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "742698ab-b7b9-4d6a-8b7d-ce625cac2a97",
+        "option_text": "Number of errors made per task.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "12e3709d-ca0c-4566-999c-3f3c7aa4bc8d",
+        "option_text": "Number of navigations to the online help or manuals.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "6eea56be-2b53-4f33-bb6b-d09708ba6589",
+        "option_text": "Critical incidents that happen during the test.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "4144af80-b6b4-471d-955c-af240e9a7ca1",
+        "option_text": "Time taken to complete task.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:21:55.974610",
+    "updated_at": "2025-11-10T17:21:55.974629"
+  },
+  {
+    "id": "77136ec3-f6d4-450b-9623-cd8a75cd09e0",
+    "question_text": "Match example evaluation methods to their categories. \r\n",
+    "question_type": "matching",
+    "category_id": "6f75af8d-1f9f-404d-bcb7-97a425fd0d1c",
+    "explanation": "Other Incorrect Match Options:\r\n- Cognitive walkthrough",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "04d6a54a-f4bd-4192-b880-2f340f89f4a1",
+        "left_item": "Evaluation with users under controlled settings  ",
+        "right_item": "Usability test",
+        "correct_match": 1,
+        "order": 0
+      },
+      {
+        "id": "f6637a67-d76d-4772-867d-46a898555b4f",
+        "left_item": "Predictive model evaluation  ",
+        "right_item": "Fitts' Law",
+        "correct_match": 4,
+        "order": 1
+      },
+      {
+        "id": "4ca182a6-c8a4-4020-933d-d5bc10bbb3b8",
+        "left_item": "Compared with a set of known design rules  ",
+        "right_item": "Heuristic Evaluation",
+        "correct_match": 3,
+        "order": 2
+      },
+      {
+        "id": "08b0236d-5739-41f6-acb6-4374ceb5eae1",
+        "left_item": "Large-scale web experiment  ",
+        "right_item": "A/B Testing",
+        "correct_match": 0,
+        "order": 3
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "a2a4f029-4d4a-46f7-a214-41d2a9da90ea",
+        "right_item": "A/B Testing",
+        "order": 0
+      },
+      {
+        "id": "49e8881b-f155-4ca2-85c3-aac37d51cd98",
+        "right_item": "Usability test",
+        "order": 1
+      },
+      {
+        "id": "6401d9c9-bb5f-4ccd-a727-fb86b8d84d51",
+        "right_item": "Cognitive walkthrough",
+        "order": 2
+      },
+      {
+        "id": "54d609ce-cc9b-4014-be3d-4a43cb5f35ee",
+        "right_item": "Heuristic Evaluation",
+        "order": 3
+      },
+      {
+        "id": "60eaa494-c571-4968-96c3-c368e9bf053d",
+        "right_item": "Fitts' Law",
+        "order": 4
+      }
+    ],
+    "created_at": "2025-11-10T17:26:55.164094",
+    "updated_at": "2025-11-10T17:26:55.164119"
+  },
+  {
+    "id": "98ae1b62-ffe9-4cd8-b741-2a0b23a73ad3",
+    "question_text": "Which of the following methods are user studies?",
+    "question_type": "multiple_choice",
+    "category_id": "e36ebdaa-5fe9-49dc-9d0d-15d9b05702e4",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "cbbcb646-de96-43d0-8618-60fa72fadef6",
+        "option_text": "Field Studies",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "dd658626-9eb1-4764-b129-41a2373fc97e",
+        "option_text": "Usability Testing",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "58454ec2-37ae-441b-8341-d90e22900e6d",
+        "option_text": "Fitts Law",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "5559ce9e-2702-46f6-8959-fb7814fbc797",
+        "option_text": "Cognitive Walkthrough",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:27:57.632604",
+    "updated_at": "2025-11-10T17:27:57.632626"
+  },
+  {
+    "id": "aa1ef027-a9c8-4b45-87ea-e8ba8007ce8d",
+    "question_text": "You suspect that context menus will be easier for user's to make selection as opposed to cascading menus. You are planning an experiment to prove this. Match each term to correct statement:",
+    "question_type": "matching",
+    "category_id": "e36ebdaa-5fe9-49dc-9d0d-15d9b05702e4",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "53a29791-dbba-4bdf-b33e-87fb6f08fffb",
+        "left_item": "Independent variable  ",
+        "right_item": "Menu types",
+        "correct_match": 2,
+        "order": 0
+      },
+      {
+        "id": "64f7d4fe-d359-406f-ab4e-fa769688ac88",
+        "left_item": "Dependent variable  ",
+        "right_item": "Time taken to select an option",
+        "correct_match": 5,
+        "order": 1
+      },
+      {
+        "id": "88dc1a14-f3fa-4cc9-bbff-c0ae26cab6c6",
+        "left_item": "Hypothesis",
+        "right_item": "It is faster to select options from context menus than cascade menus.",
+        "correct_match": 0,
+        "order": 2
+      },
+      {
+        "id": "605d967d-3c9b-4b7f-b96e-f06deef3d5eb",
+        "left_item": "Control variables  ",
+        "right_item": "Option labels on menus",
+        "correct_match": 1,
+        "order": 3
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "4546049d-fdbd-4204-9879-5142587e897e",
+        "right_item": "It is faster to select options from context menus than cascade menus.",
+        "order": 0
+      },
+      {
+        "id": "514b4bf4-130b-44c4-a339-d3d47993cf48",
+        "right_item": "Option labels on menus",
+        "order": 1
+      },
+      {
+        "id": "08425cb5-d177-4974-99e0-945b68153d97",
+        "right_item": "Menu types",
+        "order": 2
+      },
+      {
+        "id": "070b191d-26df-4c33-8279-47eb08e5c21a",
+        "right_item": "Facilitator",
+        "order": 3
+      },
+      {
+        "id": "d3eab3e7-263d-4dc6-ac17-73ca5037364e",
+        "right_item": "Participants",
+        "order": 4
+      },
+      {
+        "id": "2a4a7ac1-a1ed-4b55-bb1b-2a07fa3f9578",
+        "right_item": "Time taken to select an option",
+        "order": 5
+      }
+    ],
+    "created_at": "2025-11-10T17:29:34.440930",
+    "updated_at": "2025-11-10T17:29:34.440967"
+  },
+  {
+    "id": "62bd0ea8-6ae3-4804-a640-8c72b7d390c6",
+    "question_text": "Which of the following statements are TRUE about counterbalancing?",
+    "question_type": "multiple_choice",
+    "category_id": "e36ebdaa-5fe9-49dc-9d0d-15d9b05702e4",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6da43dce-bd81-4d26-9e22-b01f5aba3577",
+        "option_text": "All your participants must be able to do Latin square counterbalancing.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "bf55d02f-f316-473b-8754-4866fec121f6",
+        "option_text": "It is used by within-subjects design to reduce order effect.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "f23b87e3-4339-4075-9348-9de42d41b30e",
+        "option_text": "It is used by between-subjects design to reduce order effect.",
+        "is_correct": false,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:30:03.224797",
+    "updated_at": "2025-11-10T17:30:03.224810"
+  },
+  {
+    "id": "81a9c34c-56cb-4d7b-8003-c2d0221434cd",
+    "question_text": "Identify suitable evaluation methods for each of the following situations:",
+    "question_type": "matching",
+    "category_id": "e36ebdaa-5fe9-49dc-9d0d-15d9b05702e4",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "2f7659b9-2ddf-4e65-9e99-efcec123481c",
+        "left_item": "Usability of a paper prototype.  ",
+        "right_item": "Usability Testing",
+        "correct_match": 3,
+        "order": 0
+      },
+      {
+        "id": "ec7e9a52-0d2b-4d62-9de1-4329ccbc9a54",
+        "left_item": "Create knowledge about a population of study.  ",
+        "right_item": "Experiments",
+        "correct_match": 1,
+        "order": 1
+      },
+      {
+        "id": "e7d6a445-9e20-4031-9111-51a0a495dcd6",
+        "left_item": "Identify opportunities provided by new technology  ",
+        "right_item": "Field Studies",
+        "correct_match": 0,
+        "order": 2
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "50b7451f-ece0-4d1f-87c2-c51e11f28121",
+        "right_item": "Field Studies",
+        "order": 0
+      },
+      {
+        "id": "28d62a77-92a3-4558-947e-6a2142f6d3c3",
+        "right_item": "Experiments",
+        "order": 1
+      },
+      {
+        "id": "a379fdab-9359-41da-9ff9-b275029279a7",
+        "right_item": "Web analytics",
+        "order": 2
+      },
+      {
+        "id": "efc2415d-5fdd-4a8b-b561-c81e797b6587",
+        "right_item": "Usability Testing",
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:31:49.517322",
+    "updated_at": "2025-11-10T17:31:49.517351"
+  },
+  {
+    "id": "e988d07c-7ecb-46ea-8453-53db89924519",
+    "question_text": "Which of the following statements are FALSE about field studies?",
+    "question_type": "multiple_choice",
+    "category_id": "e36ebdaa-5fe9-49dc-9d0d-15d9b05702e4",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "c46190ef-4825-4d57-91b4-7319debf503c",
+        "option_text": "You give participants the flexibility to do what they like with the prototype.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "6fa804e9-8509-4a56-81ec-1e1b2059ce79",
+        "option_text": "It is not considered human research.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "7e48eaab-e8d1-4fc9-b6d2-081321ba4268",
+        "option_text": "Field study and in-the-wild study are the same thing.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "ea729105-c89e-4185-bba8-8f8f52da73f5",
+        "option_text": "You will need to shadow your participant the whole day in order to record the data.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:32:32.698760",
+    "updated_at": "2025-11-10T17:32:32.698782"
+  },
+  {
+    "id": "e42aeca8-23c4-49e5-8414-2e1714cbf441",
+    "question_text": "Match the following description to the correct experimental design setup:",
+    "question_type": "matching",
+    "category_id": "e36ebdaa-5fe9-49dc-9d0d-15d9b05702e4",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "3a2c75ee-ccfb-4895-b7ca-fb87c893454f",
+        "left_item": "All participants are allocated to only one test condition.  ",
+        "right_item": "Between-subjects design",
+        "correct_match": 2,
+        "order": 0
+      },
+      {
+        "id": "ace7c643-4085-4fdb-b76c-6cec433d4a9e",
+        "left_item": "All participants will be exposed to all test conditions.  ",
+        "right_item": "Within-subjects design",
+        "correct_match": 0,
+        "order": 1
+      },
+      {
+        "id": "f1eb0c8c-e911-4730-b1aa-d09cffec45fa",
+        "left_item": "Individual differences among participants is an issue.  ",
+        "right_item": "Between-subjects design",
+        "correct_match": 2,
+        "order": 2
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "6461d57b-8cad-4368-93c0-15013f064dad",
+        "right_item": "Within-subjects design",
+        "order": 0
+      },
+      {
+        "id": "191c2c5c-854b-4822-8fa1-48ba22f5a539",
+        "right_item": "Together-subjects design",
+        "order": 1
+      },
+      {
+        "id": "fb2c8a2a-9c69-4cc1-a215-a4a7a04e6d53",
+        "right_item": "Between-subjects design",
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:33:36.442069",
+    "updated_at": "2025-11-10T17:33:36.442088"
+  },
+  {
+    "id": "b1bd1455-2d0e-4dfb-a1a0-126931982f38",
+    "question_text": "Which of the following statements are FALSE about  usability testing?\r\n",
+    "question_type": "multiple_choice",
+    "category_id": "e36ebdaa-5fe9-49dc-9d0d-15d9b05702e4",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5a06a5b0-a398-4177-ad0c-8d09f0d2da44",
+        "option_text": "Must be replicable",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "c99f0ea1-861c-47dd-bdf5-bbf4e4f2bde9",
+        "option_text": "Discover new knowledge",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "eacfde3a-ea36-4602-801b-b680499ec08f",
+        "option_text": "Need many participants",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "be1c5968-8bfe-4461-afdb-735bc6654d53",
+        "option_text": "Conditions do not have to be strongly controlled.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:34:32.854212",
+    "updated_at": "2025-11-10T17:34:32.854224"
+  },
+  {
+    "id": "b3f057ca-c724-4414-9bdd-eb7ec08aa9f4",
+    "question_text": "Which of the following needs to be considered during experimental design?",
+    "question_type": "multiple_choice",
+    "category_id": "e36ebdaa-5fe9-49dc-9d0d-15d9b05702e4",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "a4273205-1253-4a3d-88bc-4f85fbaaf153",
+        "option_text": "Supervisor's view of experiment",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "0e47f013-0d1a-4e03-b092-e35529879d00",
+        "option_text": "Allocation of participants to test conditions",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "34566123-bd0a-46d3-bfbd-244be120bd58",
+        "option_text": "Participant selection and recruitment",
+        "is_correct": true,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:35:07.749538",
+    "updated_at": "2025-11-10T17:35:07.749548"
+  },
+  {
+    "id": "5ed0372c-6bb0-46f5-b633-338612a9be8a",
+    "question_text": "Which HCI evaluation method involves observing users as they interact with a system in a controlled environment?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "cd588c4f-2e21-424d-abe6-91e6c1c80726",
+        "option_text": "Observations",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "2def9a53-7fb3-413e-86b5-43508caae95f",
+        "option_text": "Interviews",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "caed5742-4ac6-48ce-a788-af6f091089e2",
+        "option_text": "Usability testing",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "083e2ea5-f741-4f45-8845-44f9141c69c5",
+        "option_text": "Surveys",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:36:12.060564",
+    "updated_at": "2025-11-10T17:36:12.060583"
+  },
+  {
+    "id": "1566c33c-e2cb-45d1-b6a2-e5fdf6dd2b06",
+    "question_text": "Which of the following is NOT a usability heuristic developed by Jakob Nielsen?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "e56eb916-f79f-4a65-a9db-452ee83fec39",
+        "option_text": "Visibility of system status",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c8a2cbc1-5533-45ab-965e-663120f2738a",
+        "option_text": "Error prevention",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "a317925b-f022-451c-b09e-0f998e419ab4",
+        "option_text": "System adaptability",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "6444724f-53fd-4b77-b351-1fca01115c5c",
+        "option_text": "Match between system and the real world",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:36:48.395763",
+    "updated_at": "2025-11-10T17:36:48.395776"
+  },
+  {
+    "id": "c1f4d5cd-db1a-41e6-969b-af207138c25c",
+    "question_text": "Which HCI evaluation technique involves an expert going through the prototype pretending to be a user of the system",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "3263fd73-bb15-4fcd-bc2f-9b944c04faf0",
+        "option_text": "Card sorting",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "5e151818-fd9c-405a-b38d-92731fa18af1",
+        "option_text": "Eye tracking",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "27df75e3-179c-4325-8cf3-403c29db165e",
+        "option_text": "Think Aloud",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "4eb9f656-b9e4-468f-90f9-082bd8895e53",
+        "option_text": "Cognitive walkthrough",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:37:22.338389",
+    "updated_at": "2025-11-10T17:37:22.338407"
+  },
+  {
+    "id": "2fa21246-356e-4a87-bde1-f418b2cdbbfa",
+    "question_text": "What is the purpose of A/B testing in HCI evaluation?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "78511dab-4cce-4ff1-bfc7-36d52ba59431",
+        "option_text": "To gather demographic information about users",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "19b46787-3c92-4939-801b-a7726d8856fb",
+        "option_text": "To assess the user's cognitive load",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "85a835ac-bb43-42df-be72-3872f0204531",
+        "option_text": "To conduct user interviews",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "7dd070f9-d0b3-497c-8426-8ee6dc4da789",
+        "option_text": "To compare two different user interface designs",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:37:54.563514",
+    "updated_at": "2025-11-10T17:37:54.563526"
+  },
+  {
+    "id": "0ee7e2cb-0ca1-4b9e-87ef-73dc9c895b23",
+    "question_text": "In HCI, what does the term \"affordance\" refer to?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "4518337b-af8c-4826-8938-995b4c783278",
+        "option_text": "The visual cues that suggest how an object can be used",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "bb28836d-778a-484e-ac0e-e4244ceed69d",
+        "option_text": "The time it takes for a user to complete a task",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "1b5b0e6b-422d-47f2-85a7-510d26db80fb",
+        "option_text": "The ability of a user interface to adapt to different devices",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "bb25cef9-29a1-4e9d-8ce0-b0a4454e7813",
+        "option_text": "The perceived value of a product",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:41:14.909894",
+    "updated_at": "2025-11-10T17:41:14.909904"
+  },
+  {
+    "id": "6a30a056-7356-4916-a75e-4b277a950beb",
+    "question_text": "Which of the following is a benefit of using paper prototypes in HCI?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "331f7ecf-35de-439c-9004-db16d18c9021",
+        "option_text": "They allow for realistic user interactions.",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "a0def41e-cfcf-4688-89a8-9cb4b969881c",
+        "option_text": "They are easy to create and modify.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "c9e829db-7b84-4040-872d-57947b0ffc50",
+        "option_text": "They can be used for quantifying user performance.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "299ba422-61be-44b1-a2bb-340bf269618e",
+        "option_text": "They are fully functional and represent the final product.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:41:48.493835",
+    "updated_at": "2025-11-10T17:41:48.493846"
+  },
+  {
+    "id": "cc927254-4819-4ed7-8f6f-979b96b02849",
+    "question_text": "In HCI, what is the purpose of usability testing with prototypes?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "cfc7a3ca-d464-4634-90be-a22a16e67a78",
+        "option_text": "To uncover usability issues and gather user feedback",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "0683d896-a62d-4143-af0d-eaeae5f6f352",
+        "option_text": "To create a final product specification",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "6a699c20-3b50-4dc1-a4f3-e5a1ab7b0e5c",
+        "option_text": "To validate the prototype's visual design",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "e8dae83c-9de4-48c9-a4e7-2e7974999c7b",
+        "option_text": "To simulate real-world usage of the final product",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:42:30.672813",
+    "updated_at": "2025-11-10T17:42:30.672827"
+  },
+  {
+    "id": "e81ea7fa-196e-4cd8-b4cd-67befe391ad8",
+    "question_text": "Which prototyping technique involves creating a physical model or representation of a user interface using tangible materials like clay or foam?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "f3ed8ec4-9347-4396-883d-3eb2037cd920",
+        "option_text": "Digital prototyping",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "b594bca4-c5d3-45f6-aebc-5773a0684037",
+        "option_text": "Paper prototyping",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "6d2ca209-de46-4f6d-957d-d62bff53c900",
+        "option_text": "Physical prototyping",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "237938cf-764c-41c5-8081-618154c62e56",
+        "option_text": "Storyboarding",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:43:12.274600",
+    "updated_at": "2025-11-10T17:43:12.274617"
+  },
+  {
+    "id": "23ac5e27-1610-43ce-a130-d501e960d0dc",
+    "question_text": "\"Help and documentation\" is one of Nielsen's usability heuristics. What does it suggest?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "53ed4754-bd39-4711-bd37-41bcdc425ee0",
+        "option_text": "Hiding user assistance options to reduce clutter",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "22d1e2e9-a674-451b-80ef-e3665afd14ec",
+        "option_text": "Providing a dedicated customer support hotline",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "f8ad2062-9d30-469f-bed1-45f54454efdf",
+        "option_text": "Offering context-sensitive help within the interface",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "139ab6ec-53a0-47fa-a079-fdcd85d0fe00",
+        "option_text": "Providing comprehensive user manuals for all software",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:43:44.451788",
+    "updated_at": "2025-11-10T17:43:44.451810"
+  },
+  {
+    "id": "e0b871a7-6169-4667-a898-d75aa19c4254",
+    "question_text": "\"Recognition rather than recall\" is one of Nielsen's usability heuristics. What does it mean?",
+    "question_type": "single_choice",
+    "category_id": "9fa46169-2ca2-4f11-894b-a9f31775406c",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "85dba8e7-53b8-4438-afb9-ebfeed26f907",
+        "option_text": "Users should rely on their memory instead of on-screen instructions",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e7374ad5-ecb5-49d4-94df-5657d0652146",
+        "option_text": "Users must remember all interface features without any cues",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "166500a9-eec0-443b-8e60-d07ff805f004",
+        "option_text": "Recognition is not as important as recall in usability",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "61006916-fb71-4e92-a300-f56dfdd87c06",
+        "option_text": "Users should be able to recognise and use features rather than memorise them",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:44:38.115779",
+    "updated_at": "2025-11-10T17:44:38.115812"
+  },
+  {
+    "id": "dbae5767-cc78-424a-a449-1b186a7ceb0e",
+    "question_text": "Which of the following statements are TRUE about Command Line Interfaces (CLI)?",
+    "question_type": "multiple_choice",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "60753053-83a0-401c-8671-e0dc3f5f082e",
+        "option_text": "It is usually typed into a command prompt.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "8537059e-216e-4edf-9a26-1f83f466a7d3",
+        "option_text": "It can provide better accessibility for the visually impaired as it can be used together with screen readers and speech recognition software.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "a97c8fa8-db23-456a-bf07-c7052cdb8d47",
+        "option_text": "There is usually a picture representation to explain what each line of command means.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "8358f850-bd90-4b2d-9f8b-bf2b288875bc",
+        "option_text": "It is an old-fashioned interface type that is no longer adopted by any applications.",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:45:34.154949",
+    "updated_at": "2025-11-10T17:45:34.154980"
+  },
+  {
+    "id": "68e8f0fb-f6f2-4838-a41b-35fece894caa",
+    "question_text": "Match the description to each term",
+    "question_type": "matching",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "f8f62386-4e49-4a08-b5e0-8653d23fd905",
+        "left_item": "Command-Line Interfaces (CLI)  ",
+        "right_item": "Accept the input through keyboard",
+        "correct_match": 4,
+        "order": 0
+      },
+      {
+        "id": "c2ca3860-dcf2-44ba-b85d-999cda87204e",
+        "left_item": "Graphical User Interfaces (GUI)  ",
+        "right_item": "Intuitive, do not need any expertise, not the most efficient for batch tasks",
+        "correct_match": 1,
+        "order": 1
+      },
+      {
+        "id": "a1c04326-2ef0-4ca1-8301-f9cc8ca0d88b",
+        "left_item": "Interactive surfaces  ",
+        "right_item": "Are used in smart watches, smart walls, and even in artistic installations",
+        "correct_match": 3,
+        "order": 2
+      },
+      {
+        "id": "aa1f5ea5-bbfc-405d-94d6-3199f6c81cfa",
+        "left_item": "Virtual reality  ",
+        "right_item": "Computer simulated environment, where the sensory experience is artificially created",
+        "correct_match": 2,
+        "order": 3
+      },
+      {
+        "id": "aab0748c-bdb8-4311-8cfa-3eb3e79b3e7e",
+        "left_item": "Wearable interfaces  ",
+        "right_item": "Are always on and come in various form factors",
+        "correct_match": 0,
+        "order": 4
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "bc6471ac-da22-4471-92ac-4c68e3f1ee37",
+        "right_item": "Are always on and come in various form factors",
+        "order": 0
+      },
+      {
+        "id": "e4cdae96-a963-405d-bfd2-660bf2e8ac7d",
+        "right_item": "Intuitive, do not need any expertise, not the most efficient for batch tasks",
+        "order": 1
+      },
+      {
+        "id": "aac44dcd-fd16-425a-8628-827bb244d3ec",
+        "right_item": "Computer simulated environment, where the sensory experience is artificially created",
+        "order": 2
+      },
+      {
+        "id": "25a1ef33-2c22-4fb7-a5d5-fea73d8729aa",
+        "right_item": "Are used in smart watches, smart walls, and even in artistic installations",
+        "order": 3
+      },
+      {
+        "id": "e3db1732-335e-442c-ba6d-809837511b9a",
+        "right_item": "Accept the input through keyboard",
+        "order": 4
+      }
+    ],
+    "created_at": "2025-11-10T17:50:15.145526",
+    "updated_at": "2025-11-10T17:50:15.145565"
+  },
+  {
+    "id": "f70c7e22-c3b1-4f87-aa48-d32eb7470689",
+    "question_text": "Which of the following are TRUE about wearable computing?",
+    "question_type": "multiple_choice",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "f416fcce-58bb-469e-9cdf-234a50bad1a5",
+        "option_text": "Wearable interfaces can take on many form factors other formats other than the watch such as accessories, clothes and skin tattoos.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "210911cd-50d9-44df-b5c4-728a969410e3",
+        "option_text": "The essence of wearable computing is to embed computers into anythig that we normally use to cover or accessorize our bodies.",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "df8e95a5-4240-45af-8d11-0067c7a6f880",
+        "option_text": "The laptop is an example of wearable computing because you place it on your lap.",
+        "is_correct": false,
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:50:57.240777",
+    "updated_at": "2025-11-10T17:50:57.240802"
+  },
+  {
+    "id": "6f99e9c1-461a-4b7c-a3bb-a833128552e7",
+    "question_text": "Match the description to each term.",
+    "question_type": "matching",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "8f894f07-e3b0-417a-bc48-a020550cecc1",
+        "left_item": "Users are completely immerse in a completely different world from the physical world.  ",
+        "right_item": "Virtual Reality",
+        "correct_match": 0,
+        "order": 0
+      },
+      {
+        "id": "43dcd819-0960-40f9-b5cd-8e1e87a2ded9",
+        "left_item": "User views an overlay of digital graphics over a video stream of the physical world.  ",
+        "right_item": "Augmented Reality",
+        "correct_match": 2,
+        "order": 1
+      },
+      {
+        "id": "86f03330-b02c-4ce7-a359-0deb6f48867f",
+        "left_item": "Virtual objects are part of the real world in real-time.  ",
+        "right_item": "Mixed Reality",
+        "correct_match": 1,
+        "order": 2
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "44e0a4fe-3ada-46e4-8f94-349286ff7cc4",
+        "right_item": "Virtual Reality",
+        "order": 0
+      },
+      {
+        "id": "95f94142-24f2-4488-b80f-0c4a02265912",
+        "right_item": "Mixed Reality",
+        "order": 1
+      },
+      {
+        "id": "cf08e3c2-7dab-44fb-aa64-a716032ea054",
+        "right_item": "Augmented Reality",
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:51:54.031165",
+    "updated_at": "2025-11-10T17:51:54.031174"
+  },
+  {
+    "id": "a5238c45-b0e0-4be9-b757-04b7de4474cd",
+    "question_text": "Which of the following are aspects of Post WIMP interfaces?",
+    "question_type": "multiple_choice",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "071d2f37-73e7-42c6-8e63-afca6abb66f7",
+        "option_text": "Naive maths",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e9438d98-45e2-4352-82b6-e6eda5490788",
+        "option_text": "Social awareness and skills",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "6126496c-ff01-430e-8ab6-b93ec047c5bc",
+        "option_text": "Spatial awareness and skills",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "9056c60f-8632-43e5-9ef3-7f47b8befa91",
+        "option_text": "Naive physics",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:52:29.705746",
+    "updated_at": "2025-11-10T17:52:29.705764"
+  },
+  {
+    "id": "fad93d1e-9ebd-4903-8620-e84be45c459b",
+    "question_text": "Why do we need to understand the mechanism of face-to-face conversations?",
+    "question_type": "multiple_choice",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "cd17c913-6472-4d74-8b42-0ada5b0075b4",
+        "option_text": "To design communication tools to support remote conversations between people better.",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "c1aeff12-82c3-4e48-b2a1-f10580221b03",
+        "option_text": "It is part of the syllabus.",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "7c504c5b-1597-4d0e-8bf7-4fc637f37a49",
+        "option_text": "Improves my contribution in the Group Project.",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "2397792f-05c1-4e7a-bdfb-c6c74f48518b",
+        "option_text": "It can be used to design the dialogues that take place between users and chatbots or voice assistants.",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:53:12.180265",
+    "updated_at": "2025-11-10T17:53:12.180275"
+  },
+  {
+    "id": "d3ec708b-e5ce-4da3-8dfa-7e94a7a3f58e",
+    "question_text": "Select the description that explains the difference between each term. ",
+    "question_type": "matching",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "153821ce-dc29-4e7c-a6e9-565e3178d369",
+        "left_item": "Co-presence  ",
+        "right_item": "Sense of being in the same virtual place or environment with the team..",
+        "correct_match": 2,
+        "order": 0
+      },
+      {
+        "id": "be7b7722-19ac-4b78-bfa1-c377d4c3c426",
+        "left_item": "Telepresence  ",
+        "right_item": "Sense of being present while being physically located at a different location.",
+        "correct_match": 1,
+        "order": 1
+      },
+      {
+        "id": "d2a7252f-44e9-4686-9bd2-641c9fa6f3a1",
+        "left_item": "Social presence  ",
+        "right_item": "Degree of awareness, feeling and reaction to other people who are virtually present in the online environment.",
+        "correct_match": 0,
+        "order": 2
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "e39ec338-d868-4436-af41-a6cdc30af763",
+        "right_item": "Degree of awareness, feeling and reaction to other people who are virtually present in the online environment.",
+        "order": 0
+      },
+      {
+        "id": "7e9b7398-b4a5-4b75-a929-dcdde0a80120",
+        "right_item": "Sense of being present while being physically located at a different location.",
+        "order": 1
+      },
+      {
+        "id": "5c6f0447-79ea-4a2e-a616-c1612a5552dc",
+        "right_item": "Sense of being in the same virtual place or environment with the team..",
+        "order": 2
+      }
+    ],
+    "created_at": "2025-11-10T17:54:20.952338",
+    "updated_at": "2025-11-10T17:54:20.952374"
+  },
+  {
+    "id": "1af82096-01db-46f6-8b5d-ac805925de8a",
+    "question_text": "The time/space groupware matrix classifies collaborative application into four categories. Match the descriptions to explain what each category means.\r\n",
+    "question_type": "matching",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "matching_pairs": [
+      {
+        "id": "b6a1f322-dcb1-47b5-92ea-695a64db434e",
+        "left_item": "Same time  ",
+        "right_item": "Synchronous",
+        "correct_match": 2,
+        "order": 0
+      },
+      {
+        "id": "f436d7b8-e453-46e6-8334-de9ac1c8b82d",
+        "left_item": "Different time  ",
+        "right_item": "Asynchronous",
+        "correct_match": 3,
+        "order": 1
+      },
+      {
+        "id": "931ca6ff-2e82-41b3-a979-5fc6d34f9cf8",
+        "left_item": "Same place  ",
+        "right_item": "Co-located ",
+        "correct_match": 0,
+        "order": 2
+      },
+      {
+        "id": "e119560c-b1cc-4d32-8146-738d280affd8",
+        "left_item": "Different place  ",
+        "right_item": "Remote",
+        "correct_match": 1,
+        "order": 3
+      }
+    ],
+    "matching_definitions": [
+      {
+        "id": "34d2a2c4-37f0-49d5-836a-673274df7960",
+        "right_item": "Co-located ",
+        "order": 0
+      },
+      {
+        "id": "5c23a171-ace4-4fdb-8d72-a76dec2f350b",
+        "right_item": "Remote",
+        "order": 1
+      },
+      {
+        "id": "d8e6419a-be07-422f-83d5-2e2d2567f8cc",
+        "right_item": "Synchronous",
+        "order": 2
+      },
+      {
+        "id": "7abcdb1f-bdf5-454a-9ae4-a2188795ff0f",
+        "right_item": "Asynchronous",
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:55:21.760441",
+    "updated_at": "2025-11-10T17:55:21.760451"
+  },
+  {
+    "id": "fe835424-dff6-497c-8ec6-10aeef90dfee",
+    "question_text": "Which of the following statements are TRUE about speech interfaces?",
+    "question_type": "multiple_choice",
+    "category_id": "046cf0ff-58da-4ed8-94cc-39e840fb27b1",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "650f2a2d-0d41-4269-a7f1-37a27bfd6344",
+        "option_text": "Speech interfaces use the exploring interaction style",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "dac0d095-003f-4432-9775-af778f0496b9",
+        "option_text": "Speech interfaces enable hands-free interaction",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "1c56c5d2-5c5b-430b-b532-b6efdec3e799",
+        "option_text": "Speech interfaces use the conversing interaction style",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "08de535b-feba-47a9-9cf1-1d27828b732c",
+        "option_text": "Speech interfaces use the manipulating interaction style",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2025-11-10T17:55:56.740352",
+    "updated_at": "2025-11-10T17:55:56.740366"
+  }
+]

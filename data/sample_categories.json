@@ -1,0 +1,17 @@
+[
+  {
+    "id": "example-cat-1",
+    "name": "Mathematics",
+    "description": "Math questions for algebra, geometry, and calculus"
+  },
+  {
+    "id": "example-cat-2",
+    "name": "Science",
+    "description": "Biology, Chemistry, and Physics questions"
+  },
+  {
+    "id": "example-cat-3",
+    "name": "History",
+    "description": "World history and historical events"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sample-q1",
+    "question_text": "What is the capital of France?",
+    "question_type": "single_choice",
+    "category_id": "example-cat-3",
+    "explanation": "Paris has been the capital of France since the 12th century.",
+    "points": 1,
+    "choices": [
+      {
+        "id": "opt1",
+        "option_text": "London",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "opt2",
+        "option_text": "Berlin",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "opt3",
+        "option_text": "Paris",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "opt4",
+        "option_text": "Madrid",
+        "is_correct": false,
+        "order": 3
+      }
+    ],
+    "created_at": "2024-11-11T10:00:00",
+    "updated_at": "2024-11-11T10:00:00"
+  },
+  {
+    "id": "sample-q2",
+    "question_text": "Which of the following are prime numbers?",
+    "question_type": "multiple_choice",
+    "category_id": "example-cat-1",
+    "explanation": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. 2, 3, 5, and 7 are all prime numbers.",
+    "points": 2,
+    "choices": [
+      {
+        "id": "opt5",
+        "option_text": "2",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "opt6",
+        "option_text": "3",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "opt7",
+        "option_text": "4",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "opt8",
+        "option_text": "5",
+        "is_correct": true,
+        "order": 3
+      }
+    ],
+    "created_at": "2024-11-11T10:05:00",
+    "updated_at": "2024-11-11T10:05:00"
+  },
+  {
+    "id": "sample-q3",
+    "question_text": "Match each scientist with their famous discovery:",
+    "question_type": "matching",
+    "category_id": "example-cat-2",
+    "explanation": "These scientists made groundbreaking discoveries that changed our understanding of the world.",
+    "points": 3,
+    "matching_pairs": [
+      {
+        "id": "pair1",
+        "left_item": "Isaac Newton",
+        "right_item": "Law of Universal Gravitation",
+        "order": 0
+      },
+      {
+        "id": "pair2",
+        "left_item": "Marie Curie",
+        "right_item": "Discovery of Radium",
+        "order": 1
+      },
+      {
+        "id": "pair3",
+        "left_item": "Albert Einstein",
+        "right_item": "Theory of Relativity",
+        "order": 2
+      }
+    ],
+    "created_at": "2024-11-11T10:10:00",
+    "updated_at": "2024-11-11T10:10:00"
+  }
+]

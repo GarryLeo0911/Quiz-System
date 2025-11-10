@@ -1,0 +1,319 @@
+[
+  {
+    "id": "3a2b4866-54cc-4bf3-86a4-52b8a9f51391",
+    "quiz_id": "afda5432-af5f-49f9-9167-c9eea4ad9c39",
+    "student_name": "Anonymous",
+    "completed_at": "2025-11-10T15:28:06.391233",
+    "score": 0.0,
+    "total_points": 10,
+    "earned_points": 0,
+    "answers": [
+      {
+        "question_id": "f6c1ef59-4d20-4611-8ab6-45bc14e9532f",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T15:28:06.391603"
+  },
+  {
+    "id": "8bef770d-0353-49e0-9849-74340b32d589",
+    "quiz_id": "afda5432-af5f-49f9-9167-c9eea4ad9c39",
+    "student_name": "Anonymous",
+    "completed_at": "2025-11-10T15:34:38.535564",
+    "score": 0.0,
+    "total_points": 10,
+    "earned_points": 0,
+    "answers": [
+      {
+        "question_id": "46c44c64-571d-4ecd-af02-3f40b1d4f329",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T15:34:38.536267"
+  },
+  {
+    "id": "715d917c-f433-4f0d-9f0c-53419d10c047",
+    "quiz_id": "3530f03e-1290-4945-bf87-e195a91cd04d",
+    "student_name": "Anonymous",
+    "completed_at": "2025-11-10T16:03:51.427351",
+    "score": 0.0,
+    "total_points": 30,
+    "earned_points": 0,
+    "answers": [
+      {
+        "question_id": "46c44c64-571d-4ecd-af02-3f40b1d4f329",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      },
+      {
+        "question_id": "bf7c65c5-c671-4f99-b212-e6e3cd886c5f",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      },
+      {
+        "question_id": "ebf7f6d7-c54b-4e73-ba1c-c68e56975224",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T16:03:51.427783"
+  },
+  {
+    "id": "e6796e1e-7690-4289-9ba6-5cd58e111566",
+    "quiz_id": "3530f03e-1290-4945-bf87-e195a91cd04d",
+    "student_name": "Anonymous",
+    "completed_at": "2025-11-10T16:28:26.971045",
+    "score": 0.0,
+    "total_points": 30,
+    "earned_points": 0,
+    "answers": [
+      {
+        "question_id": "46c44c64-571d-4ecd-af02-3f40b1d4f329",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      },
+      {
+        "question_id": "bf7c65c5-c671-4f99-b212-e6e3cd886c5f",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      },
+      {
+        "question_id": "ebf7f6d7-c54b-4e73-ba1c-c68e56975224",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T16:28:26.972482"
+  },
+  {
+    "id": "7a8a89d3-c7bc-485e-b69f-a88a52ebcc8d",
+    "quiz_id": "3530f03e-1290-4945-bf87-e195a91cd04d",
+    "student_name": "Anonymous",
+    "completed_at": "2025-11-10T16:54:53.702572",
+    "score": 0.0,
+    "total_points": 10,
+    "earned_points": 0,
+    "answers": [
+      {
+        "question_id": "04aaaef4-78a5-4831-bab1-c65deb37dc35",
+        "user_answer": {},
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T16:54:53.703011"
+  },
+  {
+    "id": "e906d9a4-120c-4540-a175-d4a0251ee8f1",
+    "quiz_id": "3530f03e-1290-4945-bf87-e195a91cd04d",
+    "student_name": "Student",
+    "completed_at": "2025-11-10T17:57:28.000766",
+    "score": 0.0,
+    "total_points": 10,
+    "earned_points": 0,
+    "answers": [
+      {
+        "question_id": "04aaaef4-78a5-4831-bab1-c65deb37dc35",
+        "user_answer": {
+          "selected_choices": [
+            "f7989a52-51a3-462d-b358-e0012e1f7209",
+            "d1502ce4-f024-4834-a050-447f5c6ae8c5"
+          ]
+        },
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T17:57:28.001768"
+  },
+  {
+    "id": "b09554f1-125f-4dad-bfa6-bd8e04188d39",
+    "quiz_id": "3530f03e-1290-4945-bf87-e195a91cd04d",
+    "student_name": "Student",
+    "completed_at": "2025-11-10T17:58:34.909158",
+    "score": 0.0,
+    "total_points": 10,
+    "earned_points": 0,
+    "answers": [
+      {
+        "question_id": "04aaaef4-78a5-4831-bab1-c65deb37dc35",
+        "user_answer": {
+          "selected_choices": [
+            "f7989a52-51a3-462d-b358-e0012e1f7209",
+            "d1502ce4-f024-4834-a050-447f5c6ae8c5"
+          ]
+        },
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T17:58:34.909771"
+  },
+  {
+    "id": "33938756-c31a-4af2-a515-8681e7abdcad",
+    "quiz_id": "3530f03e-1290-4945-bf87-e195a91cd04d",
+    "student_name": "Student",
+    "completed_at": "2025-11-10T18:00:41.443431",
+    "score": 0.0,
+    "total_points": 10,
+    "earned_points": 0,
+    "answers": [
+      {
+        "question_id": "04aaaef4-78a5-4831-bab1-c65deb37dc35",
+        "user_answer": {
+          "selected_choices": [
+            "f7989a52-51a3-462d-b358-e0012e1f7209",
+            "d1502ce4-f024-4834-a050-447f5c6ae8c5"
+          ]
+        },
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T18:00:41.443978"
+  },
+  {
+    "id": "ab979fd8-8841-41ca-95ee-cdc175fa4e72",
+    "quiz_id": "3530f03e-1290-4945-bf87-e195a91cd04d",
+    "student_name": "Student",
+    "completed_at": "2025-11-10T18:01:50.487676",
+    "score": 100.0,
+    "total_points": 10,
+    "earned_points": 10,
+    "answers": [
+      {
+        "question_id": "04aaaef4-78a5-4831-bab1-c65deb37dc35",
+        "user_answer": {
+          "selected_choices": [
+            "f7989a52-51a3-462d-b358-e0012e1f7209",
+            "0c34af27-ccbc-4d0c-8e2b-a884526b2e1c",
+            "d1502ce4-f024-4834-a050-447f5c6ae8c5"
+          ]
+        },
+        "is_correct": true,
+        "points_earned": 10
+      }
+    ],
+    "started_at": "2025-11-10T18:01:50.488136"
+  },
+  {
+    "id": "8d3dfc41-55e6-4ee4-bb49-51b3d65ab556",
+    "quiz_id": "3530f03e-1290-4945-bf87-e195a91cd04d",
+    "student_name": "Student",
+    "completed_at": "2025-11-10T18:12:51.509835",
+    "score": 100.0,
+    "total_points": 10,
+    "earned_points": 10,
+    "answers": [
+      {
+        "question_id": "04aaaef4-78a5-4831-bab1-c65deb37dc35",
+        "user_answer": {
+          "selected_choices": [
+            "f7989a52-51a3-462d-b358-e0012e1f7209",
+            "0c34af27-ccbc-4d0c-8e2b-a884526b2e1c",
+            "d1502ce4-f024-4834-a050-447f5c6ae8c5"
+          ]
+        },
+        "is_correct": true,
+        "points_earned": 10
+      }
+    ],
+    "started_at": "2025-11-10T18:12:51.510775"
+  },
+  {
+    "id": "939266ce-945b-4975-a0cc-fa997ba30735",
+    "quiz_id": "c874c2bb-3d94-4a06-b058-0ff3a4d20e3a",
+    "student_name": "Student",
+    "completed_at": "2025-11-10T18:21:22.812444",
+    "score": 50.0,
+    "total_points": 20,
+    "earned_points": 10,
+    "answers": [
+      {
+        "question_id": "46c44c64-571d-4ecd-af02-3f40b1d4f329",
+        "user_answer": {
+          "selected_choices": [
+            "05375efc-759c-4aff-8e18-8c8ca3ff14b0"
+          ]
+        },
+        "is_correct": true,
+        "points_earned": 10
+      },
+      {
+        "question_id": "df879517-c465-4885-a93b-511a496d15bc",
+        "user_answer": {
+          "selected_choices": [
+            "25599b1c-82cc-493b-9c5d-39e279fb31c5"
+          ]
+        },
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T18:21:22.812880"
+  },
+  {
+    "id": "dd623528-f74b-4e69-b181-eecb26b8b5bc",
+    "quiz_id": "c874c2bb-3d94-4a06-b058-0ff3a4d20e3a",
+    "student_name": "Student",
+    "completed_at": "2025-11-10T18:21:54.353918",
+    "score": 50.0,
+    "total_points": 20,
+    "earned_points": 10,
+    "answers": [
+      {
+        "question_id": "46c44c64-571d-4ecd-af02-3f40b1d4f329",
+        "user_answer": {
+          "selected_choices": [
+            "05375efc-759c-4aff-8e18-8c8ca3ff14b0"
+          ]
+        },
+        "is_correct": true,
+        "points_earned": 10
+      },
+      {
+        "question_id": "df879517-c465-4885-a93b-511a496d15bc",
+        "user_answer": {
+          "selected_choices": [
+            "25599b1c-82cc-493b-9c5d-39e279fb31c5"
+          ]
+        },
+        "is_correct": false,
+        "points_earned": 0
+      }
+    ],
+    "started_at": "2025-11-10T18:21:54.354351"
+  },
+  {
+    "id": "6d1e6c9e-574d-4bc5-adee-0473546cb52b",
+    "quiz_id": "f9b1c520-1d6c-49fc-aff9-b3f5a31824c0",
+    "student_name": "Student",
+    "completed_at": "2025-11-10T18:24:14.419517",
+    "score": 100.0,
+    "total_points": 10,
+    "earned_points": 10,
+    "answers": [
+      {
+        "question_id": "46c44c64-571d-4ecd-af02-3f40b1d4f329",
+        "user_answer": {
+          "selected_choices": [
+            "05375efc-759c-4aff-8e18-8c8ca3ff14b0"
+          ]
+        },
+        "is_correct": true,
+        "points_earned": 10
+      }
+    ],
+    "started_at": "2025-11-10T18:24:14.420650"
+  }
+]

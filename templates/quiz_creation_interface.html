@@ -1,0 +1,371 @@
+{% extends 'base.html' %}
+
+{% block title %}{% if quiz %}Edit Quiz{% else %}Create Quiz{% endif %} - Quiz System{% endblock %}
+
+{% block content %}
+<div class="flex h-screen w-full flex-col">
+    <!-- TopNavBar -->
+    <header class="flex shrink-0 items-center justify-between whitespace-nowrap border-b border-solid border-[#e7edf3] dark:border-slate-700 bg-white dark:bg-background-dark px-6 py-3">
+        <div class="flex items-center gap-4 text-[#0d141b] dark:text-white">
+            <div class="text-primary size-6">
+                <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+                </svg>
+            </div>
+            <h2 class="text-[#0d141b] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Quiz System</h2>
+        </div>
+        <div class="flex flex-1 justify-center gap-8">
+            <div class="flex items-center gap-9">
+                <a class="text-[#0d141b] dark:text-slate-300 text-sm font-medium leading-normal" href="{% url 'dashboard' %}">Dashboard</a>
+                <a class="text-primary dark:text-primary text-sm font-bold leading-normal" href="{% url 'quiz_list' %}">Exams</a>
+                <a class="text-[#0d141b] dark:text-slate-300 text-sm font-medium leading-normal" href="{% url 'question_bank' %}">Question Bank</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-4">
+            <div class="flex gap-2">
+                <button type="button" onclick="saveQuiz(false)" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#e7edf3] dark:bg-slate-700 text-[#0d141b] dark:text-white text-sm font-bold leading-normal tracking-[0.015em]">
+                    <span class="truncate">Save as Draft</span>
+                </button>
+                <button type="button" onclick="saveQuiz(true)" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+                    <span class="truncate">Publish</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex flex-1 overflow-hidden flex-col">
+        <div class="border-b border-solid border-[#e7edf3] dark:border-slate-700 bg-white dark:bg-background-dark px-6 py-4">
+            <p class="text-[#0d141b] dark:text-white text-2xl font-black leading-tight tracking-[-0.033em]">Exam Builder</p>
+        </div>
+        <div class="flex flex-1 overflow-hidden p-6 gap-6">
+            <!-- Left Column: Question Bank -->
+            <aside class="flex w-2/5 flex-col gap-4 rounded-xl border border-[#e7edf3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 overflow-hidden">
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-xl font-bold text-[#0d141b] dark:text-white">Question Bank</h3>
+                    
+                    <!-- SearchBar -->
+                    <div>
+                        <label class="flex flex-col min-w-40 h-12 w-full">
+                            <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                                <div class="text-[#4c739a] dark:text-slate-400 flex border-none bg-[#e7edf3] dark:bg-slate-700 items-center justify-center pl-4 rounded-l-lg border-r-0">
+                                    <span class="material-symbols-outlined">search</span>
+                                </div>
+                                <input id="search-questions" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] dark:text-white focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] dark:bg-slate-700 focus:border-none h-full placeholder:text-[#4c739a] dark:placeholder:text-slate-400 px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal" placeholder="Search questions by keyword..." value=""/>
+                            </div>
+                        </label>
+                    </div>
+                    
+                    <!-- Chips -->
+                    <div class="flex gap-3">
+                        <select id="filter-category" class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#e7edf3] dark:bg-slate-700 pl-4 pr-2 text-[#0d141b] dark:text-white text-sm font-medium leading-normal border-none focus:outline-0">
+                            <option value="">All Categories</option>
+                            {% for category in categories %}
+                            <option value="{{ category.id }}">{{ category.name }}</option>
+                            {% endfor %}
+                        </select>
+                        <select id="filter-type" class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#e7edf3] dark:bg-slate-700 pl-4 pr-2 text-[#0d141b] dark:text-white text-sm font-medium leading-normal border-none focus:outline-0">
+                            <option value="">All Types</option>
+                            <option value="single_choice">Single Choice</option>
+                            <option value="multiple_choice">Multiple Choice</option>
+                            <option value="matching">Matching</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Question List -->
+                <div class="flex flex-1 flex-col gap-3 overflow-y-auto pr-2">
+                    {% for question in questions %}
+                    <div class="question-item flex cursor-grab items-center gap-3 rounded-lg border border-[#e7edf3] dark:border-slate-700 bg-background-light dark:bg-slate-900 p-3 active:cursor-grabbing active:ring-2 active:ring-primary" 
+                         draggable="true" 
+                         data-question-id="{{ question.id }}"
+                         data-question-text="{{ question.question_text }}"
+                         data-question-type="{{ question.question_type }}"
+                         data-category="{{ question.category_id }}">
+                        <span class="material-symbols-outlined text-slate-400">drag_indicator</span>
+                        <div class="flex-1">
+                            <p class="font-medium text-sm text-[#0d141b] dark:text-white">{{ question.question_text|truncatewords:10 }}</p>
+                            <div class="flex items-center gap-2 mt-1">
+                                {% if question.question_type == 'single_choice' %}
+                                <span class="text-xs font-medium bg-primary/20 text-primary px-2 py-0.5 rounded-full">Single Choice</span>
+                                {% elif question.question_type == 'multiple_choice' %}
+                                <span class="text-xs font-medium bg-purple-500/20 text-purple-600 dark:text-purple-400 px-2 py-0.5 rounded-full">Multiple Choice</span>
+                                {% elif question.question_type == 'matching' %}
+                                <span class="text-xs font-medium bg-green-500/20 text-green-600 dark:text-green-400 px-2 py-0.5 rounded-full">Matching</span>
+                                {% endif %}
+                                {% for category in categories %}
+                                    {% if category.id == question.category_id %}
+                                    <span class="text-xs font-medium bg-slate-200 dark:bg-slate-600 text-slate-600 dark:text-slate-300 px-2 py-0.5 rounded-full">{{ category.name }}</span>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                <!-- Add New Question Button -->
+                <div class="pt-2 border-t border-[#e7edf3] dark:border-slate-700">
+                    <a href="{% url 'question_create' %}" class="flex min-w-[84px] w-full max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/20 text-primary gap-2 pl-4 text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/30">
+                        <div class="text-primary">
+                            <span class="material-symbols-outlined text-xl">add</span>
+                        </div>
+                        <span class="truncate">Add New Question</span>
+                    </a>
+                </div>
+            </aside>
+
+            <!-- Right Column: Exam Builder -->
+            <section class="flex flex-1 flex-col gap-4 rounded-xl border border-[#e7edf3] dark:border-slate-700 bg-white dark:bg-slate-800 p-6 overflow-y-auto">
+                <form id="quiz-form" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="is_published" name="is_published" value="false">
+                    <input type="hidden" id="selected_questions" name="selected_questions" value="">
+                    
+                    <div class="flex flex-col gap-6">
+                        <!-- Exam Title Input -->
+                        <div>
+                            <label class="block text-sm font-medium text-slate-600 dark:text-slate-300 mb-1" for="exam-title">Exam Title</label>
+                            <input name="title" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary border border-[#e7edf3] dark:border-slate-600 bg-background-light dark:bg-slate-700 h-10 px-4 text-base font-normal leading-normal" id="exam-title" placeholder="e.g., Midterm Exam - Biology 101" type="text" value="{% if quiz %}{{ quiz.title }}{% endif %}" required/>
+                        </div>
+                        
+                        <!-- Instructions & Time Limit -->
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div class="md:col-span-2">
+                                <label class="block text-sm font-medium text-slate-600 dark:text-slate-300 mb-1" for="instructions">Instructions</label>
+                                <textarea name="instructions" class="form-textarea flex w-full min-w-0 flex-1 resize-y overflow-hidden rounded-lg text-[#0d141b] dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary border border-[#e7edf3] dark:border-slate-600 bg-background-light dark:bg-slate-700 p-4 text-base font-normal leading-normal" id="instructions" placeholder="Provide clear instructions for the students..." rows="4">{% if quiz %}{{ quiz.instructions }}{% endif %}</textarea>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-slate-600 dark:text-slate-300 mb-1" for="time-limit">Time Limit (minutes)</label>
+                                <input name="time_limit" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141b] dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary border border-[#e7edf3] dark:border-slate-600 bg-background-light dark:bg-slate-700 h-10 px-4 text-base font-normal leading-normal" id="time-limit" type="number" min="1" value="{% if quiz %}{{ quiz.time_limit }}{% else %}60{% endif %}"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="border-t border-[#e7edf3] dark:border-slate-700 my-4"></div>
+                    
+                    <!-- Drop Zone Area -->
+                    <div class="flex flex-1 flex-col gap-3">
+                        <div class="flex justify-between items-center">
+                            <h4 class="font-bold text-lg text-[#0d141b] dark:text-white">Exam Questions</h4>
+                            <p class="text-sm font-medium text-slate-500 dark:text-slate-400">
+                                <span id="question-count">0</span> Questions | <span id="total-points">0</span> Points
+                            </p>
+                        </div>
+                        
+                        <div id="drop-zone" class="min-h-[200px] flex-1 flex-col rounded-lg border-2 border-dashed border-slate-300 dark:border-slate-600 bg-background-light dark:bg-slate-900/50 p-4">
+                            <!-- Empty State Placeholder -->
+                            <div id="empty-state" class="flex flex-col items-center justify-center h-full text-center text-slate-400 dark:text-slate-500 py-16">
+                                <span class="material-symbols-outlined text-5xl">move_down</span>
+                                <p class="mt-2 font-medium">Drag questions here</p>
+                                <p class="text-sm">Drag and drop questions from the bank to build your exam.</p>
+                            </div>
+                            
+                            <!-- Added Questions Container -->
+                            <div id="selected-questions-container"></div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    let selectedQuestions = [];
+    
+    // Drag and Drop functionality
+    const questionItems = document.querySelectorAll('.question-item');
+    const dropZone = document.getElementById('drop-zone');
+    const emptyState = document.getElementById('empty-state');
+    const selectedContainer = document.getElementById('selected-questions-container');
+    
+    questionItems.forEach(item => {
+        item.addEventListener('dragstart', (e) => {
+            e.dataTransfer.effectAllowed = 'copy';
+            e.dataTransfer.setData('text/plain', item.dataset.questionId);
+        });
+    });
+    
+    dropZone.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'copy';
+        dropZone.classList.add('ring-2', 'ring-primary');
+    });
+    
+    dropZone.addEventListener('dragleave', (e) => {
+        dropZone.classList.remove('ring-2', 'ring-primary');
+    });
+    
+    dropZone.addEventListener('drop', (e) => {
+        e.preventDefault();
+        dropZone.classList.remove('ring-2', 'ring-primary');
+        
+        const questionId = e.dataTransfer.getData('text/plain');
+        addQuestionToQuiz(questionId);
+    });
+    
+    function addQuestionToQuiz(questionId) {
+        // Check if already added
+        if (selectedQuestions.find(q => q.id === questionId)) {
+            return;
+        }
+        
+        // Find the question element
+        const questionEl = document.querySelector(`[data-question-id="${questionId}"]`);
+        const questionText = questionEl.dataset.questionText;
+        
+        // Add to selected questions
+        const question = {
+            id: questionId,
+            text: questionText,
+            points: 10
+        };
+        selectedQuestions.push(question);
+        
+        // Hide empty state
+        emptyState.classList.add('hidden');
+        
+        // Add to UI
+        const questionCard = document.createElement('div');
+        questionCard.className = 'flex items-center gap-3 rounded-lg border border-[#e7edf3] dark:border-slate-700 bg-white dark:bg-slate-800 p-3 mb-3';
+        questionCard.dataset.questionId = questionId;
+        questionCard.innerHTML = `
+            <span class="material-symbols-outlined text-slate-400 cursor-grab">drag_indicator</span>
+            <div class="flex-1">
+                <p class="font-medium text-sm text-[#0d141b] dark:text-white">${questionText.substring(0, 60)}...</p>
+            </div>
+            <input type="number" min="1" value="10" 
+                   onchange="updatePoints('${questionId}', this.value)"
+                   class="form-input w-20 text-center rounded-md border-[#e7edf3] dark:border-slate-600 bg-background-light dark:bg-slate-700 h-8 text-sm"/>
+            <span class="text-sm text-slate-500 dark:text-slate-400">pts</span>
+            <button type="button" onclick="removeQuestion('${questionId}')" class="text-slate-400 hover:text-red-500">
+                <span class="material-symbols-outlined">delete</span>
+            </button>
+        `;
+        selectedContainer.appendChild(questionCard);
+        
+        updateStats();
+    }
+    
+    window.removeQuestion = function(questionId) {
+        selectedQuestions = selectedQuestions.filter(q => q.id !== questionId);
+        document.querySelector(`#selected-questions-container [data-question-id="${questionId}"]`).remove();
+        
+        if (selectedQuestions.length === 0) {
+            emptyState.classList.remove('hidden');
+        }
+        
+        updateStats();
+    };
+    
+    window.updatePoints = function(questionId, points) {
+        const question = selectedQuestions.find(q => q.id === questionId);
+        if (question) {
+            question.points = parseInt(points);
+            updateStats();
+        }
+    };
+    
+    function updateStats() {
+        document.getElementById('question-count').textContent = selectedQuestions.length;
+        const totalPoints = selectedQuestions.reduce((sum, q) => sum + q.points, 0);
+        document.getElementById('total-points').textContent = totalPoints;
+    }
+    
+    // Search and filter
+    document.getElementById('search-questions').addEventListener('input', filterQuestions);
+    document.getElementById('filter-category').addEventListener('change', filterQuestions);
+    document.getElementById('filter-type').addEventListener('change', filterQuestions);
+    
+    function filterQuestions() {
+        const search = document.getElementById('search-questions').value.toLowerCase();
+        const category = document.getElementById('filter-category').value;
+        const type = document.getElementById('filter-type').value;
+        
+        questionItems.forEach(item => {
+            const text = item.dataset.questionText.toLowerCase();
+            const itemCategory = item.dataset.category;
+            const itemType = item.dataset.questionType;
+            
+            const matchesSearch = text.includes(search);
+            const matchesCategory = !category || itemCategory === category;
+            const matchesType = !type || itemType === type;
+            
+            if (matchesSearch && matchesCategory && matchesType) {
+                item.style.display = 'flex';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+    
+    // Save quiz
+    window.saveQuiz = function(publish) {
+        if (selectedQuestions.length === 0) {
+            alert('Please add at least one question to the quiz.');
+            return;
+        }
+        
+        document.getElementById('is_published').value = publish;
+        document.getElementById('selected_questions').value = JSON.stringify(selectedQuestions);
+        document.getElementById('quiz-form').submit();
+    };
+    
+    // Load existing quiz questions if editing
+    {% if is_edit %}
+    console.log('Edit mode detected. Quiz questions count: {{ quiz_questions|length }}');
+    {% if quiz_questions %}
+    console.log('Loading {{ quiz_questions|length }} existing quiz questions...');
+    {% for quiz_question in quiz_questions %}
+    // Manually add question since it might not be in the visible question bank
+    (function() {
+        const questionId = '{{ quiz_question.id }}';
+        const questionText = `{{ quiz_question.question_text|escapejs }}`;
+        const points = {{ quiz_question.quiz_points|default:10 }};
+        
+        console.log('Loading question:', questionId);
+        
+        // Check if question already exists in selectedQuestions
+        if (!selectedQuestions.find(q => q.id === questionId)) {
+            selectedQuestions.push({
+                id: questionId,
+                text: questionText,
+                points: points
+            });
+            
+            // Hide empty state
+            emptyState.classList.add('hidden');
+            
+            // Add to UI
+            const questionCard = document.createElement('div');
+            questionCard.className = 'flex items-center gap-3 rounded-lg border border-[#e7edf3] dark:border-slate-700 bg-white dark:bg-slate-800 p-3 mb-3';
+            questionCard.dataset.questionId = questionId;
+            questionCard.innerHTML = `
+                <span class="material-symbols-outlined text-slate-400 cursor-grab">drag_indicator</span>
+                <div class="flex-1">
+                    <p class="font-medium text-sm text-[#0d141b] dark:text-white">${questionText.substring(0, 60)}...</p>
+                </div>
+                <input type="number" min="1" value="${points}" 
+                       onchange="updatePoints('${questionId}', this.value)"
+                       class="form-input w-20 text-center rounded-md border-[#e7edf3] dark:border-slate-600 bg-background-light dark:bg-slate-700 h-8 text-sm"/>
+                <span class="text-sm text-slate-500 dark:text-slate-400">pts</span>
+                <button type="button" onclick="removeQuestion('${questionId}')" class="text-slate-400 hover:text-red-500">
+                    <span class="material-symbols-outlined">delete</span>
+                </button>
+            `;
+            selectedContainer.appendChild(questionCard);
+        }
+    })();
+    {% endfor %}
+    updateStats();
+    {% else %}
+    console.log('No quiz questions found for editing');
+    {% endif %}
+    {% else %}
+    console.log('Not in edit mode');
+    {% endif %}
+</script>
+{% endblock %}
