@@ -1,8 +1,8 @@
 # Quiz System
 
-A Django-based quiz system for exam preparation that uses JSON files for data storage. Perfect for students preparing for finals - create your own question bank and practice with unlimited quizzes!
+A Django-based quiz system for exam preparation that uses JSON files for data storage. Perfect for students preparing for multiple courses - create your own question banks and practice with unlimited quizzes!
 
-**🎓 This system comes pre-loaded with questions for INFO3315: Human-Computer Interaction!**
+**🎓 This system supports subject-based organization with separate databases for each course!**
 
 ## ✨ Features
 
@@ -57,97 +57,120 @@ Then open in browser: **http://127.0.0.1:8000/**
 
 ---
 
-## 📚 What's Included
+## 📚 Subject Organization
 
-### Pre-loaded Content
-- ✅ **INFO3315: Human-Computer Interaction** questions
-- ✅ Organized by topics and categories
-- ✅ Ready-to-use question bank
-- ✅ Start practicing immediately!
+### Available Subjects
+The system comes with organized subject folders:
+- 📘 **Human-Computer Interaction** - HCI course materials
+- 📗 **Project Management** - Project management topics
+- 📄 **Default** - Root-level data (legacy/mixed content)
 
-### Getting Started with Pre-loaded Questions
-1. Browse the Question Bank to see all available questions
-2. Create your own quizzes from existing questions
-3. Take practice quizzes to test your knowledge
-4. Review explanations for better understanding
-5. Add your own questions to expand the bank
+### Getting Started
+1. Select a subject from the dropdown in the dashboard
+2. Browse the Question Bank for that subject
+3. Create subject-specific quizzes
+4. Take practice quizzes and track your progress
+5. Add your own questions to any subject
+6. Create new subjects as needed for other courses
 
 ---
 
-## 🗑️ Database Management
+## 🗂️ Managing Subjects
 
-### Clear Database and Start Fresh
+### View All Subjects
+Your current subjects are automatically detected from folders in `data/`:
+- Human-Computer-Interaction
+- Project_Management
+- Default (root-level files)
 
-If you want to remove all existing data and create a new empty database:
+### Add a New Subject
+Create a new subject for another course you're studying:
 
 ```bash
-# Stop the server if running (Ctrl+C)
-
-# Delete existing data files
-rm data/questions.json data/categories.json data/quizzes.json data/attempts.json
-
-# Recreate empty JSON files
-echo "[]" > data/questions.json
-echo "[]" > data/categories.json
-echo "[]" > data/quizzes.json
-echo "[]" > data/attempts.json
-
-# Restart the server
-source venv/bin/activate
-python manage.py runserver
+# Example: Adding "Software_Engineering" subject
+mkdir "data/Software_Engineering"
+echo "[]" > "data/Software_Engineering/questions.json"
+echo "[]" > "data/Software_Engineering/categories.json"
+echo "[]" > "data/Software_Engineering/quizzes.json"
+echo "[]" > "data/Software_Engineering/attempts.json"
 ```
 
-### Backup Before Clearing
+Refresh the page and the new subject appears in the dropdown!
 
-**Important**: Always backup your data before clearing!
+### Clear a Subject's Data
+
+**⚠️ Warning**: Always backup before clearing!
 
 ```bash
-# Create a backup with timestamp
-cp -r data/ data_backup_$(date +%Y%m%d_%H%M%S)/
+# Backup first!
+cp -r "data/Human-Computer-Interaction/" "backup_HCI_$(date +%Y%m%d)/"
+
+# Then clear (if you're sure)
+echo "[]" > "data/Human-Computer-Interaction/questions.json"
+echo "[]" > "data/Human-Computer-Interaction/categories.json"
+echo "[]" > "data/Human-Computer-Interaction/quizzes.json"
+echo "[]" > "data/Human-Computer-Interaction/attempts.json"
+```
+
+### Remove a Subject Entirely
+
+```bash
+# Backup first!
+cp -r "data/Project_Management/" "backup_PM_$(date +%Y%m%d)/"
+
+# Remove the folder
+rm -rf "data/Project_Management/"
 ```
 
 ### Restore from Backup
 
 ```bash
-# Restore from a specific backup
-cp -r data_backup_YYYYMMDD_HHMMSS/* data/
+# Restore entire data folder
+cp -r data_backup_20251117/* data/
+
+# Restore specific subject
+cp -r backup_HCI_20251117/* "data/Human-Computer-Interaction/"
 ```
 
 ---
 
-## 📚 How to Use for Exam Prep
+## 📚 How to Use for Multiple Courses
 
-### 1. Explore Existing Questions
-- Browse the pre-loaded INFO3315 questions
-- Filter by category or topic
-- Review question types and formats
+### 1. Select Your Subject
+- Use the subject dropdown to switch between courses
+- Each subject has its own isolated database
+- Questions, quizzes, and attempts are kept separate
 
-### 2. Create Practice Quizzes
-Build custom quizzes from the question bank:
+### 2. Organize by Course
+- **Human-Computer Interaction** - Add HCI questions and concepts
+- **Project Management** - Add PM methodologies and practices
+- Create new subjects for other courses you're taking
+
+### 3. Build Your Question Bank
+As you study each course:
+- Add 5-10 questions per day while studying
+- Include images for visual concepts
+- Write detailed explanations (helps you learn!)
+- Organize questions by chapter/topic using categories
+
+### 4. Create Practice Quizzes
+Build custom quizzes from each subject's question bank:
 - By chapter (focused review)
 - Mixed topics (comprehensive review)
 - Specific categories (targeted practice)
 
-### 3. Test Yourself
-- Take quizzes regularly
+### 5. Test Yourself Regularly
+- Take quizzes in each subject
 - Review explanations for wrong answers
 - Retake quizzes until you get 100%
-- Track your improvement over time
+- Track your improvement over time per subject
 
-### 4. Add Your Own Questions
-As you study, input additional questions from:
-- Lecture slides
-- Textbook exercises
-- Practice problems
-- Past exams
-
-**Tip**: Add 5-10 questions per day while studying!
-
-### 5. Before the Exam
+### 6. Before Each Exam
+- Switch to the relevant subject
 - Create a full-length practice exam
 - Time yourself (simulate exam conditions)
 - Review all explanations one last time
-- **Ace your finals!** 🏆
+- **Ace all your finals!** 🏆
 
 ---
 
@@ -215,11 +238,22 @@ quiz_system/
 │   ├── question_editor.html
 │   └── quiz_list.html
 │
-├── data/                 # Your data (JSON files)
-│   ├── questions.json    # ← Your questions
-│   ├── categories.json   # ← Your categories
-│   ├── quizzes.json      # ← Your quizzes
-│   └── attempts.json     # ← Your quiz results
+├── data/                           # Your data (JSON files)
+│   ├── README.md                  # Subject system documentation
+│   ├── questions.json             # ← Default/legacy questions
+│   ├── categories.json            # ← Default categories
+│   ├── quizzes.json               # ← Default quizzes
+│   ├── attempts.json              # ← Default quiz results
+│   ├── Human-Computer-Interaction/  # HCI subject
+│   │   ├── questions.json
+│   │   ├── categories.json
+│   │   ├── quizzes.json
+│   │   └── attempts.json
+│   └── Project_Management/        # PM subject
+│       ├── questions.json
+│       ├── categories.json
+│       ├── quizzes.json
+│       └── attempts.json
 │
 └── media/                # Uploaded files
     └── question_images/  # Question images
@@ -238,6 +272,56 @@ All your data is stored in simple JSON files in the `data/` directory:
 | `quizzes.json` | Quiz definitions |
 | `attempts.json` | Quiz results and scores |
 
+### 📚 Subject-Based Organization
+
+The system organizes data by **subject** - each course/topic has its own folder with separate data files:
+
+```
+data/
+├── questions.json                    # Default/root data
+├── categories.json
+├── quizzes.json
+├── attempts.json
+│
+├── Human-Computer-Interaction/       # HCI Course
+│   ├── questions.json               # HCI questions only
+│   ├── categories.json              # HCI categories (Design, Evaluation, etc.)
+│   ├── quizzes.json                 # HCI quizzes
+│   └── attempts.json                # HCI quiz attempts & scores
+│
+└── Project_Management/               # Project Management Course
+    ├── questions.json               # PM questions only
+    ├── categories.json              # PM categories (Planning, Risk, etc.)
+    ├── quizzes.json                 # PM quizzes
+    └── attempts.json                # PM quiz attempts & scores
+```
+
+**Key Benefits:**
+- ✅ **Complete Isolation** - Each course's data is completely separate
+- ✅ **Faster Loading** - Smaller files load much faster
+- ✅ **Easy Organization** - Find what you need instantly
+- ✅ **Simple Backup** - Backup individual courses
+- ✅ **Easy Sharing** - Share specific course materials with classmates
+- ✅ **Unlimited Subjects** - Add as many courses as you need
+
+**How to use:**
+1. **Select subject** from the dropdown in dashboard or question bank
+2. **Create/edit questions** - automatically saved to current subject
+3. **Build quizzes** - only from current subject's questions
+4. **Switch anytime** - your work in each subject is preserved
+
+**Adding a new subject (e.g., for a new course):**
+```bash
+# Create folder for new course (use underscores for spaces)
+mkdir "data/Database_Systems"
+echo "[]" > "data/Database_Systems/questions.json"
+echo "[]" > "data/Database_Systems/categories.json"
+echo "[]" > "data/Database_Systems/quizzes.json"
+echo "[]" > "data/Database_Systems/attempts.json"
+```
+
+The new subject will automatically appear in the dropdown! See `data/README.md` for detailed documentation.
+
 ### Why JSON?
 - ✅ No database installation needed
 - ✅ Human-readable format
@@ -248,12 +332,16 @@ All your data is stored in simple JSON files in the `data/` directory:
 
 ### Backup Your Data
 ```bash
-# Simple backup
+# Backup all subjects at once
 cp -r data/ data_backup_$(date +%Y%m%d)/
 
-# Or commit to Git
+# Backup a specific subject/course
+cp -r data/Human-Computer-Interaction/ backup_HCI_$(date +%Y%m%d)/
+cp -r data/Project_Management/ backup_PM_$(date +%Y%m%d)/
+
+# Or commit to Git for version control
 git add data/
-git commit -m "Updated questions"
+git commit -m "Updated HCI and PM questions"
 git push
 ```
 
@@ -462,10 +550,10 @@ Free to use for personal and educational purposes.
 1. Run `./setup.sh`
 2. Start server: `source venv/bin/activate && python manage.py runserver`
 3. Open http://127.0.0.1:8000/
-4. Browse pre-loaded INFO3315 questions
-5. Create your first quiz and start practicing!
+4. Select a subject from the dropdown
+5. Browse questions or create your first quiz!
 
-**Good luck on your INFO3315 exam! You've got this!** 📚✨
+**Good luck on all your exams! You've got this!** 📚✨
 
 ---
 
@@ -494,4 +582,29 @@ echo "[]" > data/attempts.json
 
 ---
 
-**Made with ❤️ for INFO3315 students**
+**Made with ❤️ for students preparing for multiple courses**
+
+## 💡 Pro Tips
+
+### Organize by Course
+- Create one subject per course you're taking
+- Use clear names: `Human-Computer-Interaction`, `Project_Management`, etc.
+- Keep each course's materials completely separate
+
+### Study Workflow
+1. **During semester**: Add questions while studying each week
+2. **Before midterms**: Create chapter-specific practice quizzes
+3. **Final exam prep**: Create comprehensive mixed-topic exams
+4. **Track progress**: Review attempt history per subject
+
+### Collaboration
+- Share subject folders with classmates taking the same course
+- Each person can maintain their own subject folders
+- Use Git for collaborative question bank building
+
+### Best Practices
+- Add explanations to every question (helps retention!)
+- Use categories to organize by textbook chapters
+- Include images for diagrams and visual concepts
+- Review wrong answers and update explanations
+- Create increasingly difficult quizzes as you learn

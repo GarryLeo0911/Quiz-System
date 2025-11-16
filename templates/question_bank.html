@@ -47,7 +47,18 @@
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black tracking-tight">Question Bank</p>
+                    <div class="flex items-center gap-4">
+                        <p class="text-3xl font-black tracking-tight">Question Bank</p>
+                        <div class="flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-lg">
+                            <span class="text-xs font-medium text-primary">Subject:</span>
+                            <select id="subjectSelector" class="text-xs font-bold bg-transparent border-none focus:outline-none focus:ring-0 text-primary cursor-pointer">
+                                <option value="default" {% if current_subject == 'Default' %}selected{% endif %}>Default</option>
+                                {% for subject in available_subjects %}
+                                <option value="{{ subject }}" {% if current_subject == subject %}selected{% endif %}>{{ subject|title }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
                     <p class="text-subtle-text-light dark:text-subtle-text-dark">Create, edit, and organize all your quiz questions.</p>
                 </div>
                 <a href="{% url 'question_create' %}" class="flex items-center justify-center gap-2 overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold shadow-sm hover:bg-primary/90">
@@ -236,5 +247,31 @@
             });
         }
     }
+
+    // Subject selector
+    document.getElementById('subjectSelector').addEventListener('change', function(e) {
+        const subject = e.target.value;
+        
+        fetch('{% url "switch_subject" %}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: 'subject=' + encodeURIComponent(subject)
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                window.location.href = '{% url "question_bank" %}';
+            } else {
+                alert('Error switching subject: ' + data.error);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Error switching subject');
+        });
+    });
 </script>
 {% endblock %}

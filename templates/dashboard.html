@@ -26,7 +26,20 @@
     <!-- Main Content -->
     <main class="flex-1 overflow-y-auto p-8">
         <div class="max-w-7xl mx-auto">
-            <h1 class="text-3xl font-black mb-8">Dashboard</h1>
+            <div class="flex items-center justify-between mb-8">
+                <h1 class="text-3xl font-black">Dashboard</h1>
+                
+                <!-- Subject Selector -->
+                <div class="flex items-center gap-3">
+                    <span class="text-sm font-medium text-slate-600 dark:text-slate-400">Subject:</span>
+                    <select id="subjectSelector" class="px-4 py-2 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 rounded-lg text-sm font-medium">
+                        <option value="default" {% if current_subject == 'Default' %}selected{% endif %}>Default</option>
+                        {% for subject in available_subjects %}
+                        <option value="{{ subject }}" {% if current_subject == subject %}selected{% endif %}>{{ subject|title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
             
             <!-- Stats -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -65,4 +78,33 @@
         </div>
     </main>
 </div>
+
+<script>
+document.getElementById('subjectSelector').addEventListener('change', function(e) {
+    const subject = e.target.value;
+    
+    // Send AJAX request to switch subject
+    fetch('{% url "switch_subject" %}', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'X-CSRFToken': '{{ csrf_token }}'
+        },
+        body: 'subject=' + encodeURIComponent(subject)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Reload the page to show new subject's data
+            window.location.reload();
+        } else {
+            alert('Error switching subject: ' + data.error);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error switching subject');
+    });
+});
+</script>
 {% endblock %}

@@ -1,0 +1,3504 @@
+[
+  {
+    "id": "8b9bae74-e698-439f-8dcb-a3b10da2de06",
+    "question_text": "Which of the following is not a characteristic of the Agile methodology?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "cf7b5f67-05ab-47c8-a19e-e588bb6301f6",
+        "option_text": "Iterative development",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "1d624b5b-fd79-471c-b319-b4ad1dc05c1c",
+        "option_text": "Fixed scope at the beginning",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "adaa0e24-61cf-4b5b-bd8b-6daf37e347d4",
+        "option_text": "Customer collaboration",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "97e2e994-4924-4602-8fe8-d47b2552ce3d",
+        "option_text": "Flexible response to change",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "07f193ab-2159-4353-9010-7f71ca7c7d8f",
+    "question_text": "In the Waterfall model, testing is performed:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6d073560-7d64-463b-b504-2d6673a0b07f",
+        "option_text": "Throughout the project lifecycle",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "2f44c2ec-2003-4673-9fa7-bd669a433a3a",
+        "option_text": "Only after development is complete",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "77bc9f87-81d8-494b-8e09-2f4718eca447",
+        "option_text": "During requirement gathering",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "e2db247d-ef16-41eb-9ab1-46d4fc87a7de",
+        "option_text": "Only during design phase",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "16a295fd-d6e0-4be7-80e7-70a77f0701d7",
+    "question_text": "Which of the following is a primary requirement gathering technique?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5b24c6ec-17e9-4548-a044-38ef46350c33",
+        "option_text": "SWOT analysis",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "b0a8098d-bfa8-48e8-b9b1-b24b1335c061",
+        "option_text": "Brainstorming sessions with stakeholders",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "054bd607-758b-43dc-b176-60269cef548f",
+        "option_text": "Benchmarking competitors",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "3b756626-5188-4603-ae32-463508741a34",
+        "option_text": "Risk assessment",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "4451d8ef-99c4-4fdb-b6a6-297e7d787c75",
+    "question_text": "Which of these statements is true about interviews as a requirement gathering technique?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "44c24fd2-2804-4c87-93c2-e2b764e5cd5e",
+        "option_text": "They always provide unbiased requirements",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "ae7090ae-ccd0-474d-a3f6-ce5c71c46025",
+        "option_text": "They are time-consuming but provide in-depth insights",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "3dd1e312-7f06-41f0-ad44-c1a08f80595c",
+        "option_text": "They are ineffective for complex IT projects",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "35b5302e-c59e-4f79-9158-f726751f6a6a",
+        "option_text": "They replace the need for documentation",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "57503712-77db-4a82-a370-1ce6a2e4c8d9",
+    "question_text": "The critical path in a project schedule:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "d1f6f5b5-6644-4506-ab03-7041ea4fc5d5",
+        "option_text": "Represents tasks with maximum float",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "f292ec97-ce26-4327-bfb7-b2e9ed20108a",
+        "option_text": "Determines the shortest project duration",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "723fc74d-7ce5-4dad-9ccc-9bf989b7e3e4",
+        "option_text": "Can be ignored if resources are limited",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "2148a414-5090-4222-8945-2e846e833a3b",
+        "option_text": "Always includes every project task",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "fa27418f-8353-4746-9206-e586f23a4893",
+    "question_text": "In a project schedule, fast-tracking refers to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "464da4ec-163b-4ac4-aaf2-c17590ed369f",
+        "option_text": "Reducing project scope to save time",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "3d16d73d-7758-4dbd-9953-3aa1f4583e78",
+        "option_text": "Performing tasks in parallel that were originally sequential",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "a68c4fe4-5186-4948-a9d2-c8def2ebff47",
+        "option_text": "Adding more resources to a critical path task",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "feac826d-31af-46eb-9d9a-bf5ea7d001ee",
+        "option_text": "Skipping non-essential quality checks",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "3804316f-5ee0-4ef1-a194-3fc620073741",
+    "question_text": "In project cost management, Direct Costs include:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "2c4c8b4a-2591-419e-86bd-a4cca9812430",
+        "option_text": "Salaries of project team",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "b3f58c0a-fa8c-4b50-a09d-c14270bbdd57",
+        "option_text": "Office electricity bills",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "798a27f4-62c1-469b-b9d5-842696dedaa3",
+        "option_text": "Insurance costs for the company",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "2217f939-609a-4f78-8746-6599f050bdcd",
+        "option_text": "Marketing campaign for company brand",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "17493230-e6b1-498f-8f36-b43e9a0f0dc2",
+    "question_text": "Contingency reserves are used to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "3492d175-3fb0-48a2-a8f0-01b1f822f590",
+        "option_text": "Cover unknown risks",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "62ee6a5a-b0a5-4e9b-9c27-2394d1d197b1",
+        "option_text": "Reduce project duration",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "bd9e284b-907a-445a-a492-91ae6baa8fd1",
+        "option_text": "Increase project scope",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "c903188f-fc06-4d0d-ab2d-fcf5473bf3d6",
+        "option_text": "Pay stakeholders",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "35517c02-64ad-42e5-ae1f-d1e934f2299e",
+    "question_text": "If a project is under budget but behind schedule, which of the following is likely true?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "b3296072-3933-4be5-b1cf-dac907de058d",
+        "option_text": "The project team is over-utilized",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "19c2294d-6c7e-4e6a-948b-d50931850d8c",
+        "option_text": "The project resources are under-utilized",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "2fc90720-5f3c-4b42-a361-49425072a691",
+        "option_text": "The project scope has expanded",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "c4e157c9-58e0-491e-bf92-5de8b4a68a5d",
+        "option_text": "The cost baseline is incorrect",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "6026e302-192f-4b5f-9aa4-e128d4ed0bf5",
+    "question_text": "In IT project management, the triple constraint refers to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "1c595b8f-bd9e-41c3-9e4c-609f4c737a7c",
+        "option_text": "Scope, Resources, Quality",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "7cdf8e7f-c472-4c22-9ac9-a8190a397c9c",
+        "option_text": "Scope, Time, Cost",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "51a7ed78-1753-486f-bf67-04ca5877bcf2",
+        "option_text": "Risk, Stakeholders, Schedule",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "92a4caa1-bce5-4c91-a8b3-3d4983244bc7",
+        "option_text": "Requirements, Budget, Team",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "912e9552-116b-4c08-93e0-3831934a1538",
+    "question_text": "Which of the following is a valid type of dependency in PDM?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5b19ad08-34d7-4571-be80-b01ac88272f4",
+        "option_text": "Finish-to-Finish (FF)",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "be235ddc-d7b5-4196-aa87-6de8b73607f1",
+        "option_text": "Start-to-Start (SS)",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "1025b700-d797-4606-b3db-2c820be3664a",
+        "option_text": "Start-to-Finish (SF)",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "458a63b0-3ab7-4c98-b0a3-34074884fbd0",
+        "option_text": "All of the above",
+        "is_correct": true,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "733c2cbf-7329-4fed-871c-57c779ec49fe",
+    "question_text": "The critical path in CPM is:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "b8a50428-6eac-4de9-ab0f-b0e342d7f0e0",
+        "option_text": "The path with the maximum float",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e62a27d8-947a-4bef-819c-451b4a3f8b11",
+        "option_text": "The shortest path through the project network",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "84f32ee1-20d4-4dd1-9671-e5f50ab3651e",
+        "option_text": "The longest path through the project network",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "3b3dd680-d7d2-4072-9a3b-87018e9655ee",
+        "option_text": "The path with the least number of activities",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "ad06e2d4-38b4-4054-a2bb-e16a15eae2fa",
+    "question_text": "In CPM, slack or float is defined as:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "a1d2369b-7565-4e67-b1d8-933155cdd7e3",
+        "option_text": "The amount of time an activity can be delayed without delaying the project",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "67e8e918-3fbd-4e4a-beff-36af42a4075a",
+        "option_text": "The total cost of an activity",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "270cf67f-363b-4afe-84a4-d983691dfbc8",
+        "option_text": "The difference between pessimistic and optimistic times",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "c75b6816-bcbe-43a5-b8ca-d5c3e5e498d3",
+        "option_text": "The sequence of all tasks in the project",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "d0eb9cec-d00b-4693-a34a-903ad01510c4",
+    "question_text": "In a project network, an activity has early start = 3, late start = 3. Its float is:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "f1fdd756-ee04-4ffc-83d5-3770d63fcbf8",
+        "option_text": "0 \u2192 Critical activity",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "976fb357-3c41-44f7-ac97-91ed68bb22b4",
+        "option_text": "3 \u2192 Non-critical activity",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "bddf57ec-0b09-4545-b83a-2e76bf2e6de2",
+        "option_text": "6 \u2192 High float activity",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "01e001d0-4950-4104-bf75-433400e0ab90",
+        "option_text": "Cannot be determined",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "e726389e-9b41-4367-a495-7736e29c327b",
+    "question_text": "Lead time refers to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "83e749ad-d635-41f0-96a4-5d71300f9ca3",
+        "option_text": "The time an activity is delayed",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "60b7577c-388b-4ed2-ab3a-9f50363b5045",
+        "option_text": "Overlapping of activities where a successor can start before predecessor finishes",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "87087e65-0653-4f11-9aa7-4cc4227ea1c6",
+        "option_text": "Float in non-critical path",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "657a68e1-84df-4704-91d2-476a90556d81",
+        "option_text": "Total project duration",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "a8d2d59b-a5df-4c19-9437-a5d2c0e15ba3",
+    "question_text": "In CPM, reducing project duration by adding more resources to critical path activities is called:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "745a21c5-b5af-49c2-8d4b-6e92e185a929",
+        "option_text": "Fast-tracking",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "bc6a9a9e-f503-4a50-b4fb-3862317004da",
+        "option_text": "Crashing",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "57173b67-b180-44ef-9069-77055ae75508",
+        "option_text": "Lagging",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "a362fe4d-9c49-43a7-ba5f-73209ed61fb8",
+        "option_text": "Splitting",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "b76b01d2-ffc6-42aa-936d-b4b5f9c87c18",
+    "question_text": "An activity has optimistic (O) = 4 days, most likely (M) = 6 days, pessimistic (P) = 10 days. What is the expected time?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "63512289-52bb-420e-8527-e7288bf4380a",
+        "option_text": "6 days",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "bbf1a158-b1fe-4cbb-87e8-cfadf966b7db",
+        "option_text": "7 days",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "e1460b16-4af8-4c6c-a524-d7f9a98c26d3",
+        "option_text": "8 days",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "f2b2f593-9642-44cc-bebb-fa6933c54b05",
+        "option_text": "5 days",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "c8c0067b-00d0-40a4-84d7-5c04cd65bae7",
+    "question_text": "An activity has early start (ES) = 3, early finish (EF) = 7, late start (LS) = 5, late finish (LF) = 9. Its float is:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "4556c875-1647-4f0a-95de-9aab5ef80025",
+        "option_text": "2 days",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "f047c4e4-76b2-4308-a15e-1977cad03a0b",
+        "option_text": "1 day",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "8708ceb7-5467-4607-a13e-208da136437a",
+        "option_text": "0 days",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "f5238f1c-9158-43bf-8784-c498f5e60e25",
+        "option_text": "4 days",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "6bda719b-16c4-4846-9156-4b6617b93bef",
+    "question_text": "If project manager wants to shorten project duration by crashing, which activity should she target?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "333014af-4489-4ed8-857d-fa3484e2e928",
+        "option_text": "Any non-critical activity",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "1acc3376-e58b-4af8-ac58-f02c68b1e303",
+        "option_text": "Critical path activity",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "2abf2b63-db33-4a84-8ec9-1ae17a53dd38",
+        "option_text": "Activity with max float",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "9766d0bf-503e-4222-b0f9-6ff5fedc854e",
+        "option_text": "Activity with shortest duration",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "577fe4f3-aa5d-4b32-9fc7-92bd1038a517",
+    "question_text": "A project has PV $50,000, EV $45,000 and AC as $40,000. What is the cost variance?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "77914744-7daf-460a-a0c8-c3c49e140db1",
+        "option_text": "$5,000 (Under budget)",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "05495f19-a8c9-4c1a-8461-6c2ae93cd236",
+        "option_text": "\u2013$5,000 (Over budget)",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "0fc19506-819f-46b8-8305-a9d143874747",
+        "option_text": "$10,000",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "b48fe8a7-fca1-4df0-a37c-f1a61ac225bb",
+        "option_text": "\u2013$10,000",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "c821874e-6eb3-4521-8f44-26253ecc6892",
+    "question_text": "A project has PV $50,000, EV $45,000 and AC as $40,000. What is the SPI?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "286c8871-522d-441b-bdc4-e5ced9775169",
+        "option_text": "1.1",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "32183779-d6f1-45db-8cba-1f13fc8272c3",
+        "option_text": "1.0",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "f0b57747-d176-4329-80b5-39793786e19b",
+        "option_text": "0.8",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "7ec90e86-8b2a-4804-bf64-4211efe52ce8",
+        "option_text": "0.9",
+        "is_correct": true,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "251ad92f-b576-40f6-b1a7-12dbebb04cd8",
+    "question_text": "A project has: PV = 60,000, EV = 50,000, AC = 55,000. Is the project:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "93f77dd8-4ea4-483e-934f-2f3b04ace73e",
+        "option_text": "Over budget, behind schedule",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "bab324c7-7ffe-4059-a7c3-90c5dbfc97f5",
+        "option_text": "Under budget, on schedule",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "5426117a-9102-4b2b-9f25-babc409819d3",
+        "option_text": "Over budget, ahead of schedule",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "c96218e8-c2a3-45a6-8b66-47721dd42f4e",
+        "option_text": "Under budget, ahead schedule",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "b2bd1134-defa-4968-8b96-2eadf2cadf8f",
+    "question_text": "Using the PERT formula, calculate the expected duration for an activity with the following estimates: Optimistic time: 4 days, Most likely time: 7 days, and Pessimistic time: 16 days.",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "62b2a46b-5e17-4b02-806c-9edf52085de9",
+        "option_text": "7.0 days",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "1846b209-80a3-44d1-8489-36eef747877d",
+        "option_text": "8.0 days",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "47ca22a4-462c-4b97-b7c0-07b7ac41f791",
+        "option_text": "9.0 days",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "d6de3f5b-f913-4c54-b1d5-907585ed2191",
+        "option_text": "7.7 days",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "7c5f92ec-e995-4f5e-afca-aea31086f93b",
+    "question_text": "What are the four types of dependencies in project scheduling?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "12b02726-9b9d-4bec-92e1-59c22095aea9",
+        "option_text": "Internal, External, Mandatory, Optional",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e76d2e99-7f3a-4c3e-9ec4-8933b5b57973",
+        "option_text": "Finish-to-start, Start-to-start, Finish-to-finish, Start-to-finish",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "11759da1-d4c1-42df-9899-1f2a5fab0425",
+        "option_text": "Sequential, Parallel, Conditional, Iterative",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "e6f0776d-8564-4061-a2aa-ff3d3f8469ce",
+        "option_text": "Critical, Non-critical, Dependent, Independent",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "f4a7bee0-4d65-41a6-9d48-ef3e1eeff0ba",
+    "question_text": "Which project management methodology is most suitable for projects with unclear user requirements and need for constant feedback?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "c5ac8d0d-1c44-4867-b2d5-f23a955edff4",
+        "option_text": "Waterfall Project Management",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "d3a9ef20-1c9f-460a-8142-6b175d084c3f",
+        "option_text": "PRINCE2",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "d7d1628b-56e5-47da-a0d3-050a520bf297",
+        "option_text": "Agile Project Management",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "1b4396ba-3a40-412e-b2dd-99845041f7d8",
+        "option_text": "Traditional Sequential Approach",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "65445140-1370-4b6d-b15c-f9c27515915f",
+    "question_text": "In a Work Breakdown Structure (WBS), what is a work package?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "b640ab94-3161-4921-9dc6-1a1f4c2778d5",
+        "option_text": "The highest level of the WBS hierarchy",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "5ad92986-9ccb-4172-9b37-0d352067703b",
+        "option_text": "A task at the lowest level of the WBS",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "3c5f5766-1954-4b38-a7f2-27b91c4e19d1",
+        "option_text": "A collection of related projects",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "80e33d35-7cf8-4894-a335-8f98dd605209",
+        "option_text": "A summary of all project deliverables",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "98c7a4a8-2c9c-4ec5-b4e6-adc0ecd30be4",
+    "question_text": "Which project management methodology is government-endorsed and divides projects into multiple stages with their own plans and processes?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "ec67962d-216c-48b5-b937-1555717acfae",
+        "option_text": "Waterfall",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e278f745-6df9-4ee9-adf1-a2608ee41321",
+        "option_text": "Agile",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "fc38f8f5-de61-4dbb-a08c-ea4ecfde04a5",
+        "option_text": "PRINCE2",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "b748274d-323d-46d9-b226-d9db3c426c1c",
+        "option_text": "Scrum",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "cfa54a37-e8f0-4689-9639-34cee2626860",
+    "question_text": "Which of the following is NOT one of the six main processes in Project Scope Management?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "a77fb9b9-f369-47a1-a2ab-8c172363f623",
+        "option_text": "Planning scope management",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "2583b058-8bca-44d8-8677-0860b33c264a",
+        "option_text": "Collecting requirements",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "e0f7384a-4774-499e-873c-449477f61c03",
+        "option_text": "Estimating scope duration",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "349adc15-4882-4d0b-8ab0-899ba3eac60c",
+        "option_text": "Validating scope",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "d13fa99a-dffc-484a-bd33-cd87b9971ed9",
+    "question_text": "In Agile project management, what does multitasking typically lead to according to Critical Chain Scheduling principles?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "98174ef3-5a2e-4edc-b8a9-6e1a3b2cf22f",
+        "option_text": "Increased productivity and faster completion",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "15da38f9-cd44-42df-9eb7-567695fa3635",
+        "option_text": "Better resource utilization",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "bedae75a-0c4a-4f0b-a71d-da969c2e873f",
+        "option_text": "Longer overall project duration",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "10817a2a-ba29-46d7-908a-0c870e90d18f",
+        "option_text": "Improved team collaboration",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "32267edd-b447-4a44-bcb9-73fded69370f",
+    "question_text": "A project has the following network diagram with activities and durations:\n\nPath 1: A(3) \u2192 B(5) \u2192 D(4) = 12 days\nPath 2: A(3) \u2192 C(8) \u2192 D(4) = 15 days\nPath 3: A(3) \u2192 C(8) \u2192 E(2) = 13 days\nWhat is the critical path duration and which activities are on the critical path?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "08fe7201-30af-44c4-ac1e-1a66c32354d3",
+        "option_text": "12 days; Activities A-B-D",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "59a35237-52c4-4da9-a51a-6a5b8881ce6e",
+        "option_text": "15 days; Activities A-C-D",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "c3347382-5376-4aeb-801f-0aaa197b24d8",
+        "option_text": "13 days; Activities A-C-E",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "a6dcaf0e-344d-4a68-810d-08e659b93cba",
+        "option_text": "15 days; Activities A-C-E",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "46c56489-3437-4b68-a442-b136f64fbf8e",
+    "question_text": "Which of the following best defines a project according to PMBOK?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "ce96a417-45d2-4a4e-b3f8-7417bb6cb5da",
+        "option_text": "A permanent operation delivering ongoing value",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "9b20c864-cff2-43ac-88bb-2f15c8b50f16",
+        "option_text": "A temporary endeavour undertaken to create a unique product, service, or result",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "397afd8f-f3ac-4dcd-83ba-bfbc9070a225",
+        "option_text": "A routine set of tasks repeated in cycles",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "223d9b93-4f1b-4c57-87b2-424e076d4fd6",
+        "option_text": "A long-term strategic goal",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "03fe4232-471d-41a8-a6ef-c7d9279a0672",
+    "question_text": "The \u201ctriple constraints\u201d of project management are:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "12aaf699-50f3-4d22-a499-c2a0eb5ca462",
+        "option_text": "Scope, risk, and quality",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "df9dbdac-f307-485e-9425-13eb855517db",
+        "option_text": "Time, quality, and communication",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "ea3ef7b2-5015-464b-9423-7a2b384d079a",
+        "option_text": "Scope, time, and cost",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "7b709d47-7063-4d6c-a870-ecf5c9ccf8cf",
+        "option_text": "Scope, procurement, and stakeholders",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "30ebc4f3-12e9-4c16-bac8-b765453419e2",
+    "question_text": "What percentage of IT projects were reported successful by the Standish Group (CHAOS study)?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5b53a9be-035e-4b2f-bc14-90ff0863eb89",
+        "option_text": "16.2%",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "a1cb3662-eb13-4c63-9622-190ab6eebfff",
+        "option_text": "25%",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "0961e561-9e5d-4264-8b8d-57d8ae7c1588",
+        "option_text": "50%",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "64b9e462-41f3-420c-b800-6f71bcffb532",
+        "option_text": "75%",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "5110765d-a551-40d5-b8eb-8ddb5e3781b0",
+    "question_text": "Which Project Management Knowledge Area involves acquiring goods and services from outside the organisation?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "15b00707-bce8-4104-87d4-904f94774e88",
+        "option_text": "Project Procurement Management",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "46237905-dd8a-464f-8615-6435877c2873",
+        "option_text": "Project Resource Management",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "0dfda7b0-7d9e-488b-b8b6-5efdf3e92a2e",
+        "option_text": "Project Integration Management",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "f262409c-2dd3-43f5-b1dd-4bc75e727afd",
+        "option_text": "Project Risk Management",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "4468aec1-eb64-4a7b-9adb-74329b5a93a5",
+    "question_text": "A project is considered successful if:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "8014da7d-878c-40dd-86c3-ee13a400fde2",
+        "option_text": "It meets scope, time, and cost goals",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "f4501955-8ad1-4e9b-89f5-91295aa4d827",
+        "option_text": "It satisfies the customer or sponsor",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "ddf4bc27-fcd3-4c3e-b1b1-86fbfa7d965a",
+        "option_text": "It meets its main objectives (e.g., ROI, benefits)",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "a7bbed72-957c-47e4-9b92-34363ace2f55",
+        "option_text": "All of the above",
+        "is_correct": true,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "b6737b8e-2b08-4feb-8f4d-df660676dcbd",
+    "question_text": "In Waterfall methodology, project phases are handled:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "3b5cfdd2-5e50-4d78-a6be-588436bbcda5",
+        "option_text": "Iteratively with continuous feedback",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "99d75833-96bc-4499-b10f-71c4e1365700",
+        "option_text": "Sequentially, from concept to completion",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "0b0506c1-fa4b-4924-adb4-c2e8aeb33944",
+        "option_text": "Without formal planning",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "7d9a14f8-6723-474e-9942-faa50e900f8a",
+        "option_text": "By self-organising teams",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "d506c892-af5d-445b-99d7-58eeb3988cd3",
+    "question_text": "Agile project management is ideal when:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "05f0f9ac-d463-425a-88bc-e520048ea8f9",
+        "option_text": "Requirements are fixed and stable",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "3b08c69d-2258-47e4-973f-49d7680212cf",
+        "option_text": "Projects are large-scale and predictable",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "1a0c3850-84cd-49b4-98b2-bf8c5883f05f",
+        "option_text": "Requirements are unclear or frequently changing",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "e98926d8-2485-4967-a8c4-d5664bd87d2c",
+        "option_text": "Government regulations must be followed strictly",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "754043ac-5083-4f55-8e8b-1aa5bb842fa8",
+    "question_text": "Which of the following is NOT a requirement-gathering technique?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "083797c3-a6b9-476e-af9d-675b06f42db4",
+        "option_text": "Prototyping",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "0b355279-23e3-453b-8a85-54e15edb2539",
+        "option_text": "Interviews",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "50f2a9e8-c22c-4f42-9165-f557f468575d",
+        "option_text": "Benchmarking",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "36770208-21d5-4483-a23e-d39b3b73f407",
+        "option_text": "Crashing",
+        "is_correct": true,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "370d20f1-64ad-4f70-891f-5a915fa100fa",
+    "question_text": "What is a Work Breakdown Structure (WBS)?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "2e1c35a4-9b43-4988-82fd-6ace06a427fc",
+        "option_text": "A time-phased budget showing resource allocation",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "9eb72564-8afd-4b1c-9455-44fa9aa5048a",
+        "option_text": "A hierarchical decomposition of project deliverables",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "3081dbc8-9442-4457-93f6-fc20dbe8d719",
+        "option_text": "A tool for stakeholder mapping",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "5fb6f007-709f-4b43-9b65-2dfa5ddd4a53",
+        "option_text": "A sequential listing of project risks",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "82ac64d2-9eef-4869-868d-3f842a8c8442",
+    "question_text": "Which process formalises acceptance of completed project deliverables by the customer/sponsor?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "63a854f3-bbfe-48f5-99bf-bab06e8d16fc",
+        "option_text": "Control Scope",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "d7c3dbfa-cf8e-4710-8be2-deb319f6c7bf",
+        "option_text": "Validate Scope",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "18d09e05-769a-4d9b-a688-a3ab59f1c866",
+        "option_text": "Define Scope",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "7f4c9089-d1fd-49bc-9ce4-de82b17e6a78",
+        "option_text": "Collect Requirements",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "2871b53f-0033-4dd9-993e-875bfc95361c",
+    "question_text": "Which dependency requires one activity to finish before another can start?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "2b0f9a7f-2979-4b8a-a135-e7afcdaec588",
+        "option_text": "Start-to-Start (SS)",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "d381e45f-d8d6-411d-8b3f-d7e5381c1880",
+        "option_text": "Finish-to-Finish (FF)",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "5044bc49-b118-4543-9721-36e2c6dee15e",
+        "option_text": "Finish-to-Start (FS)",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "06a00f04-9234-4678-be5c-2f5c1fb7054f",
+        "option_text": "Start-to-Finish (SF)",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "8f3907d4-4a6c-4d07-9a88-fb4f1cb9cf22",
+    "question_text": "What does a milestone represent in a project schedule?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "94186856-f910-4213-a1d1-d0f53cad1266",
+        "option_text": "A resource allocation",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "80a42fdd-3f05-4a14-b5a7-074c3f8c76ea",
+        "option_text": "A significant event or achievement at a point in time",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "44ff38e6-39aa-4656-b092-e560dde82de2",
+        "option_text": "The longest path in a network diagram",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "95bab629-6313-4fd0-9bab-6335b46c06c5",
+        "option_text": "A buffer in the schedule",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "e88efde3-ef90-4359-af86-fbc971018f22",
+    "question_text": "The Critical Path Method (CPM) identifies:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "38e8f77b-87ca-41f4-9e54-508cef67dcc6",
+        "option_text": "The path with the highest costs",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "8acc3941-ab80-4214-9939-ef0827d885d4",
+        "option_text": "The longest sequence of dependent activities that determines project duration",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "e101300c-1ac0-4e0c-93d9-ac2cee8f81e1",
+        "option_text": "The path with maximum float or slack",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "b188d836-81de-4552-b769-a0adecaf9f63",
+        "option_text": "The most resource-heavy tasks",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "40946f0a-a941-400f-9386-526bfa184b22",
+    "question_text": "In PERT analysis, the formula for expected time (E) is:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "ed4b78b9-6b06-43ab-ad93-c1b03ac4f680",
+        "option_text": "(O + P) \u00f7 2",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "8b05ff99-dc99-4795-bcce-053c3e9497c5",
+        "option_text": "(O + 4M + P) \u00f7 6",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "428b9c25-5dd0-491a-a496-ba73868ffcd7",
+        "option_text": "(M \u00d7 P) \u00f7 O",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "6e2ec3bf-c9e6-4933-8ace-6305e905036c",
+        "option_text": "(O + M + P) \u00f7 3",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "7bf56095-4ebe-445b-a8f5-de47cdf48f15",
+    "question_text": "Which technique involves overlapping tasks to shorten a project schedule?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "db4e921c-7a35-47e4-94cd-704bb5f4fff6",
+        "option_text": "Crashing",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "41a8892c-265f-4885-a9f3-447078c4db9f",
+        "option_text": "Fast Tracking",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "259872bd-b990-4b17-854b-b09113731a5c",
+        "option_text": "Buffering",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "c30bb130-87e6-4ed3-95f4-6230ca46ec6f",
+        "option_text": "Monte Carlo Simulation",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "b0aadf23-74ec-4c0f-8616-7a853dd6c33d",
+    "question_text": "In project management, sunk costs should:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "e88cce8f-e8db-4712-97c2-25ea9cd07b0f",
+        "option_text": "Always be recovered in future projects",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c93b21c8-05f1-4545-9af0-fff4c0fd19af",
+        "option_text": "Influence future investment decisions",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "6c4c7de2-6ec8-49a7-90f7-a03f06e4e24a",
+        "option_text": "Be ignored when deciding to continue or stop a project",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "8d414dec-9c32-40d9-9a8a-d66eccd54ec3",
+        "option_text": "Be added to contingency reserves",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "5083ef9d-4cf2-4a1d-aba9-b0954200ad3d",
+    "question_text": "Which reserve accounts for \u201cknown unknowns\u201d?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "28c826dd-777e-49b6-bf65-3f85903cc44d",
+        "option_text": "Management reserves",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "15a7927b-cedf-4c52-9b8c-a080c3e42f57",
+        "option_text": "Contingency reserves",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "35461757-8002-4708-a60b-a36c86a7720d",
+        "option_text": "Buffer reserves",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "7623b8b3-a390-4282-9e36-5d39fd89e3dc",
+        "option_text": "Emergency reserves",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "397d333b-7ba9-4fa0-9d81-e1479b63199b",
+    "question_text": "Earned Value (EV) is defined as:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "bf6677cb-24ed-428b-84b4-b8cd3c9e4fa5",
+        "option_text": "The total actual costs spent to date",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "f24c17cf-92c6-4520-b453-c073fc5c08a3",
+        "option_text": "The portion of the budgeted cost of work actually completed",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "261b497b-464a-4a17-a65f-e4a9f16841cc",
+        "option_text": "The total planned cost for the project",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "515897a1-7eeb-4cd4-8bb1-03d9ddaa0c1b",
+        "option_text": "The difference between planned and actual costs",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "165922f9-d297-408e-b5e6-c3ec32ffd146",
+    "question_text": "If EV = $30,000, AC = $40,000, what is the Cost Performance Index (CPI)?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "d930c9f0-9d21-4323-9b25-d64f73fac598",
+        "option_text": "0.75",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "83f5f436-b953-4695-a916-380a8a29901b",
+        "option_text": "1.0",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "13df0b27-9175-4753-b362-c6f9587f2264",
+        "option_text": "1.25",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "7c2256d7-12dd-4771-a008-e940d006e5ee",
+        "option_text": "0.86",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "d175a9f4-53d0-4efb-9ac7-0bcd0f8e61b1",
+    "question_text": "When CPI < 1 and SPI < 1, this indicates:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "ae83ba06-7fc6-4fb7-a36b-b1b84c03b84e",
+        "option_text": "Project is under budget and ahead of schedule",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "f544674f-5ede-45d7-9216-d4f997f6920e",
+        "option_text": "Project is over budget and behind schedule",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "2f4bb4ae-2515-4884-997f-b3761656a6ed",
+        "option_text": "Project is on track",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "d2a2f728-715b-4ea0-9e38-af65927e2972",
+        "option_text": "Project performance cannot be determined",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "46227241-0864-49f8-97e5-a39646d5a8b6",
+    "question_text": "Which of the following represents the correct Six Sigma DMAIC sequence?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "3b36b91c-a340-4948-a129-58b2093b7875",
+        "option_text": "Design, Measure, Analyze, Improve, Control",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "b9378558-ceaa-4f47-a107-48f777393e19",
+        "option_text": "Define, Measure, Analyze, Improve, Control",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "14824f55-b863-4f3b-84fc-7d99e84d3982",
+        "option_text": "Define, Manage, Act, Implement, Check",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "ecc07bb2-bbd8-448b-b75d-a3d19cf13b59",
+        "option_text": "Develop, Measure, Apply, Implement, Control",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "aa745c1d-d3cc-47cc-89f0-ca6e1415c2dc",
+    "question_text": "A Pareto chart helps in identifying:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "30a84cc1-9bc6-4604-b170-fde201053012",
+        "option_text": "The frequency distribution of data",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "79848c41-2ea9-46aa-9c77-9b55667c6e1e",
+        "option_text": "The most significant factors contributing to defects",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "4fa540ad-41bc-431c-88ad-90b96461bd9c",
+        "option_text": "The root causes of all quality issues",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "ace7376b-d317-4d7a-96c4-61d39a404b32",
+        "option_text": "The process performance over time",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "2dde8647-be50-4d18-9d5c-bee8e90c773a",
+    "question_text": "The \"Cost of Quality\" primarily includes which of the following components?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "7e5dccfc-23b3-4a6d-b220-01e4e8ad3130",
+        "option_text": "Development and maintenance costs",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e6e5f1c5-6fd8-464d-b3fa-ba50614e1f4b",
+        "option_text": "Prevention, appraisal, and failure costs",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "dc9187bb-e536-42c2-8629-624cac1100ca",
+        "option_text": "Testing and deployment costs",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "6eb83573-d1e3-481b-8b47-a4f30e8810a2",
+        "option_text": "Hardware and software costs",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "bbb3d736-8e13-4cac-89e0-5c2ea3ed45c1",
+    "question_text": "The main objective of software testing in quality control is to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "cfc10f64-3e37-43cc-b917-191b0e3d094c",
+        "option_text": "Demonstrate that the system works perfectly",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c8a2cea5-966a-43b0-b16a-7faa21a398f8",
+        "option_text": "Identify defects and ensure the system meets requirements",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "2f53e6f4-2917-44d6-bd07-7b8c750e3ce8",
+        "option_text": "Reduce the cost of project documentation",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "0f88e78b-effe-429a-8866-98b555c5a50e",
+        "option_text": "Increase the speed of project delivery",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "d6e47bab-bfc3-4eae-8a18-40e4d4a4cdec",
+    "question_text": "The purpose of the Develop Team process is to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "f0e02525-abe7-4133-9a58-f2c68519dec0",
+        "option_text": "Ensure all project resources are acquired on time",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "974127b7-201b-4cc6-939c-5d4060ab48c1",
+        "option_text": "Track resource performance and make adjustments",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "1743598f-d80b-42d0-9d2a-92defd763aba",
+        "option_text": "Improve team skills, interaction, and overall team environment",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "c6787a25-8415-424f-8abc-4c76a9a69ecf",
+        "option_text": "Release team members after project completion",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "b5d8c1a8-12d2-4c20-af44-12c6238503ef",
+    "question_text": "A resource histogram is primarily used to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "1beaf577-5470-4485-8f49-10817a42169e",
+        "option_text": "Identify the project budget trends",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "0f148404-06b5-416f-a1b8-81ace562b488",
+        "option_text": "Display resource usage and availability over time",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "24f6f051-2472-4631-96d6-ecd5c35b9fb6",
+        "option_text": "Show task dependencies in a Gantt chart",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "f222a504-20b0-415c-a651-6cb66009facc",
+        "option_text": "Track earned value and cost variance",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "9a85c3af-ee63-4841-a5de-173ec3d842f7",
+    "question_text": "The process of obtaining team members, facilities, equipment, and materials needed to complete project work is known as:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "d44da55e-c933-4512-8d17-b27350d37b9d",
+        "option_text": "Develop Team",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "3fa4e960-1240-4604-b5fe-244edc878557",
+        "option_text": "Acquire Resources",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "552b702c-faed-4fe2-a870-a9216cbed825",
+        "option_text": "Manage Team",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "d2a1285d-9fe8-44a7-bcd7-5dc90a06a56e",
+        "option_text": "Plan Resource Management",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "b0154bbe-8080-43fd-80c3-3e75d5dc9252",
+    "question_text": "Which of the following tools is most effective for visualizing resource conflicts?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "b7df348e-f943-47e3-b199-b21471e69403",
+        "option_text": "Gantt Chart",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "147d8883-7f9d-4a09-8a8d-639519828649",
+        "option_text": "Resource Histogram",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "880cd135-a00c-4e93-bac1-004b30e8c6f5",
+        "option_text": "Work Breakdown Structure (WBS)",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "aca1f51a-7fea-46a3-86a2-67b607f2cb8d",
+        "option_text": "Milestone Chart",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "33be3a9d-b535-4e2f-967d-46dd8b6fbdfa",
+    "question_text": "The process of identifying risks involves:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "311380b8-7ad8-4ef5-a340-98ca263db53e",
+        "option_text": "Developing the risk response plan",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "d6890b13-9a18-4d4e-9942-3d52245950ff",
+        "option_text": "Monitoring and controlling project progress",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "c3f61048-0f66-4aec-a124-f23d28d3de45",
+        "option_text": "Determining which risks may affect the project and documenting their characteristics",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "9cc1c0fe-72e9-4ef8-bccb-b82f22713421",
+        "option_text": "Assigning risk ownership to team members",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "df4e1418-29a3-4b29-bff6-69b6579776c0",
+    "question_text": "Which of the following is NOT a tool or technique used in identifying project risks?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "9d66fb5b-1caf-4fc4-8912-1728781cbc75",
+        "option_text": "Brainstorming",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "b4fa705b-970f-4e8d-9d10-8e0e0279b9db",
+        "option_text": "SWOT Analysis",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "3f556aca-f343-4667-bd83-2e49064fb377",
+        "option_text": "Monte Carlo Simulation",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "4bb6f54a-d7b1-4921-bf33-850d518bdcc5",
+        "option_text": "Expert Judgment",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "389591d1-2795-4ffb-ac63-8ab974d7cd23",
+    "question_text": "Transferring risk to a third party (such as through insurance) is an example of which risk response strategy?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "f949bd5b-718b-4e32-be57-3b5ea88397af",
+        "option_text": "Mitigation",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "a9d9f93a-6726-4828-99a8-155eb8451d21",
+        "option_text": "Transfer",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "b7b1d25e-088c-4e2b-9a85-5de6712ab98d",
+        "option_text": "Avoidance",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "19da65e5-d238-4847-9ea2-f7b3f5b6529a",
+        "option_text": "Sharing",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "25b1455c-4ead-4403-b68f-4ec5d3b1a427",
+    "question_text": "Which process ensures that previously identified risks are tracked, new risks are identified, and the effectiveness of risk responses is evaluated?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "23639579-296b-4f0c-a979-f98adb7863a6",
+        "option_text": "Identify Risks",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c67c20d0-6eb2-419f-830d-fb77a2067c13",
+        "option_text": "Perform Qualitative Risk Analysis",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "14acd817-7e9b-468e-bf9d-e8056070e62d",
+        "option_text": "Monitor Risks",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "145b5e04-9d67-49e2-9221-f717b9814b72",
+        "option_text": "Plan Risk Responses",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "5f48296e-a11c-4346-937f-00d091e9b521",
+    "question_text": "In procurement management, outsourcing refers to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "99b65fc0-a79c-41de-a113-fce64b4bf7c1",
+        "option_text": "Transferring project risk to internal departments",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "e4e212fe-a28d-4665-ade4-cbb609bef0a8",
+        "option_text": "Procuring goods and services from an external organization",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "65d3c1c5-fc8c-4acb-9e13-5b9424742381",
+        "option_text": "Hiring additional internal team members for short-term tasks",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "85fde4ac-c200-46d3-90d2-28b4dcccbf86",
+        "option_text": "Using in-house resources to reduce procurement costs",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "6d61298b-69af-495d-8405-53d601f0b342",
+    "question_text": "Which of the following is the correct sequence of Project Procurement Management processes?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "754121a2-df52-4a7e-90fe-0aeb7a2288e9",
+        "option_text": "Plan Procurement Management \u2192 Conduct Procurements \u2192 Control Procurements",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "52e89077-bd75-415b-b103-f3ef81dbae22",
+        "option_text": "Conduct Procurements \u2192 Plan Procurement Management \u2192 Control Procurements",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "92c68fe6-ee3e-484d-8c8e-4ab97c321209",
+        "option_text": "Plan Procurement Management \u2192 Control Procurements \u2192 Close Procurements",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "6aebad3b-13cd-4fc2-a578-bdb6c4d256e3",
+        "option_text": "Initiate Procurement \u2192 Conduct Procurement \u2192 Close Procurement",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "7f21411b-7262-4fff-b3cc-d663ccbb2f17",
+    "question_text": "Procurement Proposal Evaluation aims to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "e9c746f3-5743-4af0-8358-6fbdbce85304",
+        "option_text": "Identify potential risks in the procurement process",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "299e4568-dfc3-4619-8460-d28aaa3f02e0",
+        "option_text": "Select the vendor that offers the best value based on price, quality, and capability",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "02ab95f4-8dd0-4dec-b47e-1d98854671b7",
+        "option_text": "Finalize project requirements and scope",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "ce026cff-e589-4032-829b-946070863080",
+        "option_text": "Measure the performance of the internal project team",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "f8eb3842-1bf3-41f6-961b-0eed1b28fbec",
+    "question_text": "The Make-or-Buy Analysis in procurement management helps to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "839d7f47-abfd-4f8b-84d5-9c146d240e23",
+        "option_text": "Estimate the total project cost",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "9e13d711-5f77-4bb2-8fe8-c859264e5079",
+        "option_text": "Decide whether to produce goods/services internally or purchase externally",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "7776a8f9-ddbf-43b7-9942-7b8d16e05558",
+        "option_text": "Select the appropriate contract type",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "0446c0c7-a811-4376-9d1c-0e2e7c15ed2d",
+        "option_text": "Evaluate the project team\u2019s performance",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "2b06d6bf-15b1-4ddf-a538-f812ebe8486b",
+    "question_text": "A Time and Material (T&M) contract is most suitable when:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "aab436bc-0719-4728-b55a-978a8d1a3988",
+        "option_text": "The scope is clearly defined",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "ec08837c-d924-49c6-8809-efcb695ac0d1",
+        "option_text": "The buyer wants to transfer maximum risk to the seller",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "96758fd8-1a39-4b32-a4ed-8622851c6f62",
+        "option_text": "The project scope is uncertain and work is ongoing",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "d21b96e2-53fb-4d2a-8acc-e3eaecf01118",
+        "option_text": "Fixed delivery timelines are critical",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "a05cc9c0-70cc-47d8-b20b-72bcb108996f",
+    "question_text": "In project communication management, the process that ensures information is properly collected, distributed, and stored is:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "d55192ce-682a-4c10-a153-2e5d4c1ff20f",
+        "option_text": "Control Communications",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "1d046bad-b6b2-407a-82a6-b806e0ee7840",
+        "option_text": "Manage Communications",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "7c03a118-9763-4124-a475-db740ebb19c3",
+        "option_text": "Plan Communications Management",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "66405dcb-dbca-423f-9204-8dcc4e0a8aa8",
+        "option_text": "Monitor Communications",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "6009f709-f1ea-4190-953d-451290920877",
+    "question_text": "Project governance ensures:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0dd6cb62-2fa4-4317-b82b-8fe44cf9b262",
+        "option_text": "The project complies with organizational policies, procedures, and strategic objectives",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "8ab5865e-4907-4a81-81e4-eacc8d1bef9c",
+        "option_text": "The project team works independently without management oversight",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "1723c01e-7e34-4aa7-b7ef-5de48025f0ac",
+        "option_text": "All stakeholders have equal decision-making power",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "34f7c580-359b-4cb3-a549-e07e239e40b3",
+        "option_text": "Project risks are completely eliminated",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1803a0ca-a75d-43df-ac35-0b81ab8be76c",
+    "question_text": "Which leadership style is most effective in promoting innovation and motivating teams through vision and inspiration?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "608bb650-03b9-461f-b46e-2f9f84fccdd7",
+        "option_text": "Bureaucratic",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "3eb8a0f7-0454-407e-9586-ad89b5e0ac72",
+        "option_text": "Transformational",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "8d3d1acf-9621-437a-bff7-1cc70b3c88ba",
+        "option_text": "Transactional",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "fa71830a-397d-4c89-9678-663be20d7c34",
+        "option_text": "Autocratic",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "48144216-157e-47e7-875b-b9d5b573d318",
+    "question_text": "The key benefit of Plan Communications Management is:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6792cd3a-5546-4ae6-83a0-69c056d763b1",
+        "option_text": "To improve overall project scheduling",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "dbaf5a4c-9c1c-4966-844f-ba8f901267b4",
+        "option_text": "To define an efficient and effective communication approach for all stakeholders",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "3d0665a5-72e4-4686-828b-9628faa4a74d",
+        "option_text": "To create a performance measurement baseline",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "4b65ef82-0c58-4037-9421-e590e97c238d",
+        "option_text": "To ensure that risks are properly mitigated",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "b1bf2fc5-421f-4d9f-b155-47c6abad413e",
+    "question_text": "A stakeholder register typically includes all of the following EXCEPT:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6ab9e46b-6af8-444e-bd63-0556d755e907",
+        "option_text": "Stakeholder\u2019s role and influence",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "0b6fea7d-5218-415a-bd7c-f1b3022a6574",
+        "option_text": "Communication requirements",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "2f9e6ff5-aae0-41cf-89a9-45628cb60abb",
+        "option_text": "Risk mitigation strategies",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "62986fc5-cc62-462b-8d13-eeae39e002fa",
+        "option_text": "Stakeholder interest level",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "97beb471-0cdc-4d6f-9c6d-e0cf225d9ea8",
+    "question_text": "One of the main purposes of stakeholder analysis in communication management is to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "2c55c174-7353-4eb5-a922-b2328b04fa0a",
+        "option_text": "Minimize project communication requirements",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "2a5b40b1-b1c8-4e77-807b-36a4509362e7",
+        "option_text": "Prioritize stakeholders based on their influence and interest",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "6fe1ac4f-35cd-4354-95dd-cd47ee422705",
+        "option_text": "Remove low-priority stakeholders from meetings",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "66261737-216c-444c-9a1c-56f10d4162b0",
+        "option_text": "Focus only on project sponsors",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "baee29ae-1260-4058-abde-694b7c5a5d7b",
+    "question_text": "Which of the following is NOT one of the processes in Project Quality Management?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "ea344120-ce0a-4225-9293-dd9dd839f993",
+        "option_text": "Plan Quality Management",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "5c8530f1-98cf-4ebf-becf-58a5783f643e",
+        "option_text": "Perform Quality Assurance",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "3ff0e994-4773-45be-b3ac-6536a72147a2",
+        "option_text": "Control Quality",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "07c5f33d-9c06-4898-8de0-41794d395879",
+        "option_text": "Control Procurement",
+        "is_correct": true,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "f2e96bda-d1fb-42f6-a737-d1cad2017987",
+    "question_text": "According to Maslow\u2019s Hierarchy of Needs, which level represents the highest motivation?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "85652ff9-09aa-4abc-8e91-eb90e83ccd5e",
+        "option_text": "Safety needs",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "b741e7c6-3f01-4906-b05a-1ecb113edb6a",
+        "option_text": "Social needs",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "52c107e4-1dbf-4489-a602-ffaeaca61fdf",
+        "option_text": "Self-actualization",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "8405aae4-2221-435d-bc1b-0e8c1ac89f7b",
+        "option_text": "Esteem",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "ac379ec1-1504-41c3-8747-f9c8fb3dd404",
+    "question_text": "What is the main purpose of resource leveling in project management?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "394d970f-e261-4acf-adba-2c8378e957cd",
+        "option_text": "Increase overall project duration",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c6aa8551-2719-4d5d-a011-e95743a47b44",
+        "option_text": "Resolve resource conflicts and reduce overallocation",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "d915f4b9-c6b6-40cc-99d0-c88babf98263",
+        "option_text": "Improve project quality assurance",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "3c245568-cb66-43ce-b8e1-9fbcaa244f75",
+        "option_text": "Accelerate project completion",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "5d51ab40-b011-47b2-858c-196f4fc14d03",
+    "question_text": "In a RACI chart, which role is ultimately answerable for a task or decision?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "f2528bea-39d1-4d04-bafd-7f119ae98de3",
+        "option_text": "Responsible",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "b558a7a2-c9fc-42aa-9ab0-feeba9872bc3",
+        "option_text": "Accountable",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "c37ec420-89fe-47ca-845c-afddfb2bdbbe",
+        "option_text": "Consulted",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "ddeacfa7-ed96-48c1-912f-15cffd2e1383",
+        "option_text": "Informed",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "731fd5d1-47a5-458b-aeca-943c1af47983",
+    "question_text": "Which of the following is a positive project risk response strategy?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "81df2da3-cbdb-41d7-bcf2-396d82c39a48",
+        "option_text": "Risk mitigation",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "a54c91fe-6efb-4ad4-9fba-ccc1c3d0faa8",
+        "option_text": "Risk transference",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "00e6b516-0276-4285-b75d-e2c090e0ff9a",
+        "option_text": "Risk exploitation",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "0be15262-2fe7-4685-be34-1696a9bb157d",
+        "option_text": "Risk avoidance",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "f610436e-8ac0-460c-a0dd-e1cb1388a378",
+    "question_text": "Which type of contract involves payment to the seller for both direct and indirect costs?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "96f0541c-3833-4de4-b86f-dd12fdf396ba",
+        "option_text": "Fixed-price contract",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "ad36e4e2-b6bf-4573-961b-66c66011d929",
+        "option_text": "Cost-reimbursable contract",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "bbd63d3c-12a2-4009-b8f7-fdfb9b53c284",
+        "option_text": "Time and material contract",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "eb07e172-b5cc-4b95-858f-2cbc594de43e",
+        "option_text": "Unit price contract",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "bbf33392-8122-46e4-9e5f-84cf46d515bc",
+    "question_text": "Which of the following is a key benefit of outsourcing IT projects?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "e5bf8346-3eb6-48e7-a58a-61b7a37ba25e",
+        "option_text": "Reduces accountability",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "2e098ff7-9e37-4047-be61-282dd61ce6b9",
+        "option_text": "Limits flexibility in staffing",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "ac86b547-5af1-48b9-b830-17577fda04b5",
+        "option_text": "Access to external skills and technologies",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "46ab97b5-c5cd-44b4-a625-7320f90df88b",
+        "option_text": "Increases long-term fixed costs",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "a246e55a-5f2d-4fab-88cf-f920aa2cefa5",
+    "question_text": "According to the lecture, which leadership style focuses on initiating change and motivating followers through inspiration?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "43b89d6b-25de-4c0c-9619-32c20580ec40",
+        "option_text": "Autocratic leadership",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "4aed57ab-b277-4f26-9446-b56d238289f7",
+        "option_text": "Transactional leadership",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "ec84bd82-fe73-46ed-8acc-43009209f222",
+        "option_text": "Transformational leadership",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "256e1da0-578a-4d93-aadc-729e2692c636",
+        "option_text": "Laissez-faire leadership",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "709e6154-80b5-461f-b995-e9338d0d2a2b",
+    "question_text": "In project communication, what percentage of face-to-face interaction is conveyed through body language?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "77baf118-88ee-408c-9860-d1de2502072b",
+        "option_text": "7%",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "322f7338-66bd-44bc-895b-eeb9dc91bca8",
+        "option_text": "35%",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "4bb99429-55d1-4a9c-a146-e5ba00e88519",
+        "option_text": "58%",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "fce4f961-e1c0-4bbd-b7f7-57272a6e74ba",
+        "option_text": "90%",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "cf881123-31e4-4d86-a06f-03c2d0d06e29",
+    "question_text": "What is the primary purpose of project governance?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "62cc358b-d0c5-4337-96df-4d9a0f4d8edf",
+        "option_text": "Monitor only financial aspects of projects",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "f16dfab9-0358-4d89-923e-0f20762bc298",
+        "option_text": "Provide structure, decision-making models, and accountability",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "4e310ed0-bf0d-40ee-87ff-552dca52e57f",
+        "option_text": "Focus solely on communication management",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "aa8f6de8-9bc8-43dc-9d96-d6ba3d0ccdfa",
+        "option_text": "Eliminate the need for leadership",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "48c4ce25-1ab0-41d7-b269-24e7413047aa",
+    "question_text": "Which of the following defines project quality according to ISO 9000?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "e49934ea-a130-4f17-9a02-ab594f184a0e",
+        "option_text": "Meeting stakeholder expectations",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "19787ebf-b1ab-40c9-abab-3c5bf2fbf642",
+        "option_text": "The degree to which a set of inherent characteristics fulfils requirements",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "6461fdd7-89e6-4125-846a-cf3a20b23405",
+        "option_text": "The number of defects identified",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "e580839b-c54f-4435-846e-620f565350d8",
+        "option_text": "Adherence to schedule",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "f60188fb-c24e-42c3-8975-64d36e028cf0",
+    "question_text": "The main purpose of quality control charts is to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "c1c2f110-c31f-4986-8f85-896fb98eeed8",
+        "option_text": "Detect defects after production",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "869f9070-27b4-419b-b7df-90165706fd07",
+        "option_text": "Prevent defects before they occur",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "f0f9e05f-da35-48b6-9a7c-f295f3dfa877",
+        "option_text": "Assign blame for errors",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "1c9e9d98-7805-4c55-8941-1ba6e22a8e62",
+        "option_text": "Track cost variations",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "52e44a41-42a1-433f-9ea4-acb161a27c81",
+    "question_text": "The Pareto Principle or 80-20 rule implies:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "93a4c345-e487-4d23-a3a6-2607e7336ec4",
+        "option_text": "20% of resources cause 80% of work delays",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "08bf5ec7-2b87-4a15-99f0-e95db1707f23",
+        "option_text": "80% of problems are caused by 20% of causes",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "41f9e252-20ea-44c6-b2a2-97bf5fa8b567",
+        "option_text": "20% of the team delivers 80% of output",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "8773acfe-d130-4bb5-a6f8-37ca42088785",
+        "option_text": "80% of cost overruns come from 20% of tasks",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "f3fee3f1-686e-4e53-b187-50ccbe7cf9b4",
+    "question_text": "Which of the following is NOT part of the DMAIC process in Six Sigma?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0073f01c-e320-474b-96b1-35d1ebab7c8b",
+        "option_text": "Define",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c175c545-ba49-4ea4-9b4a-5f106394d402",
+        "option_text": "Measure",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "5f32e387-5725-416f-bd99-b55e6826b326",
+        "option_text": "Improve",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "c1e549d3-ab34-42a2-9a4e-1a0879ba2bc6",
+        "option_text": "Review",
+        "is_correct": true,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "daeb2b00-e32c-48ac-989a-b03f06330346",
+    "question_text": "A quality audit primarily aims to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0762be09-ac5d-4436-a832-f5703ee0ed4c",
+        "option_text": "Identify nonconformities and best practices",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "03f61075-783e-4179-aa52-d4c7768524f4",
+        "option_text": "Punish low-performing teams",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "0f80fb86-56ed-444a-9176-864de38cab5d",
+        "option_text": "Replace underperforming suppliers",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "88fd4f14-5657-4f72-8a32-709d1c91ef21",
+        "option_text": "Approve all project deliverables",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "ab919239-8687-46ee-af51-9c923bc06286",
+    "question_text": "Resource leveling is used to:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5ca715a4-2d2e-4c44-b27c-423d3eeaf624",
+        "option_text": "Add more team members to meet deadlines",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "2c9bd41e-403b-4b0e-a694-bbb954234347",
+        "option_text": "Resolve resource conflicts by delaying tasks",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "984314f9-999f-4f94-83e3-dbab91e508b9",
+        "option_text": "Allocate more funds to key resources",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "fdab4aaf-081d-4e80-9d47-b0c22903e240",
+        "option_text": "Increase the number of deliverables",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "62c0a15f-160e-4280-ae75-415dfbd94231",
+    "question_text": "According to Herzberg\u2019s theory, hygiene factors:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "fbf32f92-6087-4f0a-81d8-3a38926ace84",
+        "option_text": "Create motivation and satisfaction",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "991ade03-0c81-4eb6-a6e9-a780fc0f8bb9",
+        "option_text": "Prevent dissatisfaction but don\u2019t motivate",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "4b401785-4fc7-4b05-b7d8-1ba181977d9a",
+        "option_text": "Are intrinsic rewards",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "690c20ef-21fd-4219-9255-e3f8cfb12642",
+        "option_text": "Have no effect on morale",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "7b90d076-11b0-42fd-9970-cafd04cd7b8a",
+    "question_text": "The RACI matrix ensures:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "4f163343-81f1-475f-8bf8-8c33a8abee76",
+        "option_text": "There are multiple people accountable for each task",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "8006b261-f431-49b9-a5d2-5cadbff27d66",
+        "option_text": "Clear ownership\u2014only one person is accountable per task",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "2036703a-7bd5-4629-829a-6c82900b2d22",
+        "option_text": "A hierarchy of team roles",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "5eaf6c31-59dc-4081-9a3d-b9f40fe68730",
+        "option_text": "Resources are used equally",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "3de75ef0-bbb3-4e78-90c5-7924b685a687",
+    "question_text": "In Maslow\u2019s hierarchy, which need must be satisfied before esteem needs?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "86ce815b-e5d5-4398-b0e7-202a243bdc4e",
+        "option_text": "Physiological",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "fcea7eb2-2f90-41ca-b9b3-f7bb6a101a07",
+        "option_text": "Self-actualization",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "f7b117f5-fc71-428a-8ccb-5522bea28e32",
+        "option_text": "Social",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "48cd4f8b-7912-4b0e-a69d-cd0b572f5981",
+        "option_text": "Safety",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "b50f66c8-3e78-4b3c-bc44-fb08a2e7217b",
+    "question_text": "Which of the following is NOT one of Covey\u2019s 7 Habits?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "cbac3438-6078-42e5-9b96-e050519f74c2",
+        "option_text": "Be proactive",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "a82307e7-ac75-41cc-ab2b-486a630293fa",
+        "option_text": "Think win/win",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "3c480a74-14bb-4d0a-82da-cd3ff49fa5aa",
+        "option_text": "Focus on rewards",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "df3c0b3d-e635-4c21-8e5e-1ac5cf637a13",
+        "option_text": "Sharpen the saw",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "2d7ccbf3-004b-4d35-ba50-276d57d00fc7",
+    "question_text": "A negative risk is best described as:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "ce0f07a1-ba64-418c-8a12-36f74faccc72",
+        "option_text": "An uncertainty that has no effect",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "02cd2f8c-ff91-434d-896a-248de0d4ca4e",
+        "option_text": "An event that could harm project objectives",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "f2776e89-a905-489b-8d62-5119307d3ea3",
+        "option_text": "An opportunity for improvement",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "03b53ab1-df10-472b-b11b-e1194acf6645",
+        "option_text": "A minor issue",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "441f7641-6984-474a-a807-ecac4be49970",
+    "question_text": "Residual risks are:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "44e3aa4d-b00a-4429-9b83-8502e0e6c030",
+        "option_text": "Newly identified risks",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "73011d85-d077-4534-8efe-e60488a5489e",
+        "option_text": "Risks that remain after response strategies are implemented",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "02efc41f-3cea-4aa4-afc9-9917736f335b",
+        "option_text": "Risks transferred to suppliers",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "cc8a3be7-e5e5-45ee-9f47-85ed376cc54c",
+        "option_text": "Ignored risks",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "60aa3442-2822-4d7e-a382-83626aebb728",
+    "question_text": "Which tool is commonly used for qualitative risk analysis?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "01d7f1cd-e277-462c-a99f-71240222f09e",
+        "option_text": "Probability-Impact Matrix",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "3412ce43-3b54-458e-9f86-db42b28987de",
+        "option_text": "Sensitivity Analysis",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "ab4420fa-39d0-4604-9e37-0a9e7706f662",
+        "option_text": "Monte Carlo Simulation",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "917636e0-fb95-4a5d-93f8-be7b6fd6f940",
+        "option_text": "Ishikawa Diagram",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "9acc304e-f57e-421f-bb14-a3253d775ef8",
+    "question_text": "Risk transference involves:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0e28dff1-eb2a-495b-a67a-fb48a88037b7",
+        "option_text": "Avoiding the risk",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "55a26810-1470-4a7e-9735-e236a02fb857",
+        "option_text": "Shifting the impact and management of a risk to a third party",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "3a51be56-75eb-47d0-9969-966df32b6240",
+        "option_text": "Ignoring the risk",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "975aadc1-d564-4190-8aba-e4e44261ec3b",
+        "option_text": "Sharing the risk equally among stakeholders",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "cb7b161b-8494-47bd-acd2-f21a73236168",
+    "question_text": "A risk register should include:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "3e83de81-940c-48d4-9506-8632285f1fb4",
+        "option_text": "Only risks that have already occurred",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "0d6e5b12-b627-410b-bb6a-b8c8e25efb19",
+        "option_text": "Identified risks, their probability, impact, and owner",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "cce6d70f-b338-411e-adf2-f5684d059385",
+        "option_text": "Only financial risks",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "b9db7d9d-9214-48d2-ad6d-34efbba3f4e3",
+        "option_text": "Project milestones",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "16adc74e-7b9f-4ec9-9cde-36de0c58d62a",
+    "question_text": "Procurement management includes all of the following EXCEPT:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "d83e7113-d396-46f2-97a9-bc52447799ed",
+        "option_text": "Planning procurement management",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "120cd97d-544a-46c2-948b-4e412135b078",
+        "option_text": "Conducting procurements",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "07c8757d-91cd-4dff-937d-ce5b64461b11",
+        "option_text": "Controlling procurements",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "65b6fa5c-430d-4fd6-8ab0-b5d7a55ef729",
+        "option_text": "Project closure",
+        "is_correct": true,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "6014e7c1-d998-42f8-a1e5-8f6398fd73bb",
+    "question_text": "Which type of contract carries the highest risk for the seller?",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "555e10f6-b414-48b1-a726-1439a9156fed",
+        "option_text": "Cost reimbursable",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "89f229eb-095f-4ba0-a8c7-0951e282f2b9",
+        "option_text": "Time and material",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "64fd5ef0-dd81-4061-a5da-73255ff753f1",
+        "option_text": "Fixed price",
+        "is_correct": true,
+        "order": 2
+      },
+      {
+        "id": "a6592c7b-7da8-46be-b7f5-f6f41faad6d4",
+        "option_text": "Unit price",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "77838dde-24dc-4ff6-85cb-b87a1edec869",
+    "question_text": "A Request for Proposal (RFP) is used when:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "0b90d795-9306-40fb-afc7-ab5e3f33c3ca",
+        "option_text": "The buyer knows exactly what product is needed",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "483b3e02-e1cb-45f6-82df-408d943d8399",
+        "option_text": "Multiple technical solutions are possible",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "02079657-381c-43d9-bc4e-a3e0753ad30d",
+        "option_text": "The buyer wants to compare only price",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "704e25a3-f4fe-4f6e-904c-21003da705ba",
+        "option_text": "A supplier is already chosen",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "4e2fe46a-861c-46c3-8c4b-426279de585f",
+    "question_text": "One benefit of outsourcing IT projects is:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "6d36150c-567c-4ec9-afe0-67b701dc59ef",
+        "option_text": "Eliminates internal accountability",
+        "is_correct": false,
+        "order": 0
+      },
+      {
+        "id": "c2be5b47-4327-4d3d-baa2-676f1447b494",
+        "option_text": "Access to external skills and technologies",
+        "is_correct": true,
+        "order": 1
+      },
+      {
+        "id": "9877d561-c7bf-4ebd-b599-8b24e90a2045",
+        "option_text": "Guarantees cost reduction in all cases",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "9ec50bd9-28b8-4623-b4da-e0c8dc9bfe17",
+        "option_text": "Reduces vendor dependency",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "2779f9cc-5597-4bc0-adc2-fe7e2e790b05",
+    "question_text": "In procurement evaluation, a point value of 1 means:",
+    "question_type": "single_choice",
+    "category_id": "8197204d-7efa-4d47-94e4-a6db07ddfb45",
+    "explanation": "",
+    "points": 1,
+    "choices": [
+      {
+        "id": "5265e601-ba40-44c3-b132-209e39c5a84d",
+        "option_text": "Response has limited applicability",
+        "is_correct": true,
+        "order": 0
+      },
+      {
+        "id": "002367de-8795-4bf2-8847-9f8da336d5e7",
+        "option_text": "Excellent\u2014total applicability",
+        "is_correct": false,
+        "order": 1
+      },
+      {
+        "id": "fa38c011-6590-4526-ae50-d93f8f603dda",
+        "option_text": "Not addressed",
+        "is_correct": false,
+        "order": 2
+      },
+      {
+        "id": "4d257ef8-cc9d-40ce-ad08-faea40cc2bdf",
+        "option_text": "Fair",
+        "is_correct": false,
+        "order": 3
+      }
+    ]
+  }
+]

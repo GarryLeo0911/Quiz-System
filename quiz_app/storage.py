@@ -14,8 +14,19 @@ from django.conf import settings
 class JSONStorage:
     """Handle JSON file operations for storing quiz data"""
     
-    def __init__(self):
+    def __init__(self, subject: str = None):
+        """
+        Initialize storage with optional subject parameter.
+        If subject is provided, data will be loaded from data/{subject}/ folder.
+        If no subject is provided, data will be loaded from the root data/ folder.
+        """
         self.storage_dir = Path(settings.JSON_STORAGE_DIR)
+        self.subject = subject
+        
+        # If subject is provided, use subject-specific directory
+        if subject:
+            self.storage_dir = self.storage_dir / subject
+        
         self.ensure_storage_directory()
         self.files = {
             'questions': self.storage_dir / 'questions.json',
@@ -217,5 +228,29 @@ class JSONStorage:
         return attempt_data
 
 
-# Global instance
+# Helper function to get available subjects
+def get_available_subjects() -> List[str]:
+    """Get list of available subject directories"""
+    storage_dir = Path(settings.JSON_STORAGE_DIR)
+    subjects = []
+    
+    # List all directories in the data folder
+    if storage_dir.exists():
+        for item in storage_dir.iterdir():
+            if item.is_dir() and not item.name.startswith('.'):
+                subjects.append(item.name)
+    
+    return sorted(subjects)
+
+
+# Helper function to get storage instance for a specific subject
+def get_storage(subject: str = None) -> JSONStorage:
+    """
+    Get a storage instance for a specific subject.
+    If subject is None, returns the default storage instance.
+    """
+    return JSONStorage(subject=subject)
+
+
+# Global instance (default storage without subject)
 storage = JSONStorage()

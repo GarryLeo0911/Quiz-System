@@ -5,6 +5,9 @@ urlpatterns = [
     # Dashboard
     path('', views.dashboard, name='dashboard'),
     
+    # Subject Management
+    path('switch-subject/', views.switch_subject, name='switch_subject'),
+    
     # Question Bank
     path('questions/', views.question_bank, name='question_bank'),
     path('questions/create/', views.question_create, name='question_create'),

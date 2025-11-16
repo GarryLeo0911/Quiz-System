@@ -8,20 +8,58 @@ import json
 import uuid
 import random
 from datetime import datetime
-from .storage import storage
+from .storage import storage, get_storage, get_available_subjects
+
+
+# Helper function to get current storage based on session
+def get_current_storage(request):
+    """Get storage instance based on current subject in session"""
+    current_subject = request.session.get('current_subject', None)
+    return get_storage(current_subject)
+
+
+# Subject Management
+def switch_subject(request):
+    """Switch to a different subject database"""
+    if request.method == 'POST':
+        subject = request.POST.get('subject')
+        
+        # If subject is 'default' or empty, clear the session
+        if subject == 'default' or not subject:
+            request.session.pop('current_subject', None)
+        else:
+            # Validate that the subject exists
+            available_subjects = get_available_subjects()
+            if subject in available_subjects:
+                request.session['current_subject'] = subject
+            else:
+                return JsonResponse({'success': False, 'error': 'Invalid subject'})
+        
+        return JsonResponse({'success': True})
+    
+    return JsonResponse({'success': False, 'error': 'Invalid request method'})
 
 
 # Dashboard
 def dashboard(request):
     """Main dashboard view"""
-    questions = storage.get_questions()
-    quizzes = storage.get_quizzes()
-    categories = storage.get_categories()
+    # Get current subject from session or use default
+    current_subject = request.session.get('current_subject', None)
+    subject_storage = get_storage(current_subject)
+    
+    questions = subject_storage.get_questions()
+    quizzes = subject_storage.get_quizzes()
+    categories = subject_storage.get_categories()
+    
+    # Get available subjects
+    available_subjects = get_available_subjects()
     
     context = {
         'total_questions': len(questions),
         'total_quizzes': len(quizzes),
         'total_categories': len(categories),
+        'current_subject': current_subject or 'Default',
+        'available_subjects': available_subjects,
     }
     return render(request, 'dashboard.html', context)
 
@@ -29,8 +67,12 @@ def dashboard(request):
 # Question Bank Management
 def question_bank(request):
     """View all questions"""
-    questions = storage.get_questions()
-    categories = storage.get_categories()
+    # Get current subject from session
+    current_subject = request.session.get('current_subject', None)
+    subject_storage = get_storage(current_subject)
+    
+    questions = subject_storage.get_questions()
+    categories = subject_storage.get_categories()
     
     # Apply filters if provided
     category_filter = request.GET.get('category')
@@ -46,19 +88,26 @@ def question_bank(request):
         filters['search'] = search_query
     
     if filters:
-        questions = storage.get_questions(filters)
+        questions = subject_storage.get_questions(filters)
+    
+    # Get available subjects
+    available_subjects = get_available_subjects()
     
     context = {
         'questions': questions,
         'categories': categories,
+        'current_subject': current_subject or 'Default',
+        'available_subjects': available_subjects,
     }
     return render(request, 'question_bank.html', context)
 
 
 def question_create(request):
     """Create a new question"""
+    subject_storage = get_current_storage(request)
+    
     if request.method == 'GET':
-        categories = storage.get_categories()
+        categories = subject_storage.get_categories()
         context = {'categories': categories}
         return render(request, 'question_editor.html', context)
     
@@ -135,18 +184,20 @@ def question_create(request):
             question_data['matching_pairs'] = pairs
             question_data['matching_definitions'] = definitions
         
-        storage.save_question(question_data)
+        subject_storage.save_question(question_data)
         return redirect('question_bank')
 
 
 def question_edit(request, question_id):
     """Edit an existing question"""
-    question = storage.get_question(question_id)
+    subject_storage = get_current_storage(request)
+    
+    question = subject_storage.get_question(question_id)
     if not question:
         return HttpResponse('Question not found', status=404)
     
     if request.method == 'GET':
-        categories = storage.get_categories()
+        categories = subject_storage.get_categories()
         context = {
             'question': question,
             'question_json': json.dumps(question),
@@ -222,14 +273,15 @@ def question_edit(request, question_id):
             question['matching_pairs'] = pairs
             question['matching_definitions'] = definitions
         
-        storage.save_question(question)
+        subject_storage.save_question(question)
         return redirect('question_bank')
 
 
 def question_delete(request, question_id):
     """Delete a question"""
     if request.method == 'POST':
-        storage.delete_question(question_id)
+        subject_storage = get_current_storage(request)
+        subject_storage.delete_question(question_id)
         return JsonResponse({'success': True})
     return JsonResponse({'success': False}, status=405)
 
@@ -237,16 +289,27 @@ def question_delete(request, question_id):
 # Quiz Management
 def quiz_list(request):
     """View all quizzes"""
-    quizzes = storage.get_quizzes()
-    context = {'quizzes': quizzes}
+    subject_storage = get_current_storage(request)
+    
+    quizzes = subject_storage.get_quizzes()
+    available_subjects = get_available_subjects()
+    current_subject = request.session.get('current_subject', None)
+    
+    context = {
+        'quizzes': quizzes,
+        'current_subject': current_subject or 'Default',
+        'available_subjects': available_subjects,
+    }
     return render(request, 'quiz_list.html', context)
 
 
 def quiz_create(request):
     """Create a new quiz"""
+    subject_storage = get_current_storage(request)
+    
     if request.method == 'GET':
-        questions = storage.get_questions()
-        categories = storage.get_categories()
+        questions = subject_storage.get_questions()
+        categories = subject_storage.get_categories()
         context = {
             'questions': questions,
             'categories': categories
@@ -270,19 +333,21 @@ def quiz_create(request):
             'questions': selected_questions  # List of {question_id, order, points}
         }
         
-        storage.save_quiz(quiz_data)
+        subject_storage.save_quiz(quiz_data)
         return redirect('quiz_list')
 
 
 def quiz_edit(request, quiz_id):
     """Edit an existing quiz"""
-    quiz = storage.get_quiz(quiz_id)
+    subject_storage = get_current_storage(request)
+    
+    quiz = subject_storage.get_quiz(quiz_id)
     if not quiz:
         return HttpResponse('Quiz not found', status=404)
     
     if request.method == 'GET':
-        questions = storage.get_questions()
-        categories = storage.get_categories()
+        questions = subject_storage.get_questions()
+        categories = subject_storage.get_categories()
         
         # Get full question data for questions in this quiz
         quiz_questions = []
@@ -290,7 +355,7 @@ def quiz_edit(request, quiz_id):
             # Handle both 'id' and 'question_id' for backward compatibility
             question_id = q.get('id') or q.get('question_id')
             if question_id:
-                question_data = storage.get_question(question_id)
+                question_data = subject_storage.get_question(question_id)
                 if question_data:
                     question_data['quiz_points'] = q.get('points', 1)
                     question_data['quiz_order'] = q.get('order', 0)
@@ -317,14 +382,15 @@ def quiz_edit(request, quiz_id):
         quiz['is_published'] = request.POST.get('is_published', 'false') == 'true'
         quiz['questions'] = selected_questions
         
-        storage.save_quiz(quiz)
+        subject_storage.save_quiz(quiz)
         return redirect('quiz_list')
 
 
 def quiz_delete(request, quiz_id):
     """Delete a quiz"""
     if request.method == 'POST':
-        storage.delete_quiz(quiz_id)
+        subject_storage = get_current_storage(request)
+        subject_storage.delete_quiz(quiz_id)
         return JsonResponse({'success': True})
     return JsonResponse({'success': False}, status=405)
 
@@ -334,12 +400,14 @@ def quiz_generate(request):
     if request.method != 'POST':
         return JsonResponse({'success': False, 'error': 'Method not allowed'}, status=405)
     
+    subject_storage = get_current_storage(request)
+    
     try:
         data = json.loads(request.body)
         generation_type = data.get('generation_type', 'random')
         quiz_title = data.get('title', 'Auto-Generated Quiz')
         
-        all_questions = storage.get_questions()
+        all_questions = subject_storage.get_questions()
         
         if not all_questions:
             return JsonResponse({'success': False, 'error': 'No questions available in question bank'})
@@ -361,7 +429,7 @@ def quiz_generate(request):
         
         elif generation_type == 'category':
             # Category balanced: Select 5 questions from each category
-            categories = storage.get_categories()
+            categories = subject_storage.get_categories()
             questions_by_category = {}
             
             # Group questions by category
@@ -400,7 +468,7 @@ def quiz_generate(request):
             'updated_at': datetime.now().isoformat()
         }
         
-        storage.save_quiz(quiz_data)
+        subject_storage.save_quiz(quiz_data)
         
         return JsonResponse({
             'success': True,
@@ -415,7 +483,9 @@ def quiz_generate(request):
 # Taking Quiz
 def quiz_take(request, quiz_id):
     """Take a quiz"""
-    quiz = storage.get_quiz(quiz_id)
+    subject_storage = get_current_storage(request)
+    
+    quiz = subject_storage.get_quiz(quiz_id)
     if not quiz:
         return HttpResponse('Quiz not found', status=404)
     
@@ -425,7 +495,7 @@ def quiz_take(request, quiz_id):
         # Handle both 'id' and 'question_id' for backward compatibility
         question_id = q.get('id') or q.get('question_id')
         if question_id:
-            question_data = storage.get_question(question_id)
+            question_data = subject_storage.get_question(question_id)
             if question_data:
                 # Create a structure matching template expectations
                 quiz_questions.append({
@@ -445,7 +515,9 @@ def quiz_submit(request, quiz_id):
     if request.method != 'POST':
         return JsonResponse({'success': False}, status=405)
     
-    quiz = storage.get_quiz(quiz_id)
+    subject_storage = get_current_storage(request)
+    
+    quiz = subject_storage.get_quiz(quiz_id)
     if not quiz:
         return JsonResponse({'success': False, 'error': 'Quiz not found'}, status=404)
     
@@ -467,7 +539,7 @@ def quiz_submit(request, quiz_id):
         if not question_id:
             continue
             
-        question_data = storage.get_question(question_id)
+        question_data = subject_storage.get_question(question_id)
         if not question_data:
             continue
         
@@ -517,7 +589,7 @@ def quiz_submit(request, quiz_id):
         'answers': graded_answers
     }
     
-    storage.save_attempt(attempt_data)
+    subject_storage.save_attempt(attempt_data)
     
     return JsonResponse({
         'success': True,
@@ -528,11 +600,13 @@ def quiz_submit(request, quiz_id):
 
 def quiz_results(request, attempt_id):
     """View quiz results"""
-    attempt = storage.get_attempt(attempt_id)
+    subject_storage = get_current_storage(request)
+    
+    attempt = subject_storage.get_attempt(attempt_id)
     if not attempt:
         return HttpResponse('Attempt not found', status=404)
     
-    quiz = storage.get_quiz(attempt['quiz_id'])
+    quiz = subject_storage.get_quiz(attempt['quiz_id'])
     
     # Create a mapping of question_id to points from the quiz
     question_points_map = {}
@@ -546,7 +620,7 @@ def quiz_results(request, attempt_id):
     correct_count = 0
     for answer_data in attempt.get('answers', []):
         question_id = answer_data['question_id']
-        question_data = storage.get_question(question_id)
+        question_data = subject_storage.get_question(question_id)
         if question_data:
             is_correct = answer_data.get('is_correct', False)
             if is_correct:
@@ -649,8 +723,10 @@ def get_correct_answer_text(question_data):
 @require_http_methods(["GET", "POST"])
 def category_list_create(request):
     """List all categories or create a new one"""
+    subject_storage = get_current_storage(request)
+    
     if request.method == 'GET':
-        categories = storage.get_categories()
+        categories = subject_storage.get_categories()
         return JsonResponse({'categories': categories})
     
     elif request.method == 'POST':
@@ -663,7 +739,7 @@ def category_list_create(request):
             'description': data.get('description', '')
         }
         
-        storage.save_category(category_data)
+        subject_storage.save_category(category_data)
         return JsonResponse({'success': True, 'category': category_data})
 
 
@@ -671,5 +747,6 @@ def category_list_create(request):
 @require_http_methods(["DELETE"])
 def category_delete(request, category_id):
     """Delete a category"""
-    storage.delete_category(category_id)
+    subject_storage = get_current_storage(request)
+    subject_storage.delete_category(category_id)
     return JsonResponse({'success': True})
