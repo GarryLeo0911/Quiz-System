@@ -653,6 +653,7 @@ def quiz_results(request, attempt_id):
                 user_matching = [matching_answer.get(pair['left_item'], 0) for pair in question_data.get('matching_pairs', [])]
                 matches = []
                 for left, right_idx in matching_answer.items():
+                    right_idx = int(right_idx)
                     definitions = question_data.get('matching_definitions', [])
                     if right_idx < len(definitions):
                         matches.append(f"{left} → {definitions[right_idx]}")
