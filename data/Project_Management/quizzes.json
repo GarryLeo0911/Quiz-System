@@ -1,7 +1,7 @@
 [
   {
     "id": "96d9c8e1-d60a-405a-ad7e-a6c2b9477504",
-    "title": "Auto-Generated Quiz",
+    "title": "Auto-Generated Quiz 1",
     "description": "",
     "instructions": "Please answer all questions to the best of your ability.",
     "time_limit": 60,
@@ -259,6 +259,530 @@
       }
     ],
     "created_at": "2025-11-16T22:20:32.861135",
-    "updated_at": "2025-11-16T22:20:34.828140"
+    "updated_at": "2025-11-17T07:57:56.293396"
+  },
+  {
+    "id": "8704e8a7-5702-4bbe-accd-e4fca0ca7390",
+    "title": "Auto-Generated Quiz 2",
+    "description": "",
+    "instructions": "Please answer all questions to the best of your ability.",
+    "time_limit": 60,
+    "is_published": true,
+    "questions": [
+      {
+        "id": "cb7b161b-8494-47bd-acd2-f21a73236168",
+        "text": "A risk register should include:",
+        "points": 10
+      },
+      {
+        "id": "d13fa99a-dffc-484a-bd33-cd87b9971ed9",
+        "text": "In Agile project management, what does multitasking typically lead to according to Critical Chain Scheduling principles?",
+        "points": 10
+      },
+      {
+        "id": "65445140-1370-4b6d-b15c-f9c27515915f",
+        "text": "In a Work Breakdown Structure (WBS), what is a work package?",
+        "points": 10
+      },
+      {
+        "id": "fa27418f-8353-4746-9206-e586f23a4893",
+        "text": "In a project schedule, fast-tracking refers to:",
+        "points": 10
+      },
+      {
+        "id": "2dde8647-be50-4d18-9d5c-bee8e90c773a",
+        "text": "The \"Cost of Quality\" primarily includes which of the following components?",
+        "points": 10
+      },
+      {
+        "id": "2779f9cc-5597-4bc0-adc2-fe7e2e790b05",
+        "text": "In procurement evaluation, a point value of 1 means:",
+        "points": 10
+      },
+      {
+        "id": "d0eb9cec-d00b-4693-a34a-903ad01510c4",
+        "text": "In a project network, an activity has early start = 3, late start = 3. Its float is:",
+        "points": 10
+      },
+      {
+        "id": "b5d8c1a8-12d2-4c20-af44-12c6238503ef",
+        "text": "A resource histogram is primarily used to:",
+        "points": 10
+      },
+      {
+        "id": "82ac64d2-9eef-4869-868d-3f842a8c8442",
+        "text": "Which process formalises acceptance of completed project deliverables by the customer/sponsor?",
+        "points": 10
+      },
+      {
+        "id": "25b1455c-4ead-4403-b68f-4ec5d3b1a427",
+        "text": "Which process ensures that previously identified risks are tracked, new risks are identified, and the effectiveness of risk responses is evaluated?",
+        "points": 10
+      },
+      {
+        "id": "2b06d6bf-15b1-4ddf-a538-f812ebe8486b",
+        "text": "A Time and Material (T&M) contract is most suitable when:",
+        "points": 10
+      },
+      {
+        "id": "e88efde3-ef90-4359-af86-fbc971018f22",
+        "text": "The Critical Path Method (CPM) identifies:",
+        "points": 10
+      },
+      {
+        "id": "f60188fb-c24e-42c3-8975-64d36e028cf0",
+        "text": "The main purpose of quality control charts is to:",
+        "points": 10
+      },
+      {
+        "id": "48144216-157e-47e7-875b-b9d5b573d318",
+        "text": "The key benefit of Plan Communications Management is:",
+        "points": 10
+      },
+      {
+        "id": "77838dde-24dc-4ff6-85cb-b87a1edec869",
+        "text": "A Request for Proposal (RFP) is used when:",
+        "points": 10
+      },
+      {
+        "id": "b6737b8e-2b08-4feb-8f4d-df660676dcbd",
+        "text": "In Waterfall methodology, project phases are handled:",
+        "points": 10
+      },
+      {
+        "id": "754043ac-5083-4f55-8e8b-1aa5bb842fa8",
+        "text": "Which of the following is NOT a requirement-gathering technique?",
+        "points": 10
+      },
+      {
+        "id": "a8d2d59b-a5df-4c19-9437-a5d2c0e15ba3",
+        "text": "In CPM, reducing project duration by adding more resources to critical path activities is called:",
+        "points": 10
+      },
+      {
+        "id": "b1bf2fc5-421f-4d9f-b155-47c6abad413e",
+        "text": "A stakeholder register typically includes all of the following EXCEPT:",
+        "points": 10
+      },
+      {
+        "id": "48c4ce25-1ab0-41d7-b269-24e7413047aa",
+        "text": "Which of the following defines project quality according to ISO 9000?",
+        "points": 10
+      },
+      {
+        "id": "df4e1418-29a3-4b29-bff6-69b6579776c0",
+        "text": "Which of the following is NOT a tool or technique used in identifying project risks?",
+        "points": 10
+      },
+      {
+        "id": "cf881123-31e4-4d86-a06f-03c2d0d06e29",
+        "text": "What is the primary purpose of project governance?",
+        "points": 10
+      },
+      {
+        "id": "17493230-e6b1-498f-8f36-b43e9a0f0dc2",
+        "text": "Contingency reserves are used to:",
+        "points": 10
+      },
+      {
+        "id": "b0aadf23-74ec-4c0f-8616-7a853dd6c33d",
+        "text": "In project management, sunk costs should:",
+        "points": 10
+      },
+      {
+        "id": "1803a0ca-a75d-43df-ac35-0b81ab8be76c",
+        "text": "Which leadership style is most effective in promoting innovation and motivating teams through vision and inspiration?",
+        "points": 10
+      },
+      {
+        "id": "52e44a41-42a1-433f-9ea4-acb161a27c81",
+        "text": "The Pareto Principle or 80-20 rule implies:",
+        "points": 10
+      },
+      {
+        "id": "d6e47bab-bfc3-4eae-8a18-40e4d4a4cdec",
+        "text": "The purpose of the Develop Team process is to:",
+        "points": 10
+      },
+      {
+        "id": "33be3a9d-b535-4e2f-967d-46dd8b6fbdfa",
+        "text": "The process of identifying risks involves:",
+        "points": 10
+      },
+      {
+        "id": "b50f66c8-3e78-4b3c-bc44-fb08a2e7217b",
+        "text": "Which of the following is NOT one of Covey’s 7 Habits?",
+        "points": 10
+      },
+      {
+        "id": "9acc304e-f57e-421f-bb14-a3253d775ef8",
+        "text": "Risk transference involves:",
+        "points": 10
+      },
+      {
+        "id": "f3fee3f1-686e-4e53-b187-50ccbe7cf9b4",
+        "text": "Which of the following is NOT part of the DMAIC process in Six Sigma?",
+        "points": 10
+      },
+      {
+        "id": "30ebc4f3-12e9-4c16-bac8-b765453419e2",
+        "text": "What percentage of IT projects were reported successful by the Standish Group (CHAOS study)?",
+        "points": 10
+      },
+      {
+        "id": "709e6154-80b5-461f-b995-e9338d0d2a2b",
+        "text": "In project communication, what percentage of face-to-face interaction is conveyed through body language?",
+        "points": 10
+      },
+      {
+        "id": "07f193ab-2159-4353-9010-7f71ca7c7d8f",
+        "text": "In the Waterfall model, testing is performed:",
+        "points": 10
+      },
+      {
+        "id": "5083ef9d-4cf2-4a1d-aba9-b0954200ad3d",
+        "text": "Which reserve accounts for “known unknowns”?",
+        "points": 10
+      },
+      {
+        "id": "731fd5d1-47a5-458b-aeca-943c1af47983",
+        "text": "Which of the following is a positive project risk response strategy?",
+        "points": 10
+      },
+      {
+        "id": "daeb2b00-e32c-48ac-989a-b03f06330346",
+        "text": "A quality audit primarily aims to:",
+        "points": 10
+      },
+      {
+        "id": "2871b53f-0033-4dd9-993e-875bfc95361c",
+        "text": "Which dependency requires one activity to finish before another can start?",
+        "points": 10
+      },
+      {
+        "id": "97beb471-0cdc-4d6f-9c6d-e0cf225d9ea8",
+        "text": "One of the main purposes of stakeholder analysis in communication management is to:",
+        "points": 10
+      },
+      {
+        "id": "16a295fd-d6e0-4be7-80e7-70a77f0701d7",
+        "text": "Which of the following is a primary requirement gathering technique?",
+        "points": 10
+      },
+      {
+        "id": "bbf33392-8122-46e4-9e5f-84cf46d515bc",
+        "text": "Which of the following is a key benefit of outsourcing IT projects?",
+        "points": 10
+      },
+      {
+        "id": "6009f709-f1ea-4190-953d-451290920877",
+        "text": "Project governance ensures:",
+        "points": 10
+      },
+      {
+        "id": "ac379ec1-1504-41c3-8747-f9c8fb3dd404",
+        "text": "What is the main purpose of resource leveling in project management?",
+        "points": 10
+      },
+      {
+        "id": "b2bd1134-defa-4968-8b96-2eadf2cadf8f",
+        "text": "Using the PERT formula, calculate the expected duration for an activity with the following estimates: Optimistic time: 4 days, Most likely time: 7 days, and Pessimistic time: 16 days.",
+        "points": 10
+      },
+      {
+        "id": "8f3907d4-4a6c-4d07-9a88-fb4f1cb9cf22",
+        "text": "What does a milestone represent in a project schedule?",
+        "points": 10
+      },
+      {
+        "id": "3de75ef0-bbb3-4e78-90c5-7924b685a687",
+        "text": "In Maslow’s hierarchy, which need must be satisfied before esteem needs?",
+        "points": 10
+      },
+      {
+        "id": "733c2cbf-7329-4fed-871c-57c779ec49fe",
+        "text": "The critical path in CPM is:",
+        "points": 10
+      },
+      {
+        "id": "ab919239-8687-46ee-af51-9c923bc06286",
+        "text": "Resource leveling is used to:",
+        "points": 10
+      },
+      {
+        "id": "32267edd-b447-4a44-bcb9-73fded69370f",
+        "text": "A project has the following network diagram with activities and durations:\n\nPath 1: A(3) → B(5) → D(4) = 12 days\nPath 2: A(3) → C(8) → D(4) = 15 days\nPath 3: A(3) → C(8) → E(2) = 13 days\nWhat is the critical path duration and which activities are on the critical path?",
+        "points": 10
+      },
+      {
+        "id": "46c56489-3437-4b68-a442-b136f64fbf8e",
+        "text": "Which of the following best defines a project according to PMBOK?",
+        "points": 10
+      }
+    ],
+    "created_at": "2025-11-17T07:56:09.839985",
+    "updated_at": "2025-11-17T07:57:50.037630"
+  },
+  {
+    "id": "d58d8eda-8cb2-4a17-8a21-266900794481",
+    "title": "Auto-Generated Quiz 3",
+    "description": "",
+    "instructions": "Please answer all questions to the best of your ability.",
+    "time_limit": 60,
+    "is_published": true,
+    "questions": [
+      {
+        "id": "97beb471-0cdc-4d6f-9c6d-e0cf225d9ea8",
+        "text": "One of the main purposes of stakeholder analysis in communication management is to:",
+        "points": 10
+      },
+      {
+        "id": "c8c0067b-00d0-40a4-84d7-5c04cd65bae7",
+        "text": "An activity has early start (ES) = 3, early finish (EF) = 7, late start (LS) = 5, late finish (LF) = 9. Its float is:",
+        "points": 10
+      },
+      {
+        "id": "df4e1418-29a3-4b29-bff6-69b6579776c0",
+        "text": "Which of the following is NOT a tool or technique used in identifying project risks?",
+        "points": 10
+      },
+      {
+        "id": "fa27418f-8353-4746-9206-e586f23a4893",
+        "text": "In a project schedule, fast-tracking refers to:",
+        "points": 10
+      },
+      {
+        "id": "f60188fb-c24e-42c3-8975-64d36e028cf0",
+        "text": "The main purpose of quality control charts is to:",
+        "points": 10
+      },
+      {
+        "id": "b50f66c8-3e78-4b3c-bc44-fb08a2e7217b",
+        "text": "Which of the following is NOT one of Covey’s 7 Habits?",
+        "points": 10
+      },
+      {
+        "id": "f3fee3f1-686e-4e53-b187-50ccbe7cf9b4",
+        "text": "Which of the following is NOT part of the DMAIC process in Six Sigma?",
+        "points": 10
+      },
+      {
+        "id": "60aa3442-2822-4d7e-a382-83626aebb728",
+        "text": "Which tool is commonly used for qualitative risk analysis?",
+        "points": 10
+      },
+      {
+        "id": "e726389e-9b41-4367-a495-7736e29c327b",
+        "text": "Lead time refers to:",
+        "points": 10
+      },
+      {
+        "id": "aa745c1d-d3cc-47cc-89f0-ca6e1415c2dc",
+        "text": "A Pareto chart helps in identifying:",
+        "points": 10
+      },
+      {
+        "id": "d506c892-af5d-445b-99d7-58eeb3988cd3",
+        "text": "Agile project management is ideal when:",
+        "points": 10
+      },
+      {
+        "id": "ad06e2d4-38b4-4054-a2bb-e16a15eae2fa",
+        "text": "In CPM, slack or float is defined as:",
+        "points": 10
+      },
+      {
+        "id": "397d333b-7ba9-4fa0-9d81-e1479b63199b",
+        "text": "Earned Value (EV) is defined as:",
+        "points": 10
+      },
+      {
+        "id": "65445140-1370-4b6d-b15c-f9c27515915f",
+        "text": "In a Work Breakdown Structure (WBS), what is a work package?",
+        "points": 10
+      },
+      {
+        "id": "32267edd-b447-4a44-bcb9-73fded69370f",
+        "text": "A project has the following network diagram with activities and durations:\n\nPath 1: A(3) → B(5) → D(4) = 12 days\nPath 2: A(3) → C(8) → D(4) = 15 days\nPath 3: A(3) → C(8) → E(2) = 13 days\nWhat is the critical path duration and which activities are on the critical path?",
+        "points": 10
+      },
+      {
+        "id": "165922f9-d297-408e-b5e6-c3ec32ffd146",
+        "text": "If EV = $30,000, AC = $40,000, what is the Cost Performance Index (CPI)?",
+        "points": 10
+      },
+      {
+        "id": "5083ef9d-4cf2-4a1d-aba9-b0954200ad3d",
+        "text": "Which reserve accounts for “known unknowns”?",
+        "points": 10
+      },
+      {
+        "id": "9a85c3af-ee63-4841-a5de-173ec3d842f7",
+        "text": "The process of obtaining team members, facilities, equipment, and materials needed to complete project work is known as:",
+        "points": 10
+      },
+      {
+        "id": "8b9bae74-e698-439f-8dcb-a3b10da2de06",
+        "text": "Which of the following is not a characteristic of the Agile methodology?",
+        "points": 10
+      },
+      {
+        "id": "a8d2d59b-a5df-4c19-9437-a5d2c0e15ba3",
+        "text": "In CPM, reducing project duration by adding more resources to critical path activities is called:",
+        "points": 10
+      },
+      {
+        "id": "3de75ef0-bbb3-4e78-90c5-7924b685a687",
+        "text": "In Maslow’s hierarchy, which need must be satisfied before esteem needs?",
+        "points": 10
+      },
+      {
+        "id": "f4a7bee0-4d65-41a6-9d48-ef3e1eeff0ba",
+        "text": "Which project management methodology is most suitable for projects with unclear user requirements and need for constant feedback?",
+        "points": 10
+      },
+      {
+        "id": "e88efde3-ef90-4359-af86-fbc971018f22",
+        "text": "The Critical Path Method (CPM) identifies:",
+        "points": 10
+      },
+      {
+        "id": "251ad92f-b576-40f6-b1a7-12dbebb04cd8",
+        "text": "A project has: PV = 60,000, EV = 50,000, AC = 55,000. Is the project:",
+        "points": 10
+      },
+      {
+        "id": "6d61298b-69af-495d-8405-53d601f0b342",
+        "text": "Which of the following is the correct sequence of Project Procurement Management processes?",
+        "points": 10
+      },
+      {
+        "id": "35517c02-64ad-42e5-ae1f-d1e934f2299e",
+        "text": "If a project is under budget but behind schedule, which of the following is likely true?",
+        "points": 10
+      },
+      {
+        "id": "baee29ae-1260-4058-abde-694b7c5a5d7b",
+        "text": "Which of the following is NOT one of the processes in Project Quality Management?",
+        "points": 10
+      },
+      {
+        "id": "cb7b161b-8494-47bd-acd2-f21a73236168",
+        "text": "A risk register should include:",
+        "points": 10
+      },
+      {
+        "id": "441f7641-6984-474a-a807-ecac4be49970",
+        "text": "Residual risks are:",
+        "points": 10
+      },
+      {
+        "id": "bbb3d736-8e13-4cac-89e0-5c2ea3ed45c1",
+        "text": "The main objective of software testing in quality control is to:",
+        "points": 10
+      },
+      {
+        "id": "daeb2b00-e32c-48ac-989a-b03f06330346",
+        "text": "A quality audit primarily aims to:",
+        "points": 10
+      },
+      {
+        "id": "2dde8647-be50-4d18-9d5c-bee8e90c773a",
+        "text": "The \"Cost of Quality\" primarily includes which of the following components?",
+        "points": 10
+      },
+      {
+        "id": "6026e302-192f-4b5f-9aa4-e128d4ed0bf5",
+        "text": "In IT project management, the triple constraint refers to:",
+        "points": 10
+      },
+      {
+        "id": "4468aec1-eb64-4a7b-9adb-74329b5a93a5",
+        "text": "A project is considered successful if:",
+        "points": 10
+      },
+      {
+        "id": "d6e47bab-bfc3-4eae-8a18-40e4d4a4cdec",
+        "text": "The purpose of the Develop Team process is to:",
+        "points": 10
+      },
+      {
+        "id": "4e2fe46a-861c-46c3-8c4b-426279de585f",
+        "text": "One benefit of outsourcing IT projects is:",
+        "points": 10
+      },
+      {
+        "id": "9acc304e-f57e-421f-bb14-a3253d775ef8",
+        "text": "Risk transference involves:",
+        "points": 10
+      },
+      {
+        "id": "b76b01d2-ffc6-42aa-936d-b4b5f9c87c18",
+        "text": "An activity has optimistic (O) = 4 days, most likely (M) = 6 days, pessimistic (P) = 10 days. What is the expected time?",
+        "points": 10
+      },
+      {
+        "id": "52e44a41-42a1-433f-9ea4-acb161a27c81",
+        "text": "The Pareto Principle or 80-20 rule implies:",
+        "points": 10
+      },
+      {
+        "id": "389591d1-2795-4ffb-ac63-8ab974d7cd23",
+        "text": "Transferring risk to a third party (such as through insurance) is an example of which risk response strategy?",
+        "points": 10
+      },
+      {
+        "id": "62c0a15f-160e-4280-ae75-415dfbd94231",
+        "text": "According to Herzberg’s theory, hygiene factors:",
+        "points": 10
+      },
+      {
+        "id": "2779f9cc-5597-4bc0-adc2-fe7e2e790b05",
+        "text": "In procurement evaluation, a point value of 1 means:",
+        "points": 10
+      },
+      {
+        "id": "16adc74e-7b9f-4ec9-9cde-36de0c58d62a",
+        "text": "Procurement management includes all of the following EXCEPT:",
+        "points": 10
+      },
+      {
+        "id": "b5d8c1a8-12d2-4c20-af44-12c6238503ef",
+        "text": "A resource histogram is primarily used to:",
+        "points": 10
+      },
+      {
+        "id": "8f3907d4-4a6c-4d07-9a88-fb4f1cb9cf22",
+        "text": "What does a milestone represent in a project schedule?",
+        "points": 10
+      },
+      {
+        "id": "25b1455c-4ead-4403-b68f-4ec5d3b1a427",
+        "text": "Which process ensures that previously identified risks are tracked, new risks are identified, and the effectiveness of risk responses is evaluated?",
+        "points": 10
+      },
+      {
+        "id": "5d51ab40-b011-47b2-858c-196f4fc14d03",
+        "text": "In a RACI chart, which role is ultimately answerable for a task or decision?",
+        "points": 10
+      },
+      {
+        "id": "733c2cbf-7329-4fed-871c-57c779ec49fe",
+        "text": "The critical path in CPM is:",
+        "points": 10
+      },
+      {
+        "id": "709e6154-80b5-461f-b995-e9338d0d2a2b",
+        "text": "In project communication, what percentage of face-to-face interaction is conveyed through body language?",
+        "points": 10
+      },
+      {
+        "id": "6bda719b-16c4-4846-9156-4b6617b93bef",
+        "text": "If project manager wants to shorten project duration by crashing, which activity should she target?",
+        "points": 10
+      }
+    ],
+    "created_at": "2025-11-17T07:57:36.763877",
+    "updated_at": "2025-11-17T07:57:45.714258"
   }
 ]

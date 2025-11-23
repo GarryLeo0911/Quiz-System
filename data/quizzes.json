@@ -1,1 +1,264 @@
-[]
+[
+  {
+    "id": "915ffa75-fa1c-4836-b153-910d59a6e2be",
+    "title": "Auto-Generated Quiz",
+    "description": "",
+    "instructions": "Please answer all questions to the best of your ability.",
+    "time_limit": 60,
+    "is_published": true,
+    "questions": [
+      {
+        "id": "703b69d6-97fa-464d-bb1b-6f39c4afe410",
+        "text": "Which of the following design principles support learnability?",
+        "points": 10
+      },
+      {
+        "id": "cc476d8f-a036-4c1e-9761-cc2e78be74db",
+        "text": "Which of the following statements is TRUE?",
+        "points": 10
+      },
+      {
+        "id": "46c44c64-571d-4ecd-af02-3f40b1d4f329",
+        "text": "Human computer interaction is...",
+        "points": 10
+      },
+      {
+        "id": "e4e6dc31-b9d7-41fe-a777-c39222617884",
+        "text": "All design rules must be followed in practice. ",
+        "points": 10
+      },
+      {
+        "id": "64d2a108-470b-4add-83c1-67596b363097",
+        "text": "Counters and progress bars used to indicate how much of an operation is complete is an example of  ____________. ",
+        "points": 10
+      },
+      {
+        "id": "621fb142-4fce-4a26-ae3b-9f8cc523c7d0",
+        "text": "Match the following explanation to each term.",
+        "points": 10
+      },
+      {
+        "id": "d9784002-fa69-4c1b-aa5e-30c2e854c778",
+        "text": "Which Gestalt Laws of perception help to resolve ambiguity and fill in missing data?",
+        "points": 10
+      },
+      {
+        "id": "89aadb95-31b3-414a-8675-0a95dc61d2d2",
+        "text": "Which of the following Gestalt Laws of Perception can be used to direct attention?",
+        "points": 10
+      },
+      {
+        "id": "c8ba8e83-2441-4895-9e81-11eb4444a7fa",
+        "text": "Which of the following is an example of a cognitive process?",
+        "points": 10
+      },
+      {
+        "id": "f80d0efc-ee2f-4ea0-ac36-518ac0229d7d",
+        "text": "Creating a gap between two distinct groups of objects is...",
+        "points": 10
+      },
+      {
+        "id": "a85b61a1-17ba-47b6-b54f-e1409dec686b",
+        "text": "The lifecycle model is created at the start of the project and followed strictly during the project.",
+        "points": 10
+      },
+      {
+        "id": "eea23541-3704-4b02-98d6-09e3939ac8ba",
+        "text": "Why must the problem space be explored and articulated at the start of the project? (select all that apply)",
+        "points": 10
+      },
+      {
+        "id": "3f51bc08-2649-4c7f-8d11-b939fba66c26",
+        "text": "All users are stakeholders. ",
+        "points": 10
+      },
+      {
+        "id": "7053505e-5f37-4c1f-8eab-6d4a6c163163",
+        "text": "Select all the statements that are TRUE about PACT framework. (select all that apply)",
+        "points": 10
+      },
+      {
+        "id": "ce1a6037-fe3f-46e3-be07-f55bc126cdf9",
+        "text": "Which of the following are principles of user-centered design? (select all that apply)",
+        "points": 10
+      },
+      {
+        "id": "dcd5de6f-2d97-4756-aa39-e52ea4f8f880",
+        "text": "Which of the following statements are TRUE?\r\n",
+        "points": 10
+      },
+      {
+        "id": "048cf994-94e6-4e56-9f45-e805e7f8f922",
+        "text": "Which of the following statements are wrong about 'Observations'?",
+        "points": 10
+      },
+      {
+        "id": "64417932-360d-4730-b0a3-e33814e9f6e0",
+        "text": "Which two aspects are the most important to take into consideration in the choice of data gathering technique to elicit requirements for a new e-learning platform?",
+        "points": 10
+      },
+      {
+        "id": "28474665-0b8a-4750-89df-2428a11d2ee2",
+        "text": "Contextual inquiry is a combination of:",
+        "points": 10
+      },
+      {
+        "id": "bb3d6ef8-7cc5-4dcb-8401-5d607045537c",
+        "text": "What are the two key advantages of using questionnaires for requirements gathering?",
+        "points": 10
+      },
+      {
+        "id": "f12cc7f0-0bc9-4193-8241-c5381dd5d0cf",
+        "text": "What do actors mean in a use-case diagram?",
+        "points": 10
+      },
+      {
+        "id": "818fe865-0b6c-4b1d-87bb-e296d4cb7ef5",
+        "text": "Which of the following contents should be included in a persona?",
+        "points": 10
+      },
+      {
+        "id": "eff96cb9-9e8b-4292-a5b6-a781e00c7cef",
+        "text": "Which of the following statements are TRUE about personas?",
+        "points": 10
+      },
+      {
+        "id": "327bd7f3-bf63-4775-9ea6-39b11c95813c",
+        "text": "Which of the following statements are TRUE?",
+        "points": 10
+      },
+      {
+        "id": "84c90f9a-b44e-44bf-999a-f097e2b4ddd1",
+        "text": "The following describes the steps to prepare data for statistical analysis. Identify example activities that are performed for each step. ",
+        "points": 10
+      },
+      {
+        "id": "7b896361-dc66-44c2-874e-a437075396a3",
+        "text": "Interaction types are the ways a person interacts with a product. Match each interaction type with respect to the user's action with the system. ",
+        "points": 10
+      },
+      {
+        "id": "aed4e16a-af96-4f4d-9d1b-45301bf70d31",
+        "text": "Which of the following statements best describes the Wizard of Oz technique?",
+        "points": 10
+      },
+      {
+        "id": "6e3c9b70-15b9-44be-a5b1-eeac9de860a7",
+        "text": "Which of the following statements are TRUE about video prototypes?",
+        "points": 10
+      },
+      {
+        "id": "7004f197-0f4c-4199-9521-bc395656aef0",
+        "text": "Which of the following statements is FALSE?",
+        "points": 10
+      },
+      {
+        "id": "db04ba98-423f-4290-a407-4adcf687e510",
+        "text": "Which of the following statements are TRUE about selecting appropriate interface types for an application?",
+        "points": 10
+      },
+      {
+        "id": "9b612686-154e-48cc-bad6-f5365898d28e",
+        "text": "What are the benefits of running studies in naturalistic settings?",
+        "points": 10
+      },
+      {
+        "id": "18ca45ab-10f4-496a-beb8-0cc3a29a8cb6",
+        "text": "Which of the following statements are TRUE about heuristic evaluation?",
+        "points": 10
+      },
+      {
+        "id": "940e303c-5ca9-4b11-8fba-9db127534287",
+        "text": "What can we evaluate in HCI?",
+        "points": 10
+      },
+      {
+        "id": "77136ec3-f6d4-450b-9623-cd8a75cd09e0",
+        "text": "Match example evaluation methods to their categories. \r\n",
+        "points": 10
+      },
+      {
+        "id": "04bc878d-9793-4636-ba8f-f4c2c78e4a23",
+        "text": "Which of the following statements are TRUE about usability tests?",
+        "points": 10
+      },
+      {
+        "id": "62bd0ea8-6ae3-4804-a640-8c72b7d390c6",
+        "text": "Which of the following statements are TRUE about counterbalancing?",
+        "points": 10
+      },
+      {
+        "id": "b3f057ca-c724-4414-9bdd-eb7ec08aa9f4",
+        "text": "Which of the following needs to be considered during experimental design?",
+        "points": 10
+      },
+      {
+        "id": "e42aeca8-23c4-49e5-8414-2e1714cbf441",
+        "text": "Match the following description to the correct experimental design setup:",
+        "points": 10
+      },
+      {
+        "id": "aa1ef027-a9c8-4b45-87ea-e8ba8007ce8d",
+        "text": "You suspect that context menus will be easier for user's to make selection as opposed to cascading menus. You are planning an experiment to prove this. Match each term to correct statement:",
+        "points": 10
+      },
+      {
+        "id": "98ae1b62-ffe9-4cd8-b741-2a0b23a73ad3",
+        "text": "Which of the following methods are user studies?",
+        "points": 10
+      },
+      {
+        "id": "cc927254-4819-4ed7-8f6f-979b96b02849",
+        "text": "In HCI, what is the purpose of usability testing with prototypes?",
+        "points": 10
+      },
+      {
+        "id": "e0b871a7-6169-4667-a898-d75aa19c4254",
+        "text": "\"Recognition rather than recall\" is one of Nielsen's usability heuristics. What does it mean?",
+        "points": 10
+      },
+      {
+        "id": "2fa21246-356e-4a87-bde1-f418b2cdbbfa",
+        "text": "What is the purpose of A/B testing in HCI evaluation?",
+        "points": 10
+      },
+      {
+        "id": "e81ea7fa-196e-4cd8-b4cd-67befe391ad8",
+        "text": "Which prototyping technique involves creating a physical model or representation of a user interface using tangible materials like clay or foam?",
+        "points": 10
+      },
+      {
+        "id": "23ac5e27-1610-43ce-a130-d501e960d0dc",
+        "text": "\"Help and documentation\" is one of Nielsen's usability heuristics. What does it suggest?",
+        "points": 10
+      },
+      {
+        "id": "6f99e9c1-461a-4b7c-a3bb-a833128552e7",
+        "text": "Match the description to each term.",
+        "points": 10
+      },
+      {
+        "id": "fad93d1e-9ebd-4903-8620-e84be45c459b",
+        "text": "Why do we need to understand the mechanism of face-to-face conversations?",
+        "points": 10
+      },
+      {
+        "id": "f70c7e22-c3b1-4f87-aa48-d32eb7470689",
+        "text": "Which of the following are TRUE about wearable computing?",
+        "points": 10
+      },
+      {
+        "id": "a5238c45-b0e0-4be9-b757-04b7de4474cd",
+        "text": "Which of the following are aspects of Post WIMP interfaces?",
+        "points": 10
+      },
+      {
+        "id": "d3ec708b-e5ce-4da3-8dfa-7e94a7a3f58e",
+        "text": "Select the description that explains the difference between each term. ",
+        "points": 10
+      }
+    ],
+    "created_at": "2025-11-23T12:44:36.564545",
+    "updated_at": "2025-11-23T12:44:47.001649"
+  }
+]
